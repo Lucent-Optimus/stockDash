@@ -1,0 +1,1151 @@
+I,Ticker,Name,Sector,Industry,Avg Hold Period(days),BUY Range,SELL Range,Price Movement,last Price,Total Profit,Avg Volume,Volume Indicator,Beta Risk
+@_,0HD6.L,Alphabet Inc.,Communication Services,Internet Content & Information,1.67,176.00 - 177.09,178.13 - 179.89,2.13 - 3.89,178.65,203.84,70740,3,1.014
+@_,0HLE.L,Banco Santander  S.A.,Financial Services,Banks Diversified,8.00,8.25 - 8.25,8.89 - 8.89,0.64 - 0.64,8.42,387.84,2900,1,1.289
+@_,0R1O.L,UNKNOWN,UNKNOWN,UNKNOWN,4.00,218.65 - 219.99,223.92 - 224.41,5.27 - 5.76,224.21,213.18,UNKNOWN,0,1.334
+@_,0R2V.L,Apple Inc.,Technology,Consumer Electronics,1.00,182.59 - 211.76,212.85 - 215.74,30.26 - 33.15,210.78,997.57,798957,5,1.211
+@_,0RIH.L,Alphabet Inc.,Communication Services,Internet Content & Information,0.80,147.78 - 176.89,177.63 - 178.85,29.85 - 31.07,177.63,1302.79,220019,4,1.014
+@_,1SN.L,First Tin Plc,Basic Materials,Other Industrial Metals & Mining,0.00,5.50 - 5.58,5.70 - 5.89,0.20 - 0.39,5.70,613.24,206968,4,1.208
+@_,3IN.L,3i Infrastructure plc,UNKNOWN,UNKNOWN,6.00,338.00 - 338.00,344.00 - 344.00,6.00 - 6.00,342.50,84.00,UNKNOWN,0,UNKNOWN
+@_,4BB.L,4basebio PLC,Healthcare,Biotechnology,0.25,960.00 - 1000.00,985.00 - 1039.20,25.00 - 79.20,1000.00,771.00,523,1,1.03
+@_,4GBL.L,4GLOBAL plc,Technology,Software Application,0.33,5.60 - 8.51,7.00 - 29.40,1.40 - 23.80,22.50,22130.74,66739,3,-0.384
+@_,80M.L,80 Mile Plc,Basic Materials,Other Industrial Metals & Mining,2.00,0.23 - 0.23,0.28 - 0.28,0.05 - 0.05,0.26,1071.55,20541535,8,0.971
+@_,88E.L,88 Energy Limited,Energy,Oil & Gas E&P,0.25,1.08 - 1.12,1.12 - 1.15,0.04 - 0.07,1.12,1319.40,487894,4,1.14
+@_,AAF.L,Airtel Africa Plc,Communication Services,Telecom Services,2.00,177.70 - 178.60,181.80 - 186.60,4.10 - 8.90,185.30,330.80,3001267,6,0.666
+@_,AAIF.L,Aberdeen Asian Income Fund Limited,Financial Services,Asset Management,7.00,226.00 - 226.00,229.00 - 229.00,3.00 - 3.00,229.00,66.00,UNKNOWN,0,UNKNOWN
+@_,AAL.L,Anglo American plc,Basic Materials,Other Industrial Metals & Mining,1.00,2177.00 - 2219.00,2238.00 - 2279.00,61.00 - 102.00,2252.00,414.00,2092067,6,0.938
+@_,AAS.L,abrdn Asia Focus plc,Financial Services,Asset Management,2.00,325.00 - 325.00,331.00 - 331.00,6.00 - 6.00,332.00,90.00,285584,4,UNKNOWN
+@_,AAU.L,Ariana Resources plc,Basic Materials,Gold,0.80,1.38 - 1.46,1.48 - 1.53,0.10 - 0.15,1.48,1394.75,3634781,6,0.658
+@_,AAZ.L,Anglo Asian Mining PLC,Basic Materials,Gold,0.33,155.00 - 168.78,164.00 - 175.00,9.00 - 20.00,173.44,1231.03,65008,3,0.947
+@_,ABDN.L,Aberdeen Group Plc,Financial Services,Asset Management,1.50,187.20 - 188.80,190.60 - 192.40,3.40 - 5.20,192.20,379.60,3946124,6,1.321
+*_,ABDP.L,AB Dynamics plc,Consumer Cyclical,Auto Parts,1.50,1500.00 - 1680.00,1630.00 - 1715.00,130.00 - 215.00,1535.50,460.00,29011,2,0.132
+@_,ABDX.L,Abingdon Health Plc,Healthcare,Diagnostics & Research,0.00,6.53 - 6.55,6.89 - 7.00,0.36 - 0.47,6.75,979.13,33626,2,0.225
+@_,ABF.L,Associated British Foods plc,Consumer Defensive,Packaged Foods,2.00,2040.00 - 2040.00,2086.00 - 2086.00,46.00 - 46.00,2056.00,92.00,902083,5,1.198
+@_,ACG.L,ACG Metals Limited,Basic Materials,Other Industrial Metals & Mining,3.00,540.20 - 570.00,575.00 - 585.00,34.80 - 44.80,582.50,598.20,3151,1,UNKNOWN
+@_,ACRM.L,Acuity RM Group Plc Ord,Technology,Software Application,4.00,1.10 - 1.10,1.25 - 1.25,0.15 - 0.15,1.15,681.75,2363896,6,UNKNOWN
+@_,ACSO.L,accesso Technology Group plc,Technology,Software Application,0.00,364.00 - 364.00,386.64 - 386.64,22.64 - 22.64,395.19,294.32,68452,3,1.073
+@_,ADF.L,Facilities by ADF plc,Consumer Cyclical,Recreational Vehicles,1.00,17.17 - 20.25,17.40 - 22.42,0.23 - 5.26,22.00,1895.23,649359,5,0.451
+@_,ADIG.L,abrdn Diversified Income & Growth Ord,UNKNOWN,UNKNOWN,6.00,45.70 - 45.70,47.00 - 47.00,1.30 - 1.30,46.80,141.70,394895,4,UNKNOWN
+*_,ADM.L,Admiral Group plc,Financial Services,Insurance Property & Casualty,4.00,3286.00 - 3286.00,3370.00 - 3370.00,84.00 - 84.00,3264.00,84.00,494091,4,0.289
+@_,ADT1.L,Adriatic Metals PLC,Basic Materials,Other Industrial Metals & Mining,0.40,270.00 - 277.50,273.50 - 282.00,3.50 - 12.00,280.98,405.00,375366,4,0.751
+@_,ADVT.L,AdvancedAdvT Limited,Technology,Software Application,0.67,155.00 - 166.90,161.78 - 171.20,6.78 - 16.20,170.00,810.39,226062,4,0.423
+*_,AEG.L,Active Energy Group Plc,Industrials,Pollution & Treatment Controls,0.40,0.25 - 0.32,0.33 - 0.35,0.08 - 0.10,0.21,6163.80,8571592,7,0.504
+@_,AEI.L,abrdn Equity Income Trust Ord,Financial Services,Asset Management,7.00,357.00 - 357.00,365.00 - 365.00,8.00 - 8.00,365.00,112.00,98536,3,UNKNOWN
+@_,AEO.L,Aeorema Communications plc,Communication Services,Entertainment,0.00,45.44 - 45.44,48.70 - 48.70,3.26 - 3.26,47.50,358.60,1441,1,0.594
+*_,AEP.L,Anglo-Eastern Plantations Plc,Consumer Defensive,Farm Products,0.67,827.20 - 868.00,843.27 - 884.00,16.07 - 56.80,864.00,226.42,17747,2,0.349
+@_,AET.L,Afentra plc,Energy,Oil & Gas E&P,1.00,45.77 - 48.30,47.20 - 49.90,1.43 - 4.13,49.10,740.66,689399,5,-0.152
+@_,AEWU.L,AEW UK REIT Ord,Real Estate,REIT Diversified,2.50,106.80 - 108.40,108.80 - 110.40,2.00 - 3.60,109.00,184.00,409911,4,UNKNOWN
+@_,AEX.L,Aminex PLC,Energy,Oil & Gas E&P,0.20,1.13 - 1.46,1.24 - 1.52,0.11 - 0.39,1.48,4261.20,4930007,6,-1.0
+*_,AFC.L,AFC Energy plc,Industrials,Electrical Equipment & Parts,0.20,14.54 - 16.70,15.28 - 16.91,0.74 - 2.37,15.45,1453.19,4160932,6,3.393
+@_,AFP.L,African Pioneer PLC,Basic Materials,Other Industrial Metals & Mining,4.00,0.60 - 0.60,1.04 - 1.04,0.44 - 0.44,0.98,3666.52,1113588,6,0.654
+@_,AFRN.L,Aferian Plc,Communication Services,Broadcasting,0.00,3.60 - 4.03,4.30 - 4.30,0.70 - 0.70,4.30,4028.03,26676,2,0.067
+@_,AGFX.L,Argentex Group PLC,Financial Services,Capital Markets,0.83,2.46 - 2.70,2.70 - 3.15,0.24 - 0.69,2.70,4907.52,970710,5,0.688
+*_,AGL.L,ANGLE plc,Healthcare,Diagnostics & Research,0.67,6.21 - 6.99,6.35 - 7.45,0.14 - 1.23,6.35,889.13,887516,5,0.08
+@_,AGT.L,AVI Global Trust Ord,Financial Services,Asset Management,4.00,240.00 - 240.00,245.00 - 245.00,5.00 - 5.00,245.00,100.00,1344707,6,UNKNOWN
+@_,AGVI.L,Aberforth Geared Value & Income Ord,Financial Services,Asset Management,3.00,83.00 - 83.50,85.00 - 85.25,2.00 - 2.25,85.00,223.25,66138,3,UNKNOWN
+@_,AGY.L,Allergy Therapeutics plc,Healthcare,Drug Manufacturers Specialty & Generic,0.25,7.47 - 7.91,8.00 - 8.10,0.53 - 0.63,8.25,1605.13,333940,4,1.007
+@_,AHT.L,Ashtead Group plc,Industrials,Rental & Leasing Services,1.25,4679.00 - 4748.00,4773.00 - 4918.00,94.00 - 239.00,4824.00,442.00,876381,5,1.08
+*_,AIBG.L,AIB Group plc,Financial Services,Banks Regional,2.00,586.00 - 596.00,596.00 - 606.00,10.00 - 20.00,594.00,256.00,918494,5,1.227
+@_,AIE.L,Ashoka India Equity Investment Ord,Financial Services,Asset Management,2.00,280.00 - 280.00,284.00 - 284.00,4.00 - 4.00,284.00,68.00,250703,4,UNKNOWN
+*_,AIEA.L,AIREA plc,Consumer Cyclical,Textile Manufacturing,0.00,26.30 - 26.30,27.50 - 27.50,1.20 - 1.20,25.50,228.00,2801,1,0.83
+@_,AIQ.L,AIQ Limited,Technology,Software Application,3.00,2.26 - 2.26,4.73 - 4.73,2.47 - 2.47,4.00,5463.64,16065,2,0.473
+@_,AJB.L,AJ Bell plc,Financial Services,Asset Management,1.67,497.60 - 510.00,516.00 - 525.00,18.40 - 27.40,524.00,409.50,714960,5,0.918
+*_,ALFA.L,Alfa Financial Software Holdings PLC,Technology,Software Application,0.33,218.45 - 220.23,221.47 - 223.00,3.02 - 4.55,219.00,182.38,169038,3,-0.16
+*_,ALK.L,Alkemy Capital Investments Plc,Financial Services,Shell Companies,0.50,152.50 - 162.50,155.00 - 167.20,2.50 - 14.70,159.25,865.13,26868,2,0.585
+@_,ALL.L,Atlantic Lithium Limited,Basic Materials,Other Industrial Metals & Mining,0.45,6.50 - 7.24,6.80 - 7.58,0.30 - 1.08,7.26,2848.74,651052,5,-0.575
+@_,ALPH.L,Alpha Group International plc,Financial Services,Capital Markets,1.20,3085.00 - 3350.00,3135.00 - 3400.00,50.00 - 315.00,3380.00,355.00,336506,4,1.24
+@_,ALRT.L,Defence Holdings Plc,Industrials,Aerospace & Defense,0.50,0.32 - 0.39,0.43 - 0.45,0.11 - 0.13,0.43,2491.13,19177127,8,UNKNOWN
+*_,ALT.L,Altitude Group plc,Technology,Software Application,0.00,24.01 - 24.61,24.50 - 25.00,0.49 - 0.99,23.50,242.89,35998,2,0.962
+@_,ALTN.L,AltynGold plc,Basic Materials,Gold,0.50,508.00 - 537.41,519.84 - 558.00,11.84 - 50.00,557.80,826.38,57641,3,0.935
+@_,ALU.L,The Alumasc Group plc,Industrials,Building Products & Equipment,1.00,331.50 - 331.50,362.50 - 362.50,31.00 - 31.00,360.00,465.00,58040,3,0.562
+@_,ALW.L,Alliance Witan Ord,Financial Services,Asset Management,3.00,1232.00 - 1232.00,1258.00 - 1258.00,26.00 - 26.00,1254.00,104.00,423394,4,UNKNOWN
+@_,AMCO.L,Amcomri Group plc,Industrials,Conglomerates,0.67,96.00 - 99.94,102.00 - 104.44,6.00 - 8.44,105.50,647.88,344639,4,UNKNOWN
+@_,AMG.L,Atlas Metals Group plc,Basic Materials,Other Industrial Metals & Mining,2.00,13.10 - 13.10,14.95 - 14.95,1.85 - 1.85,14.00,704.85,30260,2,0.497
+@_,AMGO.L,Amigo Holdings PLC,Financial Services,Credit Services,0.00,0.27 - 0.33,0.34 - 0.44,0.07 - 0.17,0.35,9452.05,4543708,6,1.253
+*_,AML.L,Aston Martin Lagonda Global Holdings plc,Consumer Cyclical,Auto Manufacturers,0.33,79.31 - 81.70,81.40 - 83.50,2.09 - 4.19,79.80,413.54,1655096,6,2.223
+*_,AMOI.L,Anemoi International Limited,Technology,Software Application,0.67,1.73 - 1.98,1.95 - 2.80,0.22 - 1.07,1.65,4427.16,3400260,6,-0.173
+@_,AMRQ.L,Amaroq Minerals Ltd.,Basic Materials,Gold,1.00,74.40 - 74.40,76.70 - 76.70,2.30 - 2.30,77.00,154.10,341417,4,-0.101
+@_,AMS.L,Advanced Medical Solutions Group plc,Healthcare,Medical Instruments & Supplies,0.67,202.29 - 205.50,207.83 - 210.02,5.54 - 7.74,204.50,354.96,455744,4,0.766
+@_,ANCR.L,Animalcare Group plc,Healthcare,Drug Manufacturers Specialty & Generic,1.33,290.00 - 293.70,296.00 - 299.50,6.00 - 9.50,296.00,308.55,266539,4,0.416
+*_,ANG.L,Angling Direct PLC,Consumer Cyclical,Specialty Retail,0.17,45.45 - 48.56,46.96 - 50.00,1.51 - 4.55,46.00,648.90,37510,2,0.76
+@_,ANIC.L,Agronomics Limited,Financial Services,Asset Management,0.17,7.21 - 8.80,7.43 - 9.58,0.21 - 2.37,9.40,2356.68,5474264,7,1.393
+*_,ANP.L,Anpario plc,Consumer Defensive,Packaged Foods,0.75,410.00 - 425.22,425.95 - 436.80,15.95 - 26.80,420.00,592.04,16284,2,0.701
+@_,ANTO.L,Antofagasta plc,Basic Materials,Copper,2.00,1863.50 - 1886.00,1896.50 - 1934.00,33.00 - 70.50,1889.50,286.54,1020112,6,1.229
+*_,ANX.L,Anexo Group Plc,Industrials,Rental & Leasing Services,1.67,65.51 - 66.67,67.00 - 68.00,1.49 - 2.49,66.00,287.99,24202,2,0.404
+@_,AO.L,AO World plc,Consumer Cyclical,Specialty Retail,1.50,96.52 - 97.20,98.00 - 98.60,1.48 - 2.08,97.96,319.77,365321,4,0.908
+*_,AOM.L,ActiveOps Plc,Technology,Software Application,1.00,146.50 - 161.12,149.90 - 163.00,3.40 - 16.50,158.50,952.48,231500,4,0.469
+@_,AOTI.L,AOTI  Inc.,Healthcare,Medical Devices,0.00,87.50 - 89.50,90.00 - 90.90,2.50 - 3.40,90.00,219.50,6715,1,UNKNOWN
+@_,APAX.L,Apax Global Alpha Ord,Financial Services,Asset Management,7.00,126.40 - 126.40,128.80 - 128.80,2.40 - 2.40,128.80,93.60,UNKNOWN,0,UNKNOWN
+@_,API.L,abrdn Property Income Trust Ord,Real Estate,REIT Diversified,2.50,5.25 - 5.26,5.32 - 5.36,0.07 - 0.11,5.36,161.72,UNKNOWN,0,UNKNOWN
+@_,APN.L,Applied Nutrition Plc,Consumer Defensive,Packaged Foods,1.00,124.00 - 126.66,126.27 - 128.07,2.27 - 4.07,128.60,353.79,67669,3,UNKNOWN
+@_,APTA.L,Aptamer Group PLC,Healthcare,Biotechnology,0.60,0.36 - 0.38,0.39 - 0.43,0.03 - 0.06,0.40,1737.44,25593684,8,-0.237
+*_,APTD.L,Aptitude Software Group plc,Technology,Software Application,1.50,325.00 - 333.00,337.00 - 338.35,12.00 - 13.35,312.00,260.25,67056,3,0.173
+@_,ARA.L,Aura Renewable Acquisitions plc,Financial Services,Shell Companies,0.00,3.18 - 3.18,4.00 - 4.00,0.82 - 0.82,3.75,1289.04,36684,2,0.066
+@_,ARB.L,Argo Blockchain plc,Financial Services,Capital Markets,7.00,1.53 - 1.53,2.40 - 2.40,0.87 - 0.87,2.33,2850.12,21420042,8,3.327
+@_,ARBB.L,Arbuthnot Banking Group PLC,Financial Services,Banks Regional,1.00,930.00 - 952.25,950.00 - 1000.00,20.00 - 70.00,967.50,843.75,2912,1,0.695
+@_,ARC.L,Arcontech Group plc,Technology,Software Application,0.75,86.04 - 90.55,88.00 - 91.96,1.96 - 5.92,91.50,591.79,5732,1,0.197
+@_,ARCM.L,Arc Minerals Limited,Basic Materials,Other Industrial Metals & Mining,0.33,0.96 - 0.99,0.99 - 1.09,0.02 - 0.12,1.05,1231.23,2521059,6,-0.045
+@_,AREC.L,Arecor Therapeutics plc,Healthcare,Biotechnology,3.00,42.02 - 44.75,45.00 - 48.40,2.98 - 6.38,48.00,756.79,34413,2,-0.331
+@_,ARK.L,Arkle Resources PLC,Basic Materials,Other Industrial Metals & Mining,2.00,0.22 - 0.22,0.31 - 0.31,0.09 - 0.09,0.29,2045.43,1690675,6,-0.256
+@_,ARS.L,Asiamet Resources Limited,Basic Materials,Other Industrial Metals & Mining,0.00,0.97 - 0.98,0.99 - 1.06,0.02 - 0.10,1.02,1232.64,2102867,6,0.918
+@_,ART.L,The Artisanal Spirits Company plc,Consumer Defensive,Beverages Wineries & Distilleries,1.00,47.05 - 49.50,49.97 - 50.38,2.92 - 3.33,49.50,673.17,16078,2,0.131
+@_,ARV.L,Artemis Resources Limited,Basic Materials,Other Industrial Metals & Mining,0.40,0.25 - 0.27,0.28 - 0.29,0.03 - 0.04,0.28,2333.47,144287,3,-0.383
+@_,ASAI.L,ASA International Group PLC,Financial Services,Credit Services,0.67,142.00 - 150.50,151.90 - 155.00,9.90 - 13.00,146.50,1065.90,4431,1,1.379
+@_,ASC.L,ASOS Plc,Consumer Cyclical,Internet Retail,1.50,305.34 - 313.50,311.25 - 320.65,5.91 - 15.31,317.50,436.21,162575,3,2.164
+@_,ASHM.L,Ashmore Group Plc,Financial Services,Asset Management,1.33,156.28 - 162.20,160.90 - 169.10,4.62 - 12.82,168.40,561.02,1167721,6,0.96
+@_,ASLI.L,abrdn European Logistics Income PLC,Financial Services,Asset Management,4.00,61.60 - 61.60,64.40 - 64.40,2.80 - 2.80,64.40,226.80,947154,5,UNKNOWN
+@_,AST.L,Ascent Resources Plc,Energy,Oil & Gas E&P,0.50,0.40 - 0.40,0.50 - 0.50,0.10 - 0.10,0.43,2499.80,1253351,6,-1.297
+@_,ASY.L,Andrews Sykes Group plc,Industrials,Rental & Leasing Services,0.83,515.00 - 532.50,539.00 - 550.00,24.00 - 35.00,532.50,1148.85,1932,1,0.371
+@_,AT.L,Ashtead Technology Holdings Plc,Energy,Oil & Gas Equipment & Services,0.75,436.54 - 454.50,455.00 - 461.98,18.46 - 25.44,461.50,590.37,274697,4,0.16
+*_,ATG.L,Auction Technology Group plc,Technology,Software Application,0.67,463.50 - 497.50,472.00 - 507.00,8.50 - 43.50,495.50,550.00,329908,4,UNKNOWN
+*_,ATM.L,Andrada Mining Limited,Basic Materials,Other Industrial Metals & Mining,0.00,2.83 - 2.83,2.90 - 2.97,0.08 - 0.15,2.80,371.28,2292825,6,0.529
+@_,ATN.L,Aterian plc,Basic Materials,Other Industrial Metals & Mining,1.25,35.00 - 36.00,36.50 - 40.00,1.50 - 5.00,36.50,1882.10,15668,2,0.088
+*_,ATOM.L,Atome Plc,Utilities,Utilities Renewable,0.00,51.15 - 55.11,54.00 - 60.00,2.85 - 8.85,53.50,2135.14,87667,3,0.533
+@_,ATR.L,Schroder Asian Total Return Inv. Company,Financial Services,Asset Management,6.00,463.00 - 463.00,479.00 - 479.00,16.00 - 16.00,479.00,160.00,194136,3,UNKNOWN
+@_,ATT.L,Allianz Technology Trust Ord,Financial Services,Asset Management,5.00,426.50 - 426.50,433.00 - 433.00,6.50 - 6.50,432.50,71.50,717336,5,UNKNOWN
+@_,ATYM.L,Atalaya Mining Copper  S.A.,Basic Materials,Copper,2.50,448.00 - 459.50,468.50 - 478.70,20.50 - 30.70,481.00,417.50,278815,4,1.221
+*_,AURA.L,Aura Energy Limited,Energy,Uranium,0.33,7.11 - 7.80,7.50 - 8.07,0.39 - 0.96,7.25,1084.52,132421,3,-1.03
+@_,AURR.L,Aurrigo International plc,Consumer Cyclical,Auto Parts,2.00,94.00 - 101.26,102.50 - 104.00,8.50 - 10.00,102.50,731.39,6919,1,0.367
+@_,AUSC.L,abrdn UK Smaller Companies Growth Ord,Financial Services,Asset Management,3.00,522.00 - 522.00,531.00 - 531.00,9.00 - 9.00,528.00,81.00,161106,3,UNKNOWN
+@_,AUTG.L,Autins Group plc,Consumer Cyclical,Auto Parts,1.33,8.00 - 9.50,9.50 - 10.85,1.50 - 2.85,10.00,2787.17,75713,3,0.529
+@_,AUTO.L,Auto Trader Group plc,Communication Services,Internet Content & Information,2.00,806.40 - 809.00,816.40 - 825.00,10.00 - 18.60,823.00,226.80,1678991,6,0.653
+@_,AV.L,Aviva plc,Financial Services,Insurance Diversified,1.50,603.80 - 614.80,610.60 - 622.40,6.80 - 18.60,625.53,235.20,9307594,7,0.812
+@_,AVAP.L,Avation PLC,Industrials,Rental & Leasing Services,0.80,155.50 - 162.36,157.71 - 165.36,2.21 - 9.86,162.50,452.43,256915,4,0.502
+@_,AVCT.L,Avacta Group Plc,Healthcare,Biotechnology,0.00,28.00 - 32.50,30.39 - 34.00,2.39 - 6.00,32.00,1229.09,1930570,6,-0.284
+@_,AVG.L,Avingtrans plc,Industrials,Specialty Industrial Machinery,1.50,418.10 - 420.00,422.75 - 430.00,4.65 - 11.90,420.00,274.45,20982,2,0.385
+@_,AVON.L,Avon Technologies Plc,Industrials,Aerospace & Defense,1.25,1930.00 - 1990.00,1974.00 - 2060.69,44.00 - 130.69,2065.00,352.56,145135,3,0.248
+*_,AWE.L,Alphawave IP Group plc,Technology,Semiconductors,0.00,172.30 - 175.20,174.56 - 178.40,2.26 - 6.10,173.00,213.94,1183869,6,1.395
+*_,AXL.L,Arrow Exploration Corp.,Energy,Oil & Gas E&P,1.00,17.56 - 17.75,17.95 - 18.00,0.40 - 0.44,17.50,434.89,548139,5,0.013
+*_,AXS.L,Accsys Technologies PLC,Basic Materials,Lumber & Wood Production,1.50,64.00 - 64.00,64.95 - 65.40,0.95 - 1.40,61.20,183.30,193281,3,1.307
+@_,AYM.L,Anglesey Mining plc,Basic Materials,Other Industrial Metals & Mining,0.00,0.77 - 0.77,0.82 - 0.87,0.05 - 0.10,0.82,2330.30,286850,4,2.14
+@_,B90.L,B90 Holdings PLC,Consumer Cyclical,Gambling,1.00,2.50 - 2.70,2.60 - 2.90,0.10 - 0.40,2.70,1449.32,178335,3,0.294
+@_,BA.L,BAE Systems plc,Industrials,Aerospace & Defense,2.33,1836.00 - 1870.50,1867.50 - 1897.50,31.50 - 61.50,1896.50,183.00,4764031,6,0.334
+*_,BAB.L,Babcock International Group PLC,Industrials,Engineering & Construction,2.00,1071.00 - 1082.00,1086.00 - 1109.00,15.00 - 38.00,1076.00,168.00,2133416,6,1.309
+*_,BAG.L,A.G. BARR p.l.c.,Consumer Defensive,Beverages Non-Alcoholic,2.00,683.00 - 691.89,695.00 - 701.00,12.00 - 18.00,686.00,147.77,130233,3,0.326
+@_,BAKK.L,Bakkavor Group plc,Consumer Defensive,Packaged Foods,2.00,214.50 - 216.00,218.50 - 220.00,4.00 - 5.50,217.60,184.00,1632059,6,0.68
+@_,BANK.L,Fiinu Plc,Financial Services,Credit Services,0.50,7.56 - 8.25,8.50 - 8.90,0.94 - 1.34,9.50,2864.39,295487,4,10.17
+@_,BARC.L,Barclays PLC,Financial Services,Banks Diversified,1.67,325.15 - 333.85,333.25 - 344.60,8.10 - 19.45,340.00,369.50,32991676,8,1.06
+@_,BASC.L,Brown Advisory US Smaller Companies Ord,Financial Services,Asset Management,7.00,1287.50 - 1287.50,1320.00 - 1320.00,32.50 - 32.50,1305.00,97.50,10346,2,UNKNOWN
+@_,BATS.L,British American Tobacco p.l.c.,Consumer Defensive,Tobacco,1.00,3423.00 - 3698.00,3502.00 - 3753.00,79.00 - 330.00,3761.00,409.58,6548773,7,0.151
+@_,BBB.L,Bigblu Broadband plc,Communication Services,Telecom Services,0.50,20.89 - 22.00,23.00 - 24.00,2.11 - 3.11,22.00,1904.68,17485,2,0.02
+@_,BBH.L,Bellevue Healthcare Ord,Financial Services,Asset Management,3.00,118.20 - 118.20,121.40 - 121.40,3.20 - 3.20,119.40,134.40,1287683,6,UNKNOWN
+*_,BBSN.L,Brave Bison Group plc,Communication Services,Internet Content & Information,0.29,2.90 - 3.31,3.06 - 3.55,0.15 - 0.65,3.27,2039.13,18155945,8,0.516
+@_,BBY.L,Balfour Beatty plc,Industrials,Engineering & Construction,1.67,509.00 - 510.50,517.00 - 518.50,8.00 - 9.50,516.50,220.05,733697,5,0.703
+@_,BC94.L,Samsung Electronics Co.  Ltd.,Technology,Consumer Electronics,1.00,1095.00 - 1106.00,1131.00 - 1165.00,36.00 - 70.00,1131.00,380.00,256,1,0.739
+@_,BCG.L,Baltic Classifieds Group PLC,Communication Services,Internet Content & Information,0.80,321.50 - 349.50,332.50 - 358.50,11.00 - 37.00,361.00,778.00,1888924,6,1.404
+@_,BEG.L,Begbies Traynor Group plc,Industrials,Consulting Services,1.00,108.50 - 120.80,110.50 - 123.68,2.00 - 15.18,124.00,875.18,1013949,6,0.297
+@_,BELL.L,Belluscura plc,Healthcare,Medical Devices,0.00,0.73 - 0.73,0.75 - 0.80,0.02 - 0.07,0.75,616.98,282100,4,0.707
+@_,BEM.L,Beowulf Mining plc,Basic Materials,Other Industrial Metals & Mining,2.00,10.36 - 10.36,10.99 - 10.99,0.63 - 0.63,10.50,303.66,11353,2,0.491
+@_,BERI.L,BlackRock Energy and Resources Inc,Financial Services,Asset Management,1.00,116.50 - 117.50,118.00 - 119.00,1.50 - 2.50,118.50,126.00,207518,4,UNKNOWN
+*_,BEZ.L,Beazley plc,Financial Services,Insurance Specialty,1.00,897.00 - 897.00,915.00 - 915.00,18.00 - 18.00,892.00,90.00,2034296,6,0.498
+@_,BGCG.L,Baillie Gifford China Growth Trust Ord,Financial Services,Asset Management,5.00,244.50 - 244.50,249.00 - 249.00,4.50 - 4.50,248.00,90.00,106615,3,UNKNOWN
+@_,BGEU.L,Baillie Gifford European Growth Ord,Financial Services,Asset Management,6.00,103.50 - 103.50,107.00 - 107.00,3.50 - 3.50,106.50,168.00,398530,4,UNKNOWN
+*_,BGO.L,Bango PLC,Technology,Software Infrastructure,0.17,90.13 - 90.89,91.68 - 93.88,1.55 - 3.75,90.50,602.25,27433,2,0.63
+@_,BGS.L,Baillie Gifford Shin Nippon Ord,Financial Services,Asset Management,3.00,124.00 - 124.00,125.60 - 125.60,1.60 - 1.60,124.60,64.00,434498,4,UNKNOWN
+*_,BHL.L,Bradda Head Lithium Limited,Basic Materials,Other Industrial Metals & Mining,0.20,0.98 - 1.02,1.04 - 1.08,0.06 - 0.09,0.98,1446.87,621666,5,-0.423
+@_,BHP.L,BHP Group Limited,Basic Materials,Other Industrial Metals & Mining,2.00,1800.00 - 1887.50,1874.50 - 1917.00,74.50 - 117.00,1910.00,345.00,1291915,6,0.726
+*_,BIG.L,Big Technologies PLC,Technology,Software Application,0.33,88.20 - 93.60,91.20 - 94.60,3.00 - 6.40,89.15,312.69,227328,4,0.509
+*_,BIH.L,Boston International Holdings Plc,Financial Services,Shell Companies,0.00,0.31 - 0.50,0.44 - 0.78,0.12 - 0.47,0.45,9684.27,1574629,6,0.352
+@_,BILN.L,Billington Holdings Plc,Industrials,Engineering & Construction,1.00,375.50 - 380.00,382.50 - 386.00,7.00 - 10.50,382.50,248.56,13708,2,0.443
+@_,BIOG.L,Biotech Growth Ord,Financial Services,Asset Management,3.00,740.00 - 740.00,780.00 - 780.00,40.00 - 40.00,778.00,240.00,118381,3,UNKNOWN
+*_,BIRD.L,Blackbird plc,Technology,Software Application,0.14,2.83 - 2.96,2.99 - 3.25,0.16 - 0.42,2.90,2456.65,1204981,6,0.562
+*_,BIRG.L,Bank of Ireland Group plc,Financial Services,Banks Regional,1.50,12.04 - 12.32,12.18 - 12.55,0.14 - 0.51,12.14,377.85,271265,4,0.685
+*_,BISI.L,Bisichi PLC,Energy,Thermal Coal,0.00,104.44 - 107.90,107.50 - 119.25,3.06 - 14.81,107.50,665.92,10629,2,-0.412
+@_,BKG.L,The Berkeley Group Holdings plc,Consumer Cyclical,Residential Construction,0.50,3574.00 - 3585.00,3680.00 - 3700.00,106.00 - 126.00,3682.00,221.00,671142,5,1.166
+*_,BKS.L,Beeks Financial Cloud Group plc,Technology,Software Infrastructure,0.33,214.04 - 224.12,216.85 - 230.00,2.81 - 15.96,211.40,498.59,72201,3,0.069
+@_,BKY.L,Berkeley Energia Limited,Energy,Uranium,0.00,26.07 - 26.07,27.84 - 27.84,1.77 - 1.77,26.10,338.07,197053,3,1.736
+*_,BLND.L,British Land Company PLC,Real Estate,REIT Diversified,1.00,354.60 - 354.60,360.00 - 360.00,5.40 - 5.40,349.60,75.60,3176582,6,1.392
+@_,BLOE.L,Block Energy Plc,Energy,Oil & Gas E&P,0.14,0.91 - 0.93,0.93 - 0.95,0.02 - 0.04,0.93,870.86,618978,5,0.14
+*_,BLU.L,Blue Star Capital plc,Financial Services,Asset Management,0.80,18.92 - 21.00,19.50 - 21.75,0.58 - 2.83,18.50,1170.87,1032105,6,1.955
+*_,BME.L,B&M European Value Retail S.A.,Consumer Defensive,Discount Stores,0.00,274.40 - 276.00,277.90 - 280.10,3.50 - 5.70,261.40,136.80,6500743,7,0.914
+*_,BMK.L,Benchmark Holdings plc,Consumer Defensive,Packaged Foods,0.00,24.61 - 24.61,25.00 - 25.00,0.39 - 0.39,24.60,79.17,441865,4,0.288
+*_,BMS.L,Braemar Plc,Industrials,Marine Shipping,1.00,210.00 - 221.00,218.00 - 225.00,8.00 - 15.00,215.00,518.41,118549,3,0.889
+@_,BMT.L,Braime Group PLC,Industrials,Industrial Distribution,0.00,925.00 - 925.00,1037.50 - 1037.50,112.50 - 112.50,925.00,562.50,48,1,0.196
+@_,BMV.L,Bluebird Mining Ventures Ltd,Basic Materials,Gold,0.50,1.06 - 1.12,1.24 - 1.40,0.18 - 0.34,1.36,2139.96,25286471,8,1.351
+*_,BMY.L,Bloomsbury Publishing Plc,Communication Services,Publishing,0.67,486.50 - 498.50,494.50 - 505.00,8.00 - 18.50,493.50,255.00,272024,4,0.507
+@_,BNC.L,Banco Santander  S.A.,Financial Services,Banks Diversified,1.67,610.00 - 619.13,619.00 - 648.00,9.00 - 38.00,625.00,382.96,4175754,6,1.289
+*_,BNZL.L,Bunzl plc,Consumer Defensive,Food Distribution,1.50,2310.00 - 2323.45,2336.00 - 2358.00,26.00 - 48.00,2296.00,121.10,772484,5,0.287
+@_,BOD.L,Botswana Diamonds plc,Basic Materials,Other Precious Metals & Mining,10.00,0.19 - 0.19,0.30 - 0.30,0.11 - 0.11,0.29,2852.63,5405427,7,0.547
+@_,BOKU.L,Boku  Inc.,Technology,Software Infrastructure,0.40,202.00 - 211.80,205.00 - 214.28,3.00 - 12.28,214.50,509.14,623605,5,-0.005
+*_,BOOM.L,Audioboom Group plc,Communication Services,Internet Content & Information,0.00,305.80 - 333.00,310.00 - 340.00,4.20 - 34.20,312.50,518.70,88219,3,0.885
+@_,BOOT.L,Henry Boot PLC,Real Estate,Real Estate Diversified,1.75,226.38 - 235.00,237.43 - 242.28,11.05 - 15.90,236.39,559.38,112088,3,0.354
+@_,BOR.L,Borders & Southern Petroleum plc,Energy,Oil & Gas E&P,0.00,6.20 - 6.53,6.52 - 6.95,0.32 - 0.75,6.93,2111.91,875335,5,-0.811
+@_,BOWL.L,Hollywood Bowl Group plc,Consumer Cyclical,Leisure,7.00,234.00 - 234.00,252.50 - 252.50,18.50 - 18.50,246.00,388.50,1740931,6,0.838
+*_,BOY.L,Bodycote plc,Industrials,Specialty Industrial Machinery,1.33,584.50 - 611.00,607.50 - 618.00,23.00 - 33.50,592.00,373.04,227396,4,1.036
+@_,BP.L,BP p.l.c.,Energy,Oil & Gas Integrated,1.00,372.02 - 386.45,386.70 - 401.43,14.68 - 29.41,401.70,370.60,29029844,8,0.394
+@_,BPM.L,B.P. Marsh & Partners PLC,Financial Services,Asset Management,1.67,702.00 - 710.00,713.70 - 719.90,11.70 - 17.90,715.00,233.10,50103,3,0.173
+@_,BPT.L,Bridgepoint Group plc,Financial Services,Asset Management,0.75,310.00 - 326.00,322.60 - 336.80,12.60 - 26.80,337.20,552.60,404235,4,1.571
+@_,BRAI.L,BlackRock American Income Trust Ord,Financial Services,Asset Management,3.00,195.50 - 195.50,197.50 - 197.50,2.00 - 2.00,197.00,50.00,146785,3,UNKNOWN
+*_,BRBY.L,Burberry Group plc,Consumer Cyclical,Luxury Goods,1.00,1219.48 - 1241.00,1243.00 - 1261.00,23.52 - 41.52,1220.00,348.08,1995557,6,0.979
+*_,BRCK.L,Brickability Group Plc,Industrials,Industrial Distribution,0.50,63.00 - 63.20,63.95 - 64.24,0.95 - 1.24,61.80,157.21,833609,5,0.915
+@_,BREE.L,Breedon Group plc,Basic Materials,Building Materials,0.33,375.40 - 381.80,380.40 - 387.40,5.00 - 12.00,387.60,252.20,1070163,6,1.132
+@_,BRES.L,Blencowe Resources Plc,Basic Materials,Other Industrial Metals & Mining,0.22,3.80 - 3.95,3.97 - 4.05,0.17 - 0.25,3.95,1322.87,1978272,6,0.847
+@_,BRFI.L,BlackRock Frontiers Ord,Financial Services,Asset Management,8.00,157.50 - 157.50,160.50 - 160.50,3.00 - 3.00,160.50,93.00,361428,4,UNKNOWN
+@_,BRGE.L,BlackRock Greater Europe Ord,Financial Services,Asset Management,6.00,590.00 - 590.00,609.00 - 609.00,19.00 - 19.00,603.00,152.00,108925,3,UNKNOWN
+*_,BRH.L,Braveheart Investment Group plc,Financial Services,Asset Management,1.00,2.15 - 2.33,2.25 - 2.40,0.10 - 0.25,2.25,730.63,82815,3,-0.827
+@_,BRK.L,Brooks Macdonald Group plc,Financial Services,Asset Management,0.50,1690.00 - 1740.00,1717.00 - 1790.00,27.00 - 100.00,1755.00,274.00,17383,2,0.584
+*_,BRLA.L,BlackRock Latin American Ord,Financial Services,Asset Management,2.00,353.95 - 353.95,358.95 - 358.95,5.00 - 5.00,349.00,70.00,66641,3,UNKNOWN
+@_,BRSC.L,BlackRock Smaller Companies Ord,Financial Services,Asset Management,5.00,1298.00 - 1298.00,1316.00 - 1316.00,18.00 - 18.00,1308.00,54.00,94626,3,UNKNOWN
+@_,BRWM.L,BlackRock World Mining Trust Ord,Financial Services,Asset Management,4.00,536.00 - 536.00,558.00 - 558.00,22.00 - 22.00,558.00,198.00,471508,4,UNKNOWN
+@_,BSFA.L,BSF Enterprise Plc,Healthcare,Biotechnology,0.67,1.64 - 1.85,1.90 - 2.25,0.26 - 0.61,2.00,4900.32,194208,3,2.62
+@_,BSIF.L,Bluefield Solar Income Fund,Financial Services,Asset Management,1.00,97.40 - 97.40,98.40 - 98.40,1.00 - 1.00,98.40,51.00,UNKNOWN,0,UNKNOWN
+*_,BTC.L,London BTC Company Limited,Financial Services,Capital Markets,0.40,17.61 - 19.50,18.51 - 19.87,0.90 - 2.26,12.94,1060.60,3218191,6,4.362
+*_,BTRW.L,Barratt Redrow plc,Consumer Cyclical,Residential Construction,0.50,414.90 - 429.40,425.73 - 436.50,10.83 - 21.60,415.95,208.06,4161409,6,1.464
+@_,BUC.L,Built Cybernetics plc,Industrials,Engineering & Construction,0.50,2.12 - 2.25,2.34 - 2.36,0.22 - 0.24,2.40,1891.37,877592,5,0.055
+@_,BUR.L,Burford Capital Limited,Financial Services,Asset Management,3.00,953.00 - 988.00,1017.00 - 1093.00,64.00 - 140.00,1052.00,845.00,479412,4,1.046
+*_,BVA.L,Banco Bilbao Vizcaya Argentaria  S.A.,Financial Services,Banks Diversified,1.33,12.93 - 13.31,13.23 - 13.63,0.31 - 0.70,12.97,409.24,2757693,6,1.417
+@_,BVC.L,BATM Advanced Communications Ltd.,Healthcare,Medical Instruments & Supplies,0.27,15.16 - 15.60,15.77 - 16.20,0.61 - 1.04,15.62,2055.13,133775,3,0.727
+@_,BVXP.L,Bioventix PLC,Healthcare,Biotechnology,1.00,2668.00 - 2750.00,2750.00 - 2800.00,82.00 - 132.00,2775.00,332.00,3848,1,0.512
+*_,BWY.L,Bellway p.l.c.,Consumer Cyclical,Residential Construction,0.00,2624.00 - 2624.00,2698.00 - 2698.00,74.00 - 74.00,2586.00,74.00,370004,4,1.251
+@_,BXP.L,Beximco Pharmaceuticals Limited,Healthcare,Drug Manufacturers Specialty & Generic,1.00,35.00 - 38.50,37.50 - 39.00,2.50 - 4.00,39.00,848.90,45848,2,0.556
+*_,BYG.L,Big Yellow Group Plc,Real Estate,REIT Industrial,1.00,934.00 - 934.00,951.00 - 951.00,17.00 - 17.00,927.00,85.00,575618,5,0.754
+*_,BYIT.L,Bytes Technology Group plc,Technology,Software Infrastructure,0.75,348.51 - 361.40,353.80 - 365.31,5.29 - 16.80,328.81,267.13,2485772,6,0.717
+@_,CABP.L,CAB Payments Holdings Limited,Financial Services,Banks Diversified,0.50,49.00 - 50.20,50.86 - 51.20,1.86 - 2.20,51.00,289.74,714516,5,UNKNOWN
+@_,CAD.L,Cadogan Energy Solutions PLC,Energy,Oil & Gas E&P,0.00,3.10 - 3.16,3.35 - 3.75,0.25 - 0.65,3.35,1648.39,55725,3,0.518
+*_,CAML.L,Central Asia Metals plc,Basic Materials,Copper,0.00,160.40 - 160.40,165.40 - 165.40,5.00 - 5.00,146.60,155.00,875830,5,1.162
+@_,CAN.L,Canal+ SA,Communication Services,Entertainment,1.00,224.80 - 229.10,229.00 - 232.20,4.20 - 7.40,229.70,286.40,673540,5,UNKNOWN
+*_,CAPD.L,Capital Limited,Basic Materials,Other Industrial Metals & Mining,0.80,84.00 - 85.88,85.10 - 86.80,1.10 - 2.80,85.10,440.44,139964,3,0.541
+*_,CAR.L,Carclo plc,Consumer Cyclical,Auto Parts,0.00,46.30 - 47.72,47.90 - 49.00,1.60 - 2.70,44.90,581.52,539126,5,0.348
+*_,CARD.L,Card Factory plc,Consumer Cyclical,Specialty Retail,1.50,87.68 - 88.25,89.90 - 91.20,2.22 - 3.51,87.60,293.04,864774,5,1.623
+*_,CARR.L,Carr's Group plc,Consumer Defensive,Packaged Foods,0.00,151.50 - 154.75,155.00 - 156.75,3.50 - 5.25,148.85,325.96,81149,3,0.721
+@_,CASP.L,Caspian Sunrise plc,Energy,Oil & Gas Integrated,0.00,1.86 - 1.86,2.25 - 2.25,0.39 - 0.39,2.15,1048.32,109278,3,1.75
+@_,CAU.L,Centaur Media Plc,Communication Services,Advertising Agencies,0.00,32.00 - 32.51,33.00 - 33.37,1.00 - 1.37,33.00,1028.22,247585,4,0.838
+*_,CAV.L,Cavendish plc,Financial Services,Capital Markets,0.50,13.05 - 14.14,13.50 - 14.50,0.45 - 1.45,12.00,1047.39,830936,5,UNKNOWN
+@_,CBG.L,Close Brothers Group plc,Financial Services,Banks Regional,2.00,358.68 - 378.00,386.00 - 419.00,27.32 - 60.32,390.00,1139.06,686125,5,1.196
+*_,CBOX.L,Cake Box Holdings Plc,Consumer Defensive,Grocery Stores,0.60,178.00 - 182.50,181.95 - 190.00,3.95 - 12.00,180.00,758.60,22965,2,0.905
+*_,CCC.L,Computacenter plc,Technology,Information Technology Services,0.75,2264.00 - 2292.00,2298.00 - 2322.00,34.00 - 58.00,2250.00,260.00,148389,3,0.65
+@_,CCH.L,Coca-Cola HBC AG,Consumer Defensive,Beverages Non-Alcoholic,2.00,3816.00 - 3926.00,3974.00 - 4059.85,158.00 - 243.85,3922.00,291.85,1109420,6,0.726
+*_,CCL.L,Carnival Corporation & plc,Consumer Cyclical,Travel Services,1.25,1914.97 - 1983.00,1957.00 - 2011.00,42.03 - 96.03,1962.50,286.06,558994,5,2.583
+*_,CCP.L,Celtic plc,Communication Services,Entertainment,0.00,190.00 - 192.00,195.00 - 195.00,5.00 - 5.00,185.00,286.00,2026,1,0.008
+@_,CCPA.L,Celtic plc,Communication Services,Entertainment,0.00,184.00 - 184.00,191.00 - 191.00,7.00 - 7.00,191.00,189.00,410,1,0.008
+@_,CCR.L,C&C Group plc,Consumer Defensive,Beverages Brewers,1.25,162.60 - 165.60,164.40 - 168.80,1.80 - 6.20,166.60,342.00,662117,5,1.076
+@_,CCT.L,The Character Group plc,Consumer Cyclical,Leisure,1.25,260.00 - 273.00,270.00 - 279.00,10.00 - 19.00,270.00,645.61,10684,2,0.418
+*_,CDGP.L,Chapel Down Group Plc,Consumer Defensive,Beverages Wineries & Distilleries,0.17,43.00 - 44.66,44.50 - 46.00,1.50 - 3.00,43.50,1308.94,41156,2,1.07
+@_,CDL.L,Cloudbreak Discovery Plc,Basic Materials,Other Industrial Metals & Mining,0.80,0.16 - 0.17,0.19 - 0.20,0.03 - 0.04,0.17,3898.67,949070,5,0.333
+@_,CEG.L,Challenger Energy Group PLC,Energy,Oil & Gas E&P,0.00,7.15 - 7.27,7.43 - 7.80,0.28 - 0.65,7.50,1430.88,195192,3,1.244
+@_,CEPS.L,CEPS PLC,Industrials,Engineering & Construction,3.00,21.50 - 21.50,24.75 - 24.75,3.25 - 3.25,22.50,754.00,8423,1,-0.306
+*_,CER.L,Cerillion Plc,Technology,Software Application,1.00,1550.60 - 1553.50,1580.00 - 1580.00,29.40 - 29.40,1525.00,247.71,29275,2,0.65
+*_,CFX.L,Colefax Group PLC,Consumer Cyclical,Furnishings  Fixtures & Appliances,0.00,770.20 - 770.20,780.00 - 780.00,9.80 - 9.80,770.00,58.80,1345,1,0.071
+@_,CGEO.L,Georgia Capital PLC,Financial Services,Financial Conglomerates,1.67,1952.00 - 2010.00,2050.00 - 2055.00,98.00 - 103.00,2020.00,376.00,65472,3,0.844
+@_,CGNR.L,Conroy Gold and Natural Resources plc,Basic Materials,Gold,0.57,3.50 - 6.55,4.60 - 7.90,1.10 - 4.40,6.75,7484.95,359715,4,1.376
+@_,CGO.L,Contango Holdings plc,Energy,Thermal Coal,0.00,0.90 - 0.98,1.02 - 1.10,0.12 - 0.20,1.02,2392.71,798169,5,UNKNOWN
+@_,CGS.L,Castings P.L.C.,Industrials,Specialty Industrial Machinery,1.00,282.50 - 300.25,289.00 - 308.50,6.50 - 26.00,300.50,658.50,37535,2,0.378
+*_,CHAR.L,Chariot Limited,Energy,Oil & Gas E&P,0.67,1.47 - 1.54,1.60 - 1.70,0.13 - 0.23,1.49,2087.31,2980901,6,-0.765
+@_,CHF.L,Chesterfield Resources plc,Basic Materials,Other Industrial Metals & Mining,0.00,0.75 - 0.75,0.77 - 0.77,0.02 - 0.02,0.77,399.96,139095,3,1.206
+@_,CHG.L,Chemring Group PLC,Industrials,Aerospace & Defense,1.67,549.00 - 554.00,559.00 - 569.00,10.00 - 20.00,558.00,279.00,758506,5,0.596
+*_,CHH.L,Churchill China plc,Consumer Cyclical,Furnishings  Fixtures & Appliances,1.00,614.00 - 654.00,629.00 - 675.00,15.00 - 61.00,620.00,572.97,11807,2,0.63
+@_,CHI.L,CT UK High Income Ord,Financial Services,Asset Management,3.00,103.00 - 103.00,107.00 - 107.00,4.00 - 4.00,103.00,192.00,48064,2,UNKNOWN
+@_,CHRT.L,Cohort plc,Industrials,Aerospace & Defense,1.50,1474.00 - 1536.00,1560.00 - 1577.93,86.00 - 103.93,1540.00,383.79,98887,3,0.194
+*_,CHSS.L,World Chess PLC,Technology,Software Application,3.50,1.75 - 2.00,2.15 - 2.62,0.40 - 0.87,1.75,2692.80,873236,5,1.682
+*_,CIC.L,The Conygar Investment Company PLC,Real Estate,Real Estate Development,0.29,33.20 - 34.50,34.00 - 35.00,0.80 - 1.80,34.00,872.24,22953,2,0.298
+*_,CIZ.L,Cizzle Biotechnology Holdings Plc,Healthcare,Biotechnology,0.33,1.42 - 1.50,1.52 - 1.60,0.10 - 0.18,1.45,1651.97,605126,5,0.7
+*_,CKI.L,UNKNOWN,Utilities,Utilities Regulated Electric,0.80,486.00 - 495.00,497.00 - 510.00,11.00 - 24.00,480.00,767.60,7853,1,0.742
+@_,CKN.L,Clarkson PLC,Industrials,Marine Shipping,2.00,3265.00 - 3300.00,3325.00 - 3413.36,60.00 - 148.36,3390.00,237.19,44288,2,1.159
+@_,CKT.L,Checkit plc,Technology,Software Application,0.80,15.00 - 15.70,16.00 - 16.00,1.00 - 1.00,16.00,911.40,59903,3,0.467
+*_,CLAI.L,Cel AI PLC,Consumer Defensive,Household & Personal Products,0.11,0.28 - 0.31,0.31 - 0.35,0.03 - 0.07,0.29,4686.22,56157063,9,0.465
+*_,CLBS.L,Celebrus Technologies plc,Technology,Software Application,0.29,143.00 - 178.55,146.10 - 185.00,3.10 - 42.00,175.00,1803.10,164766,3,1.027
+@_,CLCO.L,CloudCoCo Group plc,Technology,Software Infrastructure,0.00,0.22 - 0.27,0.28 - 0.30,0.06 - 0.08,0.28,6456.45,4431929,6,-0.64
+@_,CLDN.L,Caledonia Investments Ord,Financial Services,Asset Management,2.00,3570.00 - 3570.00,3630.00 - 3630.00,60.00 - 60.00,3630.00,60.00,26104,2,UNKNOWN
+@_,CLI.L,CLS Holdings plc,Real Estate,REIT Office,1.33,68.40 - 68.60,69.40 - 69.40,1.00 - 1.00,69.10,189.64,405911,4,0.87
+@_,CLIG.L,City of London Investment Group Plc,Financial Services,Asset Management,0.50,346.00 - 353.01,349.74 - 357.00,3.74 - 11.00,356.00,343.28,87549,3,0.24
+@_,CLX.L,Calnex Solutions plc,Technology,Communication Equipment,3.50,44.13 - 46.45,47.44 - 48.70,3.31 - 4.57,49.50,614.78,116039,3,1.693
+@_,CMCL.L,Caledonia Mining Corporation Plc,Basic Materials,Gold,0.50,1441.00 - 1525.00,1535.00 - 1580.00,94.00 - 139.00,1505.00,875.01,5326,1,0.283
+*_,CMCX.L,CMC Markets Plc,Financial Services,Capital Markets,1.00,236.00 - 249.50,241.00 - 255.50,5.00 - 19.50,240.00,445.00,497091,4,0.734
+@_,CMET.L,Capital Metals plc,Basic Materials,Other Industrial Metals & Mining,0.57,2.50 - 2.78,2.80 - 2.90,0.30 - 0.40,2.75,2308.11,404782,4,0.126
+@_,CML.L,CML Microsystems plc,Technology,Semiconductors,0.71,250.00 - 308.60,260.00 - 317.25,10.00 - 67.25,310.00,2320.18,27374,2,0.486
+@_,CMRS.L,Critical Mineral Resources PLC,Basic Materials,Other Precious Metals & Mining,0.25,1.10 - 1.15,1.19 - 1.30,0.09 - 0.20,1.15,1922.02,438168,4,1.321
+*_,CNA.L,Centrica plc,Utilities,Utilities Independent Power Producers,1.50,156.35 - 157.45,158.15 - 159.85,1.80 - 3.50,154.60,130.20,14393861,8,0.63
+@_,CNC.L,Concurrent Technologies Plc,Technology,Computer Hardware,2.50,195.00 - 198.30,201.64 - 201.92,6.64 - 6.92,197.50,256.50,153485,3,0.844
+@_,CNE.L,Capricorn Energy PLC,Energy,Oil & Gas E&P,1.00,220.41 - 226.00,227.00 - 230.00,6.59 - 9.59,228.50,489.94,39986,2,0.675
+@_,CNS.L,Corero Network Security plc,Technology,Software Infrastructure,0.40,14.00 - 14.52,14.79 - 15.50,0.79 - 1.50,15.25,1215.35,112499,3,-0.395
+*_,CNSL.L,Cambridge Nutritional Sciences plc,Healthcare,Medical Instruments & Supplies,0.12,3.61 - 4.06,3.85 - 4.33,0.24 - 0.72,3.85,2605.59,344947,4,1.505
+@_,COA.L,Coats Group plc,Consumer Cyclical,Textile Manufacturing,0.80,78.10 - 81.20,79.40 - 83.00,1.30 - 4.90,81.70,406.80,2253648,6,1.17
+@_,COBR.L,Cobra Resources plc,Basic Materials,Other Precious Metals & Mining,0.40,1.99 - 2.23,2.05 - 2.35,0.06 - 0.36,2.30,2484.21,4654843,6,-0.036
+@_,COD.L,Compagnie de Saint-Gobain S.A.,Industrials,Building Products & Equipment,2.00,96.74 - 97.79,98.20 - 101.40,1.46 - 4.66,100.10,258.57,257012,4,1.197
+*_,CODE.L,Northcoders Group PLC,Consumer Defensive,Education & Training Services,0.00,36.35 - 49.60,40.00 - 50.50,3.65 - 14.15,36.50,789.02,61392,3,-0.643
+@_,COG.L,Cambridge Cognition Holdings Plc,Healthcare,Health Information Services,1.75,31.25 - 31.44,32.00 - 34.00,0.75 - 2.75,32.50,905.62,13806,2,0.439
+@_,CORA.L,Cora Gold Limited,Basic Materials,Gold,0.00,6.00 - 6.21,6.25 - 7.00,0.25 - 1.00,6.50,2777.50,56803,3,0.172
+*_,CORO.L,Coro Energy plc,Energy,Oil & Gas E&P,1.00,0.82 - 0.86,0.88 - 0.90,0.05 - 0.07,0.82,834.30,600544,5,0.957
+@_,COST.L,Costain Group PLC,Industrials,Engineering & Construction,1.67,142.20 - 146.60,146.40 - 148.20,4.20 - 6.00,149.20,312.92,1100200,6,1.719
+@_,CPAI.L,capAI Plc,Real Estate,Real Estate Diversified,1.50,0.36 - 0.38,0.45 - 0.51,0.09 - 0.15,0.45,2993.69,80918122,9,-0.343
+@_,CPG.L,Compass Group PLC,Consumer Cyclical,Restaurants,2.00,2473.00 - 2481.00,2508.00 - 2519.00,35.00 - 46.00,2516.00,146.00,2104637,6,0.64
+*_,CPH2.L,Clean Power Hydrogen plc,Industrials,Specialty Industrial Machinery,0.00,5.30 - 5.30,5.38 - 5.40,0.08 - 0.10,5.15,358.34,394818,4,0.246
+@_,CPI.L,Capita plc,Industrials,Specialty Business Services,0.50,333.00 - 346.03,340.24 - 351.00,7.24 - 18.00,346.00,462.66,519968,5,1.391
+@_,CPP.L,CPPGroup Plc,Industrials,Specialty Business Services,0.75,105.00 - 110.50,108.20 - 115.00,3.20 - 10.00,115.00,858.50,7496,1,1.126
+*_,CPX.L,CAP-XX Limited,Technology,Electronic Components,0.50,0.27 - 0.27,0.29 - 0.31,0.02 - 0.04,0.25,1105.68,118212250,10,2.148
+@_,CRCL.L,Corcel Plc,Energy,Oil & Gas E&P,7.00,0.31 - 0.31,0.38 - 0.38,0.07 - 0.07,0.38,1129.03,26488544,8,0.385
+*_,CRDA.L,Croda International Plc,Basic Materials,Specialty Chemicals,0.67,2942.00 - 2993.00,3029.61 - 3061.00,87.61 - 119.00,2964.00,231.76,315107,4,0.774
+@_,CRDL.L,Cordel Group Plc,Technology,Software Application,0.00,6.95 - 7.05,7.25 - 7.50,0.30 - 0.55,7.25,1300.57,137097,3,0.925
+*_,CRE.L,Conduit Holdings Limited,Financial Services,Insurance Reinsurance,1.00,371.50 - 371.50,376.00 - 377.00,4.50 - 5.50,367.00,130.00,444631,4,0.532
+*_,CREO.L,Creo Medical Group PLC,Healthcare,Medical Devices,1.00,12.44 - 13.06,12.72 - 13.47,0.27 - 1.02,12.88,710.63,340880,4,0.545
+@_,CRL.L,Creightons Plc,Consumer Defensive,Household & Personal Products,1.00,36.26 - 37.11,37.70 - 38.40,1.44 - 2.14,37.00,575.64,86836,3,0.64
+@_,CRN.L,Cairn Homes plc,Consumer Cyclical,Residential Construction,1.50,178.20 - 184.60,180.60 - 190.64,2.40 - 12.44,188.53,490.32,283539,4,0.69
+@_,CRPR.L,James Cropper PLC,Basic Materials,Paper & Paper Products,0.75,211.60 - 216.25,220.00 - 220.00,8.40 - 8.40,220.00,484.84,8622,1,0.322
+@_,CRS.L,Crystal Amber Ord,Financial Services,Asset Management,6.00,149.00 - 149.00,153.00 - 153.00,4.00 - 4.00,153.00,132.00,UNKNOWN,0,UNKNOWN
+@_,CRST.L,Crest Nicholson Holdings plc,Consumer Cyclical,Residential Construction,1.50,180.70 - 182.60,183.95 - 187.90,3.25 - 7.20,186.20,420.93,358988,4,1.585
+@_,CRTA.L,Cirata plc,Technology,Software Application,0.00,25.55 - 26.87,27.90 - 28.50,2.35 - 2.95,27.65,1103.57,166954,3,1.375
+@_,CRTX.L,CRISM Therapeutics Corporation,Healthcare,Biotechnology,0.00,10.00 - 10.77,11.20 - 11.45,1.20 - 1.45,11.25,1358.27,147696,3,0.27
+@_,CRU.L,Coral Products PLC,Consumer Cyclical,Packaging & Containers,0.75,7.63 - 10.20,10.00 - 10.50,2.37 - 2.87,10.00,2342.81,206024,4,0.5
+@_,CRW.L,Craneware plc,Healthcare,Health Information Services,0.71,2180.00 - 2240.50,2230.00 - 2270.00,50.00 - 90.00,2225.00,571.80,85094,3,0.338
+@_,CSC.L,Chesterfield Special Cylinders Holdings Plc,Energy,Oil & Gas Equipment & Services,0.00,34.00 - 34.00,35.26 - 35.26,1.26 - 1.26,35.00,185.22,14653,2,1.468
+*_,CSN.L,Chesnara plc,Financial Services,Insurance Life,1.50,256.00 - 289.00,265.43 - 292.50,9.43 - 36.50,257.50,238.67,735224,5,0.439
+@_,CSSG.L,Croma Security Solutions Group plc,Industrials,Security & Protection Services,0.00,79.00 - 79.20,80.00 - 81.00,1.00 - 2.00,80.00,363.51,9886,1,0.533
+@_,CTA.L,CT Automotive Group plc,Consumer Cyclical,Auto Parts,0.00,39.00 - 40.50,40.90 - 41.00,1.90 - 2.00,40.00,666.60,44464,2,0.4
+*_,CTAI.L,Catenai PLC,Technology,Software Infrastructure,0.60,0.31 - 0.33,0.33 - 0.35,0.01 - 0.04,0.29,1397.55,26316850,8,0.517
+@_,CTEC.L,ConvaTec Group PLC,Healthcare,Medical Instruments & Supplies,0.67,254.60 - 262.46,264.24 - 265.80,9.64 - 11.20,260.40,345.42,8801407,7,0.714
+@_,CTG.L,Christie Group plc,Industrials,Specialty Business Services,1.25,107.50 - 115.00,119.00 - 119.00,11.50 - 11.50,110.00,1045.00,3350,1,0.539
+@_,CTL.L,CleanTech Lithium Plc,Basic Materials,Other Industrial Metals & Mining,0.00,5.50 - 5.71,5.90 - 6.50,0.40 - 1.00,6.00,5255.27,315518,4,-0.591
+@_,CTPE.L,CT Private Equity Trust Ord,Financial Services,Asset Management,1.00,470.00 - 470.00,490.00 - 490.00,20.00 - 20.00,490.00,200.00,50394,3,UNKNOWN
+@_,CTUK.L,CT UK Capital and Income Ord,Financial Services,Asset Management,6.00,332.00 - 332.00,337.00 - 337.00,5.00 - 5.00,335.50,75.00,113198,3,UNKNOWN
+@_,CTY.L,City of London Ord,UNKNOWN,UNKNOWN,3.00,485.50 - 485.50,493.50 - 493.50,8.00 - 8.00,492.00,80.00,733150,5,UNKNOWN
+*_,CURY.L,Currys plc,Consumer Cyclical,Specialty Retail,0.67,116.40 - 118.30,117.80 - 127.90,1.40 - 11.50,118.00,541.80,3470769,6,1.112
+@_,CUSN.L,Cornish Metals Inc.,Basic Materials,Other Industrial Metals & Mining,0.20,8.00 - 8.25,8.34 - 8.50,0.34 - 0.50,8.25,789.70,410239,4,0.681
+*_,CVSG.L,CVS Group plc,Consumer Cyclical,Personal Services,1.00,1210.00 - 1224.00,1227.00 - 1246.32,17.00 - 36.32,1198.00,157.28,198422,3,1.064
+*_,CWR.L,Ceres Power Holdings plc,Industrials,Electrical Equipment & Parts,0.50,85.70 - 99.95,89.95 - 106.75,4.25 - 21.05,99.50,1638.41,1126917,6,1.844
+@_,CYAN.L,CyanConnode Holdings plc,Technology,Communication Equipment,0.00,7.75 - 7.90,8.12 - 8.20,0.38 - 0.45,8.12,1179.27,308497,4,1.223
+@_,CYK.L,Cykel AI Development Limited,Technology,Software Infrastructure,0.00,2.28 - 2.35,2.38 - 2.43,0.11 - 0.16,2.33,1322.95,4971814,6,UNKNOWN
+@_,DAL.L,Dalata Hotel Group plc,Consumer Cyclical,Lodging,5.00,505.00 - 537.50,570.00 - 575.00,65.00 - 70.00,552.50,922.50,117819,3,1.343
+*_,DAR.L,Dar Global PLC,Real Estate,Real Estate Development,0.00,9.90 - 9.90,10.90 - 10.90,1.00 - 1.00,7.15,505.00,2620,1,0.007
+*_,DATA.L,GlobalData Plc,Industrials,Consulting Services,0.67,138.50 - 141.22,140.72 - 143.99,2.22 - 5.49,140.00,229.37,2305758,6,0.399
+@_,DBOX.L,Digitalbox plc,Communication Services,Internet Content & Information,2.00,3.81 - 3.81,4.20 - 4.20,0.39 - 0.39,4.05,511.68,107815,3,-0.065
+*_,DCC.L,DCC plc,Energy,Oil & Gas Refining & Marketing,0.50,4744.00 - 4752.00,4800.00 - 4861.40,56.00 - 117.40,4734.00,165.40,319894,4,0.664
+@_,DCTA.L,Directa Plus Plc,Basic Materials,Specialty Chemicals,0.12,12.00 - 13.00,12.56 - 14.00,0.56 - 2.00,13.00,3612.61,35509,2,0.664
+*_,DEBS.L,boohoo group plc,Consumer Cyclical,Internet Retail,0.00,20.10 - 20.53,20.50 - 20.84,0.40 - 0.74,19.76,268.29,1722306,6,1.361
+@_,DEC.L,Diversified Energy Company PLC,Energy,Oil & Gas Integrated,2.33,1047.00 - 1068.00,1066.00 - 1089.00,19.00 - 42.00,1089.00,222.56,111937,3,0.061
+@_,DELT.L,Deltic Energy Plc,Energy,Oil & Gas E&P,0.22,6.00 - 6.68,6.62 - 7.50,0.62 - 1.50,7.00,3501.32,1528941,6,1.236
+@_,DEVO.L,Devolver Digital  Inc.,Communication Services,Electronic Gaming & Multimedia,0.00,22.00 - 22.00,24.00 - 24.00,2.00 - 2.00,23.00,454.00,4985,1,-0.338
+@_,DFCH.L,Distribution Finance Capital Holdings plc,Financial Services,Credit Services,0.50,39.45 - 41.66,40.00 - 43.84,0.55 - 4.39,42.40,848.94,363725,4,0.892
+@_,DFS.L,DFS Furniture plc,Consumer Cyclical,Specialty Retail,1.00,163.00 - 164.25,166.50 - 166.50,3.50 - 3.50,166.13,172.50,178367,3,1.038
+*_,DGE.L,Diageo plc,Consumer Defensive,Beverages Wineries & Distilleries,1.67,1896.37 - 1918.50,1938.00 - 1955.00,41.63 - 58.63,1901.00,241.26,4371050,6,0.281
+*_,DGED.L,Diageo plc,Consumer Defensive,Beverages Wineries & Distilleries,1.00,101.96 - 104.52,103.95 - 107.57,1.99 - 5.61,103.43,450.44,1624,1,0.281
+*_,DGI9.L,Digital 9 Infrastructure Ord,Financial Services,Asset Management,2.00,9.80 - 9.80,9.90 - 9.99,0.10 - 0.19,9.71,147.90,UNKNOWN,0,UNKNOWN
+@_,DIA.L,Dialight plc,Industrials,Electrical Equipment & Parts,1.25,190.00 - 191.39,192.00 - 218.00,2.00 - 28.00,209.50,1159.34,21212,2,0.446
+@_,DIS.L,Distil Plc,Consumer Defensive,Beverages Wineries & Distilleries,0.00,0.19 - 0.20,0.21 - 0.24,0.02 - 0.05,0.20,4796.51,2166877,6,0.558
+@_,DIVI.L,Diverse Income Trust Ord,Financial Services,Asset Management,6.00,104.00 - 104.00,105.50 - 105.50,1.50 - 1.50,105.50,72.00,729086,5,UNKNOWN
+@_,DKL.L,Dekel Agri-Vision plc,Consumer Defensive,Farm Products,0.29,0.56 - 0.57,0.59 - 0.60,0.03 - 0.05,0.60,1760.98,2165505,6,0.885
+*_,DLN.L,Derwent London Plc,Real Estate,REIT Office,0.00,1996.00 - 1996.00,2026.00 - 2026.00,30.00 - 30.00,1938.00,60.00,225031,4,1.144
+*_,DNLM.L,Dunelm Group plc,Consumer Cyclical,Specialty Retail,1.00,1117.00 - 1125.50,1132.00 - 1145.00,15.00 - 28.00,1124.00,138.00,365797,4,0.83
+@_,DOCS.L,Dr. Martens plc,Consumer Cyclical,Footwear & Accessories,0.75,75.50 - 77.55,77.15 - 79.20,1.65 - 3.70,78.80,404.04,950677,5,0.152
+*_,DOM.L,Domino's Pizza Group plc,Consumer Cyclical,Restaurants,0.00,254.40 - 255.60,258.40 - 262.00,4.00 - 7.60,248.30,197.60,828436,5,0.925
+@_,DOTD.L,dotdigital Group Plc,Technology,Software Application,0.80,71.30 - 74.60,73.83 - 76.40,2.53 - 5.10,75.60,620.84,350989,4,1.299
+@_,DPLM.L,Diploma PLC,Industrials,Industrial Distribution,2.33,4808.00 - 4828.00,4872.00 - 4916.00,64.00 - 108.00,4892.72,220.00,250067,4,0.767
+*_,DPP.L,DP Poland Plc,Consumer Cyclical,Restaurants,0.60,10.10 - 10.39,10.50 - 11.00,0.40 - 0.90,10.30,1346.44,517128,5,0.327
+*_,DRX.L,Drax Group plc,Utilities,Utilities Renewable,1.67,678.00 - 692.00,692.50 - 709.00,14.50 - 31.00,682.50,297.50,1492579,6,0.737
+@_,DSCV.L,discoverIE Group plc,Technology,Electronic Components,1.20,650.00 - 700.00,666.00 - 708.00,16.00 - 58.00,707.00,556.50,159082,3,1.079
+@_,DSW.L,DSW Capital plc,Industrials,Specialty Business Services,0.60,57.00 - 58.55,63.00 - 64.12,6.00 - 7.12,60.00,2316.52,30304,2,0.259
+@_,DUKE.L,Duke Capital Limited,Financial Services,Asset Management,0.40,29.98 - 30.25,30.40 - 31.00,0.42 - 1.02,30.50,625.47,1086497,6,1.14
+@_,DWHT.L,Dewhurst Group Plc,Industrials,Electrical Equipment & Parts,0.00,752.00 - 756.00,800.00 - 800.00,48.00 - 48.00,800.00,552.00,338,1,0.581
+@_,DWL.L,Dowlais Group plc,Consumer Cyclical,Auto Parts,0.25,67.35 - 68.08,68.52 - 69.60,1.17 - 2.25,69.00,330.59,6106336,7,0.344
+@_,DXRX.L,Diaceutics PLC,Healthcare,Health Information Services,0.57,114.10 - 116.80,118.00 - 120.00,3.90 - 5.90,118.50,1143.44,96485,3,0.796
+*_,EAAS.L,eEnergy Group Plc,Industrials,Electrical Equipment & Parts,0.00,3.80 - 4.01,3.97 - 4.15,0.17 - 0.35,3.85,1633.93,2446865,6,0.935
+*_,EAH.L,ECO Animal Health Group plc,Healthcare,Drug Manufacturers Specialty & Generic,0.29,55.56 - 59.88,57.00 - 60.55,1.44 - 4.99,57.00,787.01,47625,2,0.027
+*_,EARN.L,EARNZ plc,Financial Services,Shell Companies,0.57,5.30 - 5.75,5.77 - 6.25,0.47 - 0.95,5.50,3080.35,574125,5,0.584
+@_,EAT.L,European Assets Ord,Financial Services,Asset Management,3.00,92.60 - 92.60,95.00 - 95.00,2.40 - 2.40,94.60,127.20,1043030,6,UNKNOWN
+@_,EBQ.L,Ebiquity plc,Communication Services,Advertising Agencies,0.00,23.17 - 23.17,23.50 - 23.50,0.33 - 0.33,23.50,70.95,9261,1,0.403
+@_,ECEL.L,Eurocell plc,Industrials,Building Products & Equipment,0.80,153.00 - 157.50,155.45 - 161.50,2.45 - 8.50,157.50,565.30,178406,3,0.702
+*_,ECO.L,Eco (Atlantic) Oil & Gas Ltd.,Energy,Oil & Gas E&P,0.33,8.75 - 9.42,9.00 - 9.55,0.25 - 0.80,8.90,267.75,658930,5,1.146
+*_,ECOB.L,Eco Buildings Group plc,Basic Materials,Building Materials,0.00,3.25 - 3.70,3.40 - 3.79,0.15 - 0.54,3.40,352.29,300468,4,-0.285
+@_,ECOR.L,Ecora Resources PLC,Basic Materials,Other Industrial Metals & Mining,0.17,61.92 - 63.60,62.85 - 65.25,0.92 - 3.33,65.00,696.60,263986,4,0.296
+*_,ECR.L,ECR Minerals plc,Basic Materials,Gold,1.00,0.20 - 0.20,0.21 - 0.22,0.01 - 0.02,0.20,991.43,10051346,8,1.082
+@_,EDEN.L,Eden Research plc,Basic Materials,Agricultural Inputs,3.00,3.50 - 3.67,3.80 - 3.95,0.30 - 0.45,3.75,818.95,147282,3,1.253
+@_,EDV.L,Endeavour Mining plc,Basic Materials,Gold,1.75,2204.00 - 2276.00,2236.00 - 2332.00,32.00 - 128.00,2282.00,375.88,393943,4,0.506
+@_,EEE.L,Empire Metals Limited,Basic Materials,Other Precious Metals & Mining,0.33,25.28 - 27.25,25.84 - 28.78,0.56 - 3.50,30.00,1143.05,3290801,6,1.607
+@_,EGL.L,Ecofin Global Utilities & Infra Ord,Financial Services,Asset Management,3.00,213.00 - 213.00,216.00 - 216.00,3.00 - 3.00,216.00,69.00,166358,3,UNKNOWN
+*_,EGT.L,UNKNOWN,Financial Services,Asset Management,0.00,7.00 - 7.05,7.25 - 7.25,0.25 - 0.25,6.85,320.30,39779,2,UNKNOWN
+*_,EKF.L,EKF Diagnostics Holdings plc,Healthcare,Medical Devices,0.29,26.10 - 26.55,26.70 - 27.40,0.60 - 1.30,26.10,1030.11,312313,4,0.283
+@_,ELCO.L,Eleco plc,Technology,Software Application,1.20,161.71 - 171.10,163.82 - 173.00,2.11 - 11.29,173.50,601.40,115972,3,0.488
+@_,ELIX.L,Elixirr International plc,Industrials,Consulting Services,0.83,698.30 - 723.50,708.00 - 735.00,9.70 - 36.70,730.00,510.32,78088,3,0.652
+@_,ELLA.L,Ecclesiastical Insurance Office plc,Financial Services,Insurance Life,0.00,143.23 - 143.44,144.79 - 149.00,1.56 - 5.77,143.50,294.78,116286,3,UNKNOWN
+@_,ELM.L,Elementis plc,Basic Materials,Specialty Chemicals,2.00,163.00 - 164.20,168.40 - 170.60,5.40 - 7.60,166.80,354.00,1429787,6,1.59
+@_,EMAN.L,Everyman Media Group plc,Communication Services,Entertainment,3.00,39.19 - 39.20,39.70 - 40.00,0.51 - 0.81,39.50,166.37,8950,1,0.78
+@_,EMG.L,Man Group Plc,Financial Services,Asset Management,1.67,170.40 - 171.50,173.70 - 175.90,3.30 - 5.50,173.80,345.10,3128163,6,0.646
+@_,EMH.L,European Metals Holdings Limited,Basic Materials,Other Industrial Metals & Mining,0.22,7.57 - 7.80,7.89 - 8.15,0.33 - 0.58,8.00,1551.54,153865,3,UNKNOWN
+*_,EML.L,Emmerson PLC,Basic Materials,Agricultural Inputs,0.43,1.80 - 1.85,1.94 - 2.00,0.14 - 0.20,1.85,2673.58,537085,5,UNKNOWN
+*_,EMR.L,Empresaria Group plc,Industrials,Staffing & Employment Services,1.00,22.50 - 25.15,22.85 - 30.00,0.35 - 7.50,22.50,2445.04,50513,3,0.5
+@_,EMVC.L,EMV Capital plc,Financial Services,Asset Management,0.71,45.70 - 47.30,46.55 - 48.80,0.85 - 3.10,48.00,889.82,15401,2,0.518
+*_,ENOG.L,Energean plc,Energy,Oil & Gas E&P,1.25,908.50 - 929.00,919.00 - 948.50,10.50 - 40.00,917.00,316.25,672035,5,0.645
+@_,ENQ.L,EnQuest PLC,Energy,Oil & Gas E&P,0.67,12.42 - 12.72,12.96 - 13.04,0.54 - 0.62,13.03,469.08,3052516,6,0.438
+@_,ENSI.L,EnSilica plc,Technology,Semiconductors,0.60,35.00 - 39.00,38.70 - 40.00,3.70 - 5.00,39.00,958.62,144225,3,0.49
+@_,ENT.L,Entain Plc,Consumer Cyclical,Gambling,2.00,910.80 - 935.60,923.86 - 948.80,13.06 - 38.00,945.20,235.40,2127262,6,0.99
+@_,ENW.L,Enwell Energy plc,Energy,Oil & Gas E&P,0.00,16.05 - 17.00,17.50 - 18.00,1.45 - 1.95,17.50,1646.85,25399,2,-0.281
+@_,EOG.L,Europa Oil & Gas (Holdings) plc,Energy,Oil & Gas E&P,0.00,0.50 - 0.51,0.52 - 0.58,0.02 - 0.08,0.52,1674.56,2426391,6,-0.311
+@_,EOT.L,European Opportunities Trust,Financial Services,Asset Management,6.00,923.00 - 923.00,947.00 - 947.00,24.00 - 24.00,947.00,120.00,87628,3,UNKNOWN
+*_,EPP.L,EnergyPathways plc,Utilities,Utilities Regulated Gas,0.75,3.90 - 4.16,4.00 - 4.30,0.10 - 0.40,3.80,767.00,1702602,6,UNKNOWN
+@_,EQT.L,EQTEC plc,Industrials,Specialty Industrial Machinery,0.50,0.49 - 0.52,0.54 - 0.55,0.05 - 0.06,0.52,3060.24,3169845,6,2.589
+@_,ESCT.L,The European Smaller Companies Trust PLC,Financial Services,Asset Management,6.00,210.00 - 210.00,218.00 - 218.00,8.00 - 8.00,217.00,184.00,635768,5,UNKNOWN
+*_,ESNT.L,Essentra plc,Basic Materials,Specialty Chemicals,1.00,108.20 - 112.80,111.00 - 115.20,2.80 - 7.00,109.88,359.95,993831,5,1.02
+*_,ESP.L,Empiric Student Property Plc,Real Estate,REIT Residential,0.00,100.00 - 100.60,101.60 - 102.00,1.60 - 2.00,99.70,148.60,1424881,6,1.003
+@_,EST.L,East Star Resources Plc,Basic Materials,Other Industrial Metals & Mining,0.44,1.20 - 1.75,1.39 - 1.84,0.19 - 0.64,1.82,3192.49,5139996,7,-0.676
+*_,ESYS.L,essensys plc,Technology,Software Application,0.00,25.05 - 26.70,25.50 - 28.00,0.45 - 2.95,25.50,332.65,28549,2,0.59
+*_,ETP.L,Eneraqua Technologies plc,Utilities,Utilities Independent Power Producers,0.00,18.00 - 28.35,19.00 - 29.10,1.00 - 11.10,19.00,1803.29,82029,3,0.661
+@_,EUA.L,Eurasia Mining Plc,Basic Materials,Other Precious Metals & Mining,1.33,3.95 - 4.89,5.02 - 5.30,1.07 - 1.35,4.70,2165.07,10438383,8,0.905
+*_,EVOK.L,Evoke plc,Consumer Cyclical,Gambling,1.20,63.60 - 65.50,64.40 - 67.00,0.80 - 3.40,64.20,422.34,1459929,6,1.024
+@_,EVPL.L,everplay group plc,Communication Services,Electronic Gaming & Multimedia,1.20,315.18 - 371.00,319.00 - 378.00,3.82 - 62.82,383.25,1187.56,719400,5,0.775
+@_,EWI.L,Edinburgh Worldwide Ord,Financial Services,Asset Management,2.00,176.00 - 176.00,179.00 - 179.00,3.00 - 3.00,179.00,84.00,560058,5,UNKNOWN
+@_,EXPN.L,Experian plc,Industrials,Consulting Services,1.33,3729.00 - 3839.77,3826.00 - 3945.00,97.00 - 216.00,3861.00,252.23,1262930,6,0.761
+@_,EXR.L,ENGAGE XR Holdings plc,Technology,Software Application,0.33,0.91 - 0.91,1.02 - 1.04,0.11 - 0.13,1.00,2031.61,472526,4,-0.163
+@_,EYE.L,Eagle Eye Solutions Group PLC,Technology,Software Application,0.00,193.35 - 201.70,203.60 - 210.00,10.25 - 16.65,210.00,1126.45,18833,2,0.526
+*_,EZJ.L,easyJet plc,Industrials,Airlines,2.00,522.20 - 524.60,530.80 - 538.40,8.60 - 16.20,519.60,201.60,4997368,6,2.29
+@_,FAB.L,Fusion Antibodies plc,Healthcare,Biotechnology,0.43,6.00 - 6.45,6.37 - 6.57,0.37 - 0.57,6.40,1249.19,387404,4,0.522
+@_,FAN.L,Volution Group plc,Industrials,Building Products & Equipment,1.67,591.00 - 619.00,601.00 - 625.56,10.00 - 34.56,619.00,380.48,521362,5,1.127
+*_,FAR.L,Ferro-Alloy Resources Limited,Basic Materials,Other Industrial Metals & Mining,0.40,6.60 - 7.30,6.90 - 7.60,0.30 - 1.00,7.00,1315.64,313762,4,0.58
+*_,FARN.L,Faron Pharmaceuticals Oy,Healthcare,Biotechnology,0.25,210.00 - 216.00,217.50 - 220.00,7.50 - 10.00,207.50,609.50,9461,1,1.176
+@_,FAS.L,Fidelity Asian Values Ord,Financial Services,Asset Management,8.00,536.00 - 536.00,548.00 - 548.00,12.00 - 12.00,548.00,108.00,54413,3,UNKNOWN
+*_,FCH.L,Funding Circle Holdings plc,Financial Services,Credit Services,2.00,124.25 - 124.30,126.20 - 129.47,1.95 - 5.22,121.46,284.80,268940,4,0.606
+@_,FCIT.L,F&C Investment Trust Ord,Financial Services,Asset Management,3.00,1116.00 - 1116.00,1136.00 - 1136.00,20.00 - 20.00,1134.00,80.00,291404,4,UNKNOWN
+@_,FCM.L,First Class Metals PLC,Basic Materials,Other Industrial Metals & Mining,0.00,2.00 - 2.01,2.10 - 2.14,0.09 - 0.13,2.10,823.11,557247,5,UNKNOWN
+@_,FCSS.L,Fidelity China Special Ord,Financial Services,Asset Management,7.00,254.50 - 254.50,261.50 - 261.50,7.00 - 7.00,261.50,133.00,693453,5,UNKNOWN
+@_,FDBK.L,Feedback plc,Healthcare,Health Information Services,1.00,13.75 - 14.15,14.50 - 14.50,0.75 - 0.75,14.50,395.80,47998,2,0.011
+@_,FDEV.L,Frontier Developments plc,Communication Services,Electronic Gaming & Multimedia,0.50,317.13 - 355.00,321.50 - 360.00,4.37 - 42.87,360.00,955.52,112565,3,-0.134
+*_,FDM.L,FDM Group (Holdings) plc,Technology,Information Technology Services,0.00,219.00 - 219.15,222.00 - 225.60,3.00 - 6.60,210.50,207.90,235266,4,0.759
+@_,FEML.L,Fidelity Emerging Markets Ord,Financial Services,Asset Management,4.00,797.00 - 797.00,813.00 - 813.00,16.00 - 16.00,813.00,96.00,UNKNOWN,0,UNKNOWN
+@_,FEN.L,Frenkel Topping Group Plc,Financial Services,Asset Management,4.00,46.10 - 46.55,47.50 - 48.40,1.40 - 2.30,47.00,350.05,21347,2,-0.103
+@_,FEV.L,Fidelity European Trust Ord,Financial Services,Asset Management,3.00,404.50 - 404.50,409.00 - 409.00,4.50 - 4.50,406.50,54.00,720035,5,UNKNOWN
+*_,FEVR.L,Fevertree Drinks PLC,Consumer Defensive,Beverages Non-Alcoholic,2.00,923.92 - 935.00,947.00 - 948.00,23.08 - 24.08,893.00,180.40,307470,4,1.061
+*_,FGP.L,FirstGroup plc,Industrials,Railroads,1.50,219.40 - 222.41,223.60 - 225.80,4.20 - 6.40,219.60,166.98,2391843,6,1.234
+@_,FIH.L,FIH group plc,Industrials,Conglomerates,1.00,181.00 - 188.00,190.00 - 200.00,9.00 - 19.00,195.00,874.50,2489,1,-0.001
+*_,FIN.L,Finseta Plc,Technology,Software Infrastructure,0.50,23.00 - 30.50,23.59 - 31.05,0.59 - 8.05,25.00,852.79,624929,5,1.57
+@_,FIPP.L,Frontier IP Group Plc,Financial Services,Asset Management,0.50,19.41 - 20.23,20.47 - 21.00,1.06 - 1.59,21.00,1762.42,80465,3,0.337
+@_,FJV.L,Fidelity Japan Trust Ord,Financial Services,Asset Management,2.00,187.00 - 187.00,189.00 - 189.00,2.00 - 2.00,189.00,52.00,41181,2,UNKNOWN
+*_,FLO.L,Flowtech Fluidpower plc,Industrials,Industrial Distribution,0.80,64.41 - 65.45,65.40 - 67.00,0.99 - 2.59,64.50,610.04,94466,3,0.541
+@_,FME.L,Future Metals NL,Basic Materials,Other Precious Metals & Mining,0.00,0.76 - 0.79,0.82 - 0.84,0.06 - 0.08,0.82,2011.94,567177,5,1.01
+@_,FMET.L,Fulcrum Metals plc,Basic Materials,Other Precious Metals & Mining,0.00,4.50 - 4.51,4.55 - 4.75,0.05 - 0.25,4.55,876.97,74599,3,0.526
+*_,FNTL.L,Fintel Plc,Industrials,Consulting Services,0.25,248.21 - 252.04,257.00 - 268.00,8.79 - 19.79,252.00,890.37,67837,3,0.967
+@_,FNX.L,Fonix Plc,Technology,Software Infrastructure,3.00,225.55 - 226.00,228.40 - 229.00,2.85 - 3.45,227.00,128.70,84562,3,0.629
+*_,FOG.L,Falcon Oil & Gas Ltd.,Energy,Oil & Gas E&P,0.67,6.60 - 6.90,6.99 - 7.29,0.39 - 0.69,6.60,817.35,97555,3,-0.154
+@_,FORT.L,Forterra plc,Basic Materials,Building Materials,0.75,188.90 - 198.00,193.60 - 201.50,4.70 - 12.60,197.80,409.70,547935,5,0.837
+@_,FOUR.L,4imprint Group plc,Communication Services,Advertising Agencies,1.00,3630.00 - 3655.00,3700.00 - 3820.00,70.00 - 190.00,3710.00,314.95,88759,3,0.71
+*_,FOXT.L,Foxtons Group plc,Real Estate,Real Estate Services,1.00,61.90 - 64.40,62.90 - 65.21,1.00 - 3.31,62.70,199.97,424924,4,1.324
+@_,FPO.L,First Property Group plc,Real Estate,Real Estate Services,0.00,14.66 - 14.73,15.25 - 15.90,0.59 - 1.23,15.25,791.68,57903,3,0.142
+@_,FPP.L,Fragrant Prosperity Holdings Limited,Financial Services,Shell Companies,0.75,1.00 - 1.05,1.07 - 1.10,0.07 - 0.10,1.05,1073.03,16899573,8,1.342
+@_,FRAN.L,Franchise Brands plc,Industrials,Specialty Business Services,0.80,149.10 - 151.50,152.00 - 155.75,2.90 - 6.65,153.00,532.95,186582,3,0.423
+@_,FRAS.L,Frasers Group Plc,Consumer Cyclical,Specialty Retail,2.00,657.50 - 657.50,665.50 - 665.50,8.00 - 8.00,658.00,56.00,200167,4,1.336
+@_,FRES.L,Fresnillo plc,Basic Materials,Other Precious Metals & Mining,1.00,1426.00 - 1482.30,1460.00 - 1530.30,34.00 - 104.30,1506.00,480.00,1101878,6,0.246
+*_,FRG.L,Firering Strategic Minerals Plc,Basic Materials,Other Industrial Metals & Mining,0.00,2.16 - 2.23,2.30 - 2.39,0.14 - 0.23,2.15,1362.78,740191,5,0.828
+*_,FRP.L,FRP Advisory Group plc,Financial Services,Capital Markets,2.50,123.01 - 123.31,125.00 - 125.50,1.99 - 2.49,122.99,167.20,362541,4,0.2
+@_,FSFL.L,Foresight Solar Ord,Financial Services,Asset Management,3.00,84.60 - 84.60,87.60 - 87.60,3.00 - 3.00,87.60,177.00,UNKNOWN,0,UNKNOWN
+@_,FSG.L,Foresight Group Holdings Limited,Financial Services,Asset Management,1.50,439.50 - 452.81,454.50 - 461.00,15.00 - 21.50,455.50,386.10,266178,4,0.496
+*_,FSJ.L,James Fisher and Sons plc,Industrials,Marine Shipping,0.50,349.00 - 353.00,356.75 - 359.00,7.75 - 10.00,347.00,538.86,18808,2,0.387
+*_,FSTA.L,Fuller  Smith & Turner P.L.C.,Consumer Cyclical,Restaurants,1.00,575.81 - 576.00,585.70 - 592.74,9.89 - 16.94,568.00,213.04,28218,2,0.682
+@_,FSV.L,Fidelity Special Values Ord,Financial Services,Asset Management,6.00,365.50 - 365.50,370.50 - 370.50,5.00 - 5.00,369.00,65.00,636591,5,UNKNOWN
+@_,FTC.L,Filtronic plc,Technology,Communication Equipment,2.00,150.49 - 150.57,153.62 - 168.00,3.12 - 17.51,164.50,678.48,1433558,6,0.551
+@_,FUM.L,Futura Medical plc,Healthcare,Biotechnology,0.44,7.50 - 11.80,7.79 - 14.00,0.29 - 6.50,11.85,5083.50,1573769,6,0.833
+@_,FUTR.L,Future plc,Communication Services,Publishing,2.00,704.00 - 711.68,731.00 - 756.00,27.00 - 52.00,731.00,499.24,618427,5,0.862
+*_,FXPO.L,Ferrexpo plc,Basic Materials,Steel,0.50,46.90 - 47.90,48.15 - 49.20,1.25 - 2.30,46.55,537.22,1960091,6,1.006
+*_,G4M.L,Gear4music (Holdings) plc,Consumer Cyclical,Internet Retail,0.00,230.00 - 232.21,236.00 - 239.70,6.00 - 9.70,218.00,415.59,26287,2,0.911
+*_,GAID.L,UNKNOWN,UNKNOWN,UNKNOWN,3.50,12.95 - 13.35,13.25 - 13.50,0.30 - 0.55,12.70,171.90,UNKNOWN,0,UNKNOWN
+*_,GAL.L,Galantas Gold Corporation,Basic Materials,Gold,0.43,3.02 - 3.60,3.48 - 3.84,0.46 - 0.82,3.25,3791.08,28048,2,2.041
+*_,GAMA.L,Gamma Communications plc,Communication Services,Telecom Services,0.00,1106.00 - 1128.00,1132.00 - 1141.95,26.00 - 35.95,1086.00,159.80,337869,4,0.532
+@_,GATC.L,Gattaca plc,Industrials,Staffing & Employment Services,0.80,77.50 - 79.10,78.98 - 81.00,1.48 - 3.50,81.00,449.67,25474,2,1.719
+@_,GBG.L,GB Group plc,Technology,Software Application,3.00,229.50 - 230.50,235.50 - 241.65,6.00 - 12.15,238.00,360.15,1522312,6,0.006
+@_,GCM.L,GCM Resources Plc,Energy,Thermal Coal,0.29,4.00 - 4.62,4.22 - 5.47,0.22 - 1.47,4.95,2656.13,1046478,6,0.573
+@_,GCP.L,GCP Infrastructure Investment Ord,Financial Services,Asset Management,6.00,74.20 - 74.20,76.50 - 76.50,2.30 - 2.30,76.30,154.10,UNKNOWN,0,UNKNOWN
+@_,GDP.L,Goldplat PLC,Basic Materials,Gold,1.67,6.00 - 6.25,6.72 - 6.98,0.72 - 0.98,6.50,1933.46,182415,3,-0.173
+@_,GDR.L,genedrive plc,Healthcare,Diagnostics & Research,0.00,1.35 - 1.41,1.42 - 1.50,0.07 - 0.15,1.42,2828.16,1555707,6,0.283
+*_,GELN.L,Gelion plc,Industrials,Electrical Equipment & Parts,0.20,23.05 - 24.05,24.00 - 26.00,0.95 - 2.95,23.50,1540.63,45325,2,-0.142
+*_,GEM.L,Gemfields Group Limited,Basic Materials,Other Precious Metals & Mining,0.20,6.60 - 7.18,6.74 - 7.30,0.14 - 0.70,6.03,525.34,529985,5,0.091
+@_,GEMD.L,Gem Diamonds Limited,Basic Materials,Other Precious Metals & Mining,0.67,6.40 - 6.50,6.58 - 6.78,0.18 - 0.38,6.54,1008.48,190352,3,1.2
+@_,GEMR.L,Gem Resources Plc,Basic Materials,Other Precious Metals & Mining,0.00,0.17 - 0.17,0.39 - 0.39,0.21 - 0.21,0.25,6285.62,9379321,7,0.117
+@_,GEN.L,Genuit Group plc,Industrials,Building Products & Equipment,0.00,375.00 - 385.50,395.00 - 404.00,20.00 - 29.00,387.50,491.00,542488,5,1.402
+@_,GENF.L,Genflow Biosciences plc,Healthcare,Biotechnology,1.00,0.65 - 0.65,0.72 - 0.80,0.07 - 0.15,0.70,1690.50,11407162,8,2.208
+@_,GENI.L,GENinCode Plc,Healthcare,Diagnostics & Research,0.00,1.57 - 1.85,1.90 - 1.99,0.33 - 0.43,2.00,3801.94,365678,4,0.645
+*_,GENL.L,Genel Energy plc,Energy,Oil & Gas E&P,0.50,59.50 - 66.10,63.60 - 68.51,4.10 - 9.01,62.29,1061.17,594185,5,0.524
+@_,GEO.L,Geo Exploration Limited,Energy,Oil & Gas E&P,9.00,0.12 - 0.12,0.20 - 0.20,0.08 - 0.08,0.19,3225.76,103820944,10,-0.193
+@_,GETB.L,GetBusy plc,Technology,Software Application,0.50,49.00 - 49.00,50.00 - 51.00,1.00 - 2.00,50.00,306.00,8472,1,0.106
+@_,GEX.L,Georgina Energy PLC,Basic Materials,Other Industrial Metals & Mining,0.00,5.50 - 5.75,6.00 - 6.69,0.50 - 1.19,6.75,4499.99,1004619,6,UNKNOWN
+*_,GFM.L,Griffin Mining Limited,Basic Materials,Other Industrial Metals & Mining,0.40,189.49 - 194.60,192.00 - 200.86,2.51 - 11.37,193.00,514.14,161920,3,0.618
+@_,GFRD.L,Galliford Try Holdings plc,Industrials,Engineering & Construction,1.00,411.80 - 430.00,418.50 - 449.85,6.70 - 38.05,451.50,556.99,177472,3,0.872
+*_,GFTU.L,Grafton Group plc,Industrials,Industrial Distribution,2.00,911.60 - 991.50,936.80 - 1002.40,25.20 - 90.80,910.60,295.50,425077,4,1.408
+*_,GGP.L,Greatland Resources Limited,Basic Materials,Gold,0.00,306.99 - 326.00,314.00 - 331.61,7.01 - 24.62,320.50,310.23,3081284,6,1.115
+@_,GHH.L,Gooch & Housego PLC,Technology,Electronic Components,1.25,600.00 - 619.70,618.47 - 628.00,18.47 - 28.00,620.00,373.92,37034,2,0.507
+*_,GKP.L,Gulf Keystone Petroleum Limited,Energy,Oil & Gas E&P,1.00,167.86 - 179.77,179.48 - 185.80,11.62 - 17.94,165.00,668.79,1164493,6,0.534
+*_,GLB.L,Glanbia plc,Consumer Defensive,Packaged Foods,1.00,12.60 - 12.98,12.93 - 13.20,0.33 - 0.60,12.75,509.24,38590,2,0.657
+@_,GLE.L,MJ Gleeson plc,Consumer Cyclical,Residential Construction,2.00,363.17 - 365.20,370.00 - 371.50,6.83 - 8.33,372.00,170.69,226365,4,0.747
+@_,GLEN.L,Glencore plc,Basic Materials,Other Industrial Metals & Mining,0.33,298.65 - 302.25,306.65 - 312.50,8.00 - 13.85,312.42,459.20,46228886,8,0.903
+@_,GLR.L,Galileo Resources Plc,Basic Materials,Other Industrial Metals & Mining,2.00,0.82 - 0.82,0.92 - 0.92,0.10 - 0.10,0.85,609.70,460096,4,0.662
+@_,GLV.L,Glenveagh Properties PLC,Consumer Cyclical,Residential Construction,1.67,1.71 - 1.76,1.78 - 1.85,0.07 - 0.13,1.84,610.67,14573,2,0.764
+@_,GMET.L,Guardian Metal Resources PLC,Basic Materials,Other Precious Metals & Mining,0.80,57.38 - 63.80,59.80 - 68.80,2.42 - 11.43,65.20,1290.00,241277,4,-0.063
+@_,GMR.L,Gaming Realms plc,Communication Services,Electronic Gaming & Multimedia,1.00,51.20 - 52.08,52.74 - 53.15,1.54 - 1.95,52.60,424.96,554558,5,0.851
+*_,GMS.L,Gulf Marine Services PLC,Energy,Oil & Gas Equipment & Services,0.71,19.43 - 20.15,19.80 - 20.37,0.37 - 0.94,19.88,664.20,1095089,6,0.894
+@_,GNC.L,Greencore Group plc,Consumer Defensive,Packaged Foods,2.00,230.00 - 231.50,233.00 - 234.50,3.00 - 4.50,233.50,220.50,1178248,6,1.124
+@_,GNIP.L,GenIP plc,Industrials,Specialty Business Services,1.50,28.01 - 30.02,30.98 - 31.47,2.97 - 3.46,30.00,775.24,40788,2,UNKNOWN
+@_,GNS.L,Genus plc,Healthcare,Biotechnology,1.25,1996.00 - 2175.00,2175.00 - 2215.00,179.00 - 219.00,2205.00,609.74,158356,3,0.598
+*_,GPE.L,Great Portland Estates Plc,Real Estate,REIT Office,0.00,339.50 - 340.62,344.50 - 348.50,5.00 - 9.00,333.00,180.32,758078,5,0.8
+@_,GRG.L,Greggs plc,Consumer Cyclical,Restaurants,3.00,1666.00 - 1722.00,1747.00 - 1770.00,81.00 - 104.00,1728.00,339.00,969281,5,1.427
+*_,GRI.L,Grainger plc,Real Estate,Real Estate Services,0.50,204.50 - 211.00,209.00 - 213.50,4.50 - 9.00,205.00,165.50,2069360,6,0.693
+*_,GRL.L,Goldstone Resources Limited,Basic Materials,Gold,0.44,0.52 - 0.55,0.56 - 0.60,0.04 - 0.08,0.52,2686.30,10231338,8,0.449
+@_,GROC.L,GreenRoc Strategic Materials Plc,Basic Materials,Other Industrial Metals & Mining,0.00,2.10 - 2.27,2.27 - 2.35,0.17 - 0.25,2.30,2712.88,1442127,6,0.13
+@_,GROW.L,Molten Ventures Ord,Financial Services,Asset Management,6.00,317.20 - 317.20,350.40 - 350.40,33.20 - 33.20,349.20,498.00,463246,4,UNKNOWN
+@_,GRX.L,GreenX Metals Limited,Basic Materials,Copper,1.67,34.60 - 35.50,36.10 - 36.85,1.50 - 2.25,35.50,592.20,31153,2,0.796
+@_,GSCT.L,The Global Smaller Companies Trust Ord,Financial Services,Asset Management,5.00,161.78 - 161.78,163.98 - 163.98,2.20 - 2.20,163.20,66.00,450656,4,UNKNOWN
+*_,GSCU.L,Great Southern Copper PLC,Basic Materials,Copper,0.60,3.00 - 3.35,3.17 - 3.57,0.17 - 0.57,3.30,1759.84,1004460,6,-0.666
+@_,GSK.L,GSK plc,Healthcare,Drug Manufacturers General,2.00,1391.50 - 1391.50,1458.00 - 1458.00,66.50 - 66.50,1408.50,199.50,8033259,7,0.274
+*_,GST.L,GSTechnologies Ltd.,Technology,Information Technology Services,0.40,1.23 - 1.43,1.30 - 1.49,0.06 - 0.26,1.24,1466.14,21976768,8,-0.112
+*_,GTC.L,Getech Group plc,Energy,Oil & Gas Equipment & Services,2.00,1.90 - 1.91,2.10 - 2.19,0.20 - 0.29,1.90,1258.89,309010,4,0.442
+@_,GTE.L,Gran Tierra Energy Inc.,Energy,Oil & Gas E&P,2.67,340.60 - 350.00,355.00 - 390.00,14.40 - 49.40,360.00,1030.40,533,1,0.794
+@_,GTLY.L,Gateley (Holdings) Plc,Industrials,Consulting Services,0.86,132.50 - 133.60,134.40 - 135.00,1.90 - 2.50,133.50,438.82,90343,3,0.605
+@_,GUN.L,Gunsynd Plc,Financial Services,Asset Management,3.00,0.13 - 0.13,0.14 - 0.14,0.01 - 0.01,0.14,384.61,4471194,6,0.567
+@_,GWMO.L,Great Western Mining Corporation PLC,Basic Materials,Other Industrial Metals & Mining,0.00,0.90 - 0.92,0.96 - 1.00,0.06 - 0.09,0.95,1858.56,1126225,6,0.044
+*_,GYM.L,The Gym Group plc,Consumer Cyclical,Leisure,0.50,152.20 - 156.16,155.68 - 159.20,3.48 - 7.00,152.58,396.48,371543,4,1.434
+*_,HAMA.L,Hamak Gold Limited,Basic Materials,Gold,0.33,1.04 - 2.69,1.17 - 2.75,0.13 - 1.71,1.95,10283.60,31008232,8,0.174
+*_,HAS.L,Hays plc,Industrials,Staffing & Employment Services,0.50,65.91 - 68.15,67.25 - 68.90,1.34 - 2.99,66.45,155.25,5692735,7,1.065
+@_,HAYD.L,Haydale Graphene Industries plc,Basic Materials,Specialty Chemicals,0.18,0.62 - 0.82,0.68 - 0.87,0.06 - 0.25,0.88,3951.79,18772902,8,2.253
+@_,HBR.L,Harbour Energy plc,Energy,Oil & Gas E&P,1.67,199.30 - 202.20,203.20 - 205.60,3.90 - 6.30,205.00,321.60,1512294,6,-0.299
+@_,HCM.L,HUTCHMED (China) Limited,Healthcare,Drug Manufacturers Specialty & Generic,0.50,223.00 - 230.00,234.00 - 241.00,11.00 - 18.00,232.08,766.00,16757,2,0.605
+@_,HDD.L,Hardide plc,Basic Materials,Specialty Chemicals,0.00,8.00 - 8.05,8.25 - 8.25,0.25 - 0.25,8.00,430.21,31459,2,0.335
+@_,HE1.L,Helium One Global Limited,Energy,Oil & Gas E&P,0.43,0.92 - 0.95,0.95 - 0.99,0.03 - 0.07,1.00,1443.27,26503754,8,0.141
+@_,HEAD.L,Headlam Group plc,Consumer Cyclical,Furnishings  Fixtures & Appliances,1.00,86.74 - 87.60,88.80 - 89.80,2.06 - 3.06,88.00,242.82,44497,2,1.258
+*_,HEMO.L,Hemogenyx Pharmaceuticals Plc,Healthcare,Biotechnology,0.25,150.30 - 153.25,153.50 - 156.18,3.20 - 5.88,142.25,885.86,31580,2,0.674
+*_,HERC.L,Hercules Plc,Industrials,Staffing & Employment Services,1.33,44.20 - 44.50,44.98 - 45.98,0.78 - 1.78,44.00,397.41,68442,3,0.58
+@_,HET.L,Henderson European Trust Ord,Financial Services,Asset Management,3.00,200.50 - 200.50,205.50 - 205.50,5.00 - 5.00,203.50,120.00,573107,5,UNKNOWN
+*_,HEX.L,Helix Exploration PLC,Basic Materials,Other Industrial Metals & Mining,0.25,26.28 - 26.77,26.75 - 27.69,0.47 - 1.41,26.18,672.51,1428722,6,UNKNOWN
+*_,HFD.L,Halfords Group plc,Consumer Cyclical,Specialty Retail,1.00,148.80 - 149.80,151.00 - 153.60,2.20 - 4.80,146.20,198.00,485855,4,0.968
+@_,HFEL.L,Henderson Far East Income Ord,Financial Services,Asset Management,3.00,228.50 - 228.50,232.00 - 232.00,3.50 - 3.50,231.50,73.50,UNKNOWN,0,UNKNOWN
+*_,HFG.L,Hilton Food Group plc,Consumer Defensive,Packaged Foods,1.00,849.00 - 849.00,878.78 - 878.78,29.78 - 29.78,842.00,148.90,194861,3,0.651
+@_,HGT.L,HgCapital Trust Ord,UNKNOWN,UNKNOWN,3.00,498.00 - 498.00,510.00 - 510.00,12.00 - 12.00,514.00,120.00,487637,4,UNKNOWN
+@_,HHI.L,Henderson High Income Ord,Financial Services,Asset Management,7.00,178.50 - 178.50,182.50 - 182.50,4.00 - 4.00,182.50,112.00,159203,3,UNKNOWN
+@_,HICL.L,HICL Infrastructure PLC Ord,Financial Services,Asset Management,2.00,117.20 - 117.20,120.00 - 120.00,2.80 - 2.80,120.00,117.60,4346555,6,UNKNOWN
+@_,HIK.L,Hikma Pharmaceuticals PLC,Healthcare,Drug Manufacturers Specialty & Generic,6.00,1962.00 - 1962.00,1997.00 - 1997.00,35.00 - 35.00,1967.00,70.00,373668,4,0.66
+@_,HILS.L,Hill & Smith PLC,Industrials,Engineering & Construction,3.50,1808.00 - 1814.00,1846.00 - 1916.00,38.00 - 108.00,1898.00,280.00,246921,4,1.14
+*_,HLCL.L,Helical plc,Real Estate,Real Estate Services,1.00,221.00 - 223.50,227.00 - 229.00,6.00 - 8.00,222.50,376.20,117676,3,0.709
+@_,HLMA.L,Halma plc,Industrials,Conglomerates,3.00,3142.00 - 3186.00,3210.00 - 3242.00,68.00 - 100.00,3216.00,124.00,506901,5,0.612
+*_,HLN.L,Haleon plc,Healthcare,Drug Manufacturers Specialty & Generic,3.00,367.70 - 373.20,372.10 - 378.20,4.40 - 10.50,367.80,122.20,21511978,8,0.242
+@_,HMI.L,Harvest Minerals Limited,Basic Materials,Agricultural Inputs,0.50,0.30 - 0.34,0.33 - 0.35,0.03 - 0.05,0.32,1593.51,1060380,6,0.194
+*_,HMSO.L,Hammerson Plc,Real Estate,REIT Retail,1.00,292.20 - 292.60,295.60 - 295.80,3.40 - 3.60,287.80,112.20,903508,5,2.068
+@_,HOC.L,Hochschild Mining plc,Basic Materials,Gold,1.17,259.80 - 277.09,266.20 - 286.60,6.40 - 26.80,286.60,918.99,2046459,6,0.395
+@_,HREE.L,Harena Resources plc,Basic Materials,Other Industrial Metals & Mining,0.00,1.00 - 1.00,1.10 - 1.10,0.10 - 0.10,1.10,500.00,104357,3,UNKNOWN
+@_,HRI.L,Herald Ord,Financial Services,Asset Management,4.00,2295.00 - 2295.00,2345.00 - 2345.00,50.00 - 50.00,2345.00,100.00,46701,2,UNKNOWN
+@_,HSBA.L,HSBC Holdings plc,Financial Services,Banks Diversified,2.00,881.60 - 906.50,900.90 - 917.75,19.30 - 36.15,910.30,207.00,13843719,8,0.494
+*_,HSD.L,Hansard Global plc,Financial Services,Insurance Life,0.75,48.20 - 49.85,49.80 - 51.50,1.60 - 3.30,49.75,754.77,15634,2,0.335
+@_,HSL.L,Henderson Smaller Companies Ord,Financial Services,Asset Management,3.00,856.00 - 856.00,871.00 - 871.00,15.00 - 15.00,864.00,75.00,116261,3,UNKNOWN
+@_,HSP.L,Hargreaves Services Plc,Industrials,Conglomerates,0.00,742.00 - 760.00,765.00 - 770.00,23.00 - 28.00,764.00,330.00,43657,2,0.726
+@_,HSS.L,HSS Hire Group plc,Industrials,Rental & Leasing Services,0.00,7.10 - 9.05,7.37 - 9.30,0.27 - 2.20,9.30,1993.69,4054981,6,0.084
+*_,HSW.L,Hostelworld Group plc,Consumer Cyclical,Travel Services,1.25,124.50 - 140.00,130.00 - 147.57,5.50 - 23.07,129.50,918.93,182760,3,1.4
+@_,HSX.L,Hiscox Ltd,Financial Services,Insurance Property & Casualty,1.00,1221.00 - 1248.00,1251.00 - 1261.00,30.00 - 40.00,1236.00,224.00,946205,5,0.593
+*_,HTG.L,Hunting PLC,Energy,Oil & Gas Equipment & Services,1.00,302.26 - 331.50,307.01 - 338.80,4.75 - 36.54,323.50,945.05,414071,4,0.86
+@_,HTWS.L,Helios Towers plc,Communication Services,Telecom Services,1.50,118.20 - 118.20,121.60 - 123.40,3.40 - 5.20,119.20,361.20,2497323,6,0.647
+*_,HUD.L,Huddled Group Plc,Communication Services,Entertainment,0.25,3.11 - 3.42,3.25 - 3.57,0.14 - 0.46,3.20,1251.77,859388,5,1.634
+*_,HUI.L,Hydrogen Utopia International PLC,Industrials,Waste Management,0.00,1.50 - 1.58,1.59 - 1.73,0.09 - 0.23,1.52,3996.62,1607771,6,1.091
+*_,HUW.L,Helios Underwriting plc,Financial Services,Insurance Reinsurance,0.33,221.04 - 223.40,225.00 - 227.87,3.96 - 6.83,212.00,262.24,29199,2,-0.117
+*_,HVO.L,hVIVO plc,Healthcare,Biotechnology,0.43,10.06 - 10.55,10.40 - 10.90,0.34 - 0.84,9.89,862.93,1148637,6,1.045
+*_,HWDN.L,Howden Joinery Group Plc,Consumer Cyclical,Furnishings  Fixtures & Appliances,1.00,814.50 - 829.50,828.00 - 847.50,13.50 - 33.00,816.00,189.00,1516059,6,1.074
+@_,HWG.L,Harworth Group plc,Real Estate,Real Estate Development,1.33,184.00 - 187.57,186.28 - 190.00,2.28 - 6.00,189.00,215.74,306359,4,0.601
+@_,IAD.L,Invesco Asia Dragon Ordinary Shares,Financial Services,Asset Management,7.00,346.96 - 346.96,354.00 - 354.00,7.04 - 7.04,354.00,98.56,232836,4,UNKNOWN
+@_,IAG.L,International Consolidated Airlines Group S.A.,Industrials,Airlines,1.67,342.40 - 360.10,346.40 - 371.83,4.00 - 29.43,368.45,443.69,22053836,8,2.037
+@_,IBAI.L,Imaging Biometrics Ltd.,Healthcare,Health Information Services,0.50,0.68 - 0.69,0.70 - 0.77,0.01 - 0.09,0.75,1462.12,621865,5,2.642
+@_,IBST.L,Ibstock plc,Basic Materials,Building Materials,2.00,144.60 - 151.40,153.48 - 154.20,8.88 - 9.60,151.80,395.04,3234938,6,0.9
+@_,IBT.L,International Biotechnology Ord,Healthcare,Biotechnology,4.00,584.00 - 584.00,632.00 - 632.00,48.00 - 48.00,632.00,384.00,145651,3,UNKNOWN
+@_,ICG.L,Intermediate Capital Group plc,Financial Services,Asset Management,3.50,1907.00 - 1925.00,1968.00 - 2010.00,61.00 - 103.00,2002.00,292.00,630244,5,1.802
+@_,ICGC.L,Irish Continental Group plc,Industrials,Marine Shipping,8.00,478.00 - 478.00,504.00 - 504.00,26.00 - 26.00,504.00,260.00,806,1,0.713
+@_,ICON.L,Iconic Labs Plc,Communication Services,Advertising Agencies,1.33,2.50 - 2.73,2.75 - 3.00,0.25 - 0.50,2.75,1602.78,198969,3,0.276
+*_,IDHC.L,Integrated Diagnostics Holdings plc,Healthcare,Diagnostics & Research,1.00,0.32 - 0.33,0.33 - 0.35,0.01 - 0.03,0.33,922.20,104833,3,0.233
+@_,IDOX.L,IDOX plc,Technology,Software Application,0.33,64.20 - 65.40,65.60 - 67.00,1.40 - 2.80,66.00,305.40,1260268,6,0.208
+@_,IEM.L,Impax Environmental Markets Ord,Financial Services,Asset Management,3.00,382.00 - 382.00,390.00 - 390.00,8.00 - 8.00,390.00,104.00,464523,4,UNKNOWN
+@_,IES.L,Invinity Energy Systems plc,Industrials,Electrical Equipment & Parts,0.33,23.18 - 23.75,23.89 - 26.91,0.70 - 3.73,27.50,1349.54,569005,5,1.48
+@_,IGC.L,India Capital Growth Ord,Financial Services,Asset Management,7.00,177.50 - 177.50,181.50 - 181.50,4.00 - 4.00,181.00,112.00,UNKNOWN,0,UNKNOWN
+@_,IGE.L,Image Scan Holdings Plc,Industrials,Security & Protection Services,3.00,1.31 - 1.54,1.65 - 1.79,0.34 - 0.48,1.65,3141.07,411700,4,0.089
+@_,IGET.L,Invesco Global Equity Income Trust ord,Financial Services,Asset Management,3.00,366.00 - 367.00,370.00 - 374.00,4.00 - 8.00,374.00,143.00,150432,3,UNKNOWN
+@_,IGG.L,IG Group Holdings plc,Financial Services,Capital Markets,2.33,1046.00 - 1067.00,1068.00 - 1080.00,22.00 - 34.00,1076.00,216.00,753835,5,0.667
+*_,IGP.L,Intercede Group plc,Technology,Software Application,0.20,175.00 - 185.00,177.50 - 189.25,2.50 - 14.25,169.50,377.62,70132,3,1.362
+*_,IGR.L,IG Design Group plc,Consumer Cyclical,Specialty Retail,0.00,76.02 - 76.67,77.00 - 80.00,0.98 - 3.98,74.00,407.55,84029,3,0.723
+*_,IHC.L,Inspiration Healthcare Group plc,Healthcare,Medical Devices,0.00,20.00 - 21.06,20.75 - 22.00,0.75 - 2.00,20.50,1314.53,60359,3,0.474
+@_,IHP.L,IntegraFin Holdings plc,Financial Services,Asset Management,0.75,316.00 - 319.00,319.40 - 327.50,3.40 - 11.50,320.50,328.50,830061,5,1.284
+@_,III.L,3i Group Ord,Financial Services,Asset Management,6.00,4042.00 - 4042.00,4205.00 - 4205.00,163.00 - 163.00,4185.00,163.00,UNKNOWN,0,UNKNOWN
+*_,IKA.L,Ilika plc,Industrials,Electrical Equipment & Parts,0.44,38.10 - 40.26,39.25 - 41.19,1.15 - 3.09,39.25,947.64,136579,3,2.292
+@_,IMB.L,Imperial Brands PLC,Consumer Defensive,Tobacco,3.00,2814.00 - 2847.00,2876.00 - 2931.00,62.00 - 117.00,2915.00,146.00,1746812,6,0.257
+@_,IMC.L,IMC Exploration Group Public Limited Company,Basic Materials,Other Industrial Metals & Mining,0.00,0.58 - 0.58,0.67 - 0.67,0.09 - 0.09,0.63,769.23,248074,4,UNKNOWN
+@_,IMI.L,IMI plc,Industrials,Specialty Industrial Machinery,1.00,2076.00 - 2092.00,2126.00 - 2156.00,50.00 - 80.00,2139.00,228.00,962184,5,0.925
+*_,IMM.L,ImmuPharma plc,Healthcare,Biotechnology,0.38,2.10 - 2.25,2.15 - 2.37,0.05 - 0.27,2.14,1286.12,1289467,6,2.606
+@_,INCH.L,Inchcape plc,Consumer Cyclical,Auto & Truck Dealerships,2.00,747.00 - 767.50,779.50 - 781.50,32.50 - 34.50,772.25,279.00,883666,5,0.975
+@_,INDI.L,Indus Gas Limited,Energy,Oil & Gas E&P,0.00,7.20 - 7.56,7.69 - 19.00,0.49 - 11.80,12.60,8042.24,633960,5,0.411
+@_,INDV.L,Indivior PLC,Healthcare,Drug Manufacturers Specialty & Generic,0.75,1074.00 - 1117.16,1117.00 - 1149.00,43.00 - 75.00,1139.00,487.68,199079,3,0.246
+@_,INF.L,Informa plc,Communication Services,Publishing,1.67,805.20 - 819.00,818.00 - 841.20,12.80 - 36.00,835.70,301.20,4163049,6,0.905
+@_,ING.L,Ingenta plc,Technology,Software Application,0.25,66.00 - 66.50,67.46 - 69.16,1.46 - 3.16,66.50,609.00,15573,2,0.022
+@_,INOV.L,Schroders Capital Global Innov Trust Ord,Financial Services,Asset Management,7.00,14.90 - 14.90,15.50 - 15.50,0.60 - 0.60,15.50,201.00,2658296,6,UNKNOWN
+@_,INPP.L,International Public Partnerships Limited,UNKNOWN,UNKNOWN,4.00,118.80 - 118.80,121.20 - 121.20,2.40 - 2.40,121.20,100.80,UNKNOWN,0,UNKNOWN
+@_,INSE.L,Inspired Plc,Industrials,Specialty Business Services,1.00,80.00 - 80.00,81.00 - 81.00,1.00 - 1.00,80.50,62.00,2150093,6,0.607
+*_,INSG.L,Insig AI Plc,Technology,Software Infrastructure,0.20,23.00 - 26.00,23.50 - 27.00,0.50 - 4.00,23.00,963.32,174030,3,-0.587
+@_,INVP.L,Investec Group,Financial Services,Capital Markets,1.67,541.00 - 550.50,552.50 - 559.00,11.50 - 18.00,547.50,247.50,1362075,6,0.531
+*_,INVR.L,Investec Plc,Financial Services,Capital Markets,1.00,652.50 - 652.50,664.70 - 664.75,12.20 - 12.25,650.00,171.15,2022,1,UNKNOWN
+@_,IOF.L,Iofina plc,Basic Materials,Specialty Chemicals,0.67,23.50 - 24.40,24.80 - 25.00,1.30 - 1.50,24.80,1067.21,531307,5,0.505
+@_,IOM.L,iomart Group plc,Technology,Software Infrastructure,0.11,28.57 - 29.78,29.32 - 30.72,0.75 - 2.15,30.00,1390.29,156239,3,0.418
+@_,IPC.L,International Paper Company,Consumer Cyclical,Packaging & Containers,1.67,3560.00 - 3655.00,3665.00 - 3875.00,105.00 - 315.00,3855.00,410.00,54173,3,0.994
+*_,IPF.L,International Personal Finance plc,Financial Services,Credit Services,0.67,170.00 - 172.37,173.00 - 174.40,3.00 - 4.40,170.80,228.23,336344,4,1.111
+@_,IPO.L,IP Group Plc,Financial Services,Asset Management,0.83,52.50 - 55.80,54.00 - 57.50,1.50 - 5.00,57.30,614.48,2599547,6,1.245
+@_,IPX.L,Impax Asset Management Group Plc,Financial Services,Asset Management,0.60,182.80 - 198.60,190.67 - 202.18,7.87 - 19.38,198.20,693.73,421890,4,1.497
+@_,IQE.L,IQE plc,Technology,Semiconductor Equipment & Materials,0.20,9.78 - 9.91,9.97 - 10.10,0.19 - 0.32,10.00,426.68,2465305,6,1.714
+@_,ITH.L,Ithaca Energy plc,Energy,Oil & Gas E&P,0.80,153.20 - 164.40,158.60 - 166.86,5.40 - 13.66,167.20,566.51,764192,5,0.478
+@_,ITIM.L,Itim Group Plc,Technology,Software Application,5.00,48.50 - 49.50,52.00 - 52.00,3.50 - 3.50,49.50,613.00,3925,1,0.749
+*_,ITM.L,ITM Power Plc,Industrials,Specialty Industrial Machinery,0.50,80.30 - 89.50,87.90 - 95.00,7.60 - 14.70,82.60,1272.93,4727627,6,2.667
+@_,ITRK.L,Intertek Group plc,Industrials,Specialty Business Services,1.25,4768.00 - 4848.00,4824.00 - 4954.00,56.00 - 186.00,4889.00,275.00,280759,4,0.603
+*_,ITV.L,ITV plc,Communication Services,Broadcasting,0.00,79.05 - 83.10,80.40 - 84.15,1.35 - 5.10,79.35,148.05,10293237,8,1.053
+@_,ITX.L,Itaconix plc,Basic Materials,Specialty Chemicals,1.00,120.00 - 123.00,131.40 - 133.00,11.40 - 13.00,126.50,867.40,9073,1,1.061
+@_,IWG.L,International Workplace Group plc,Real Estate,Real Estate Services,1.50,212.40 - 212.80,216.80 - 218.00,4.40 - 5.60,215.00,220.80,1374878,6,1.749
+@_,IXI.L,IXICO plc,Healthcare,Biotechnology,0.00,9.50 - 9.52,9.93 - 10.00,0.43 - 0.50,9.75,477.84,31701,2,0.661
+@_,JAGI.L,JPMorgan Asia Growth & Income Ord,Financial Services,Asset Management,1.00,378.44 - 378.44,382.94 - 382.94,4.50 - 4.50,381.50,58.50,181307,3,UNKNOWN
+@_,JAN.L,Jangada Mines Plc,Basic Materials,Other Industrial Metals & Mining,0.00,0.90 - 1.01,1.05 - 1.19,0.15 - 0.29,1.22,7091.15,411294,4,0.99
+@_,JARA.L,JPMorgan Global Core Real Assets Ord,Financial Services,Asset Management,1.00,73.00 - 73.60,74.40 - 75.00,1.40 - 2.00,75.00,189.60,UNKNOWN,0,UNKNOWN
+@_,JCGI.L,JPMorgan China Growth & Income Ord,Financial Services,Asset Management,1.50,232.50 - 235.50,236.50 - 240.00,4.00 - 7.50,240.00,178.50,172629,3,UNKNOWN
+@_,JCH.L,JPMorgan Claverhouse Ord,Financial Services,Asset Management,6.00,776.00 - 776.00,792.00 - 792.00,16.00 - 16.00,788.00,96.00,49805,2,UNKNOWN
+*_,JD.L,JD Sports Fashion Plc,Consumer Cyclical,Apparel Retail,0.50,87.08 - 89.74,88.32 - 91.60,1.24 - 4.52,87.58,445.90,23915943,8,1.525
+@_,JDW.L,J D Wetherspoon plc,Consumer Cyclical,Restaurants,2.00,766.38 - 769.00,777.00 - 784.00,10.62 - 17.62,775.00,153.72,337752,4,1.262
+@_,JEDT.L,JPMorgan European Discovery Ord,Financial Services,Asset Management,7.00,559.00 - 559.00,581.00 - 581.00,22.00 - 22.00,581.00,176.00,168114,3,UNKNOWN
+@_,JEGI.L,JPMorgan European Growth & Income Ord,Financial Services,Asset Management,6.00,122.00 - 122.00,125.00 - 125.00,3.00 - 3.00,124.50,120.00,1872259,6,UNKNOWN
+@_,JEL.L,Jersey Electricity plc,Utilities,Utilities Regulated Electric,1.00,450.30 - 450.30,463.00 - 469.60,12.70 - 19.30,465.00,352.00,4333,1,0.157
+@_,JEMI.L,JPMorgan Global Emerg Mkts Inc Ord,Financial Services,Asset Management,2.50,147.00 - 147.00,148.50 - 148.50,1.50 - 1.50,149.00,102.00,428460,4,UNKNOWN
+*_,JET2.L,Jet2 plc,Consumer Cyclical,Travel Services,0.75,1651.00 - 1793.00,1718.00 - 1823.00,67.00 - 172.00,1689.00,375.16,839066,5,1.729
+@_,JGGI.L,JPMorgan Global Growth & Income Ord,Financial Services,Asset Management,4.00,545.00 - 545.00,556.00 - 556.00,11.00 - 11.00,556.00,99.00,849426,5,UNKNOWN
+*_,JHD.L,James Halstead plc,Industrials,Building Products & Equipment,0.00,157.00 - 159.50,159.40 - 163.50,2.40 - 6.50,158.50,275.90,199700,3,0.222
+*_,JIM.L,Jarvis Securities plc,Financial Services,Capital Markets,0.33,18.00 - 21.56,18.50 - 23.40,0.50 - 5.40,21.50,2151.53,257818,4,-0.21
+*_,JLP.L,Jubilee Metals Group PLC,Basic Materials,Other Industrial Metals & Mining,0.00,3.30 - 3.50,3.35 - 3.60,0.05 - 0.30,3.30,334.61,4031905,6,1.352
+@_,JMAT.L,Johnson Matthey Plc,Basic Materials,Specialty Chemicals,1.00,1783.50 - 1828.00,1831.00 - 1867.02,47.50 - 83.52,1857.00,239.04,576310,5,0.85
+@_,JMG.L,JPMorgan Emerging Markets Ord,Financial Services,Asset Management,3.00,116.20 - 116.20,117.40 - 117.40,1.20 - 1.20,117.20,51.60,1429374,6,UNKNOWN
+@_,JNEO.L,Journeo plc,Industrials,Security & Protection Services,1.25,395.00 - 415.05,400.00 - 435.00,5.00 - 40.00,420.00,596.16,62237,3,0.048
+*_,JOG.L,Jersey Oil and Gas Plc,Energy,Oil & Gas E&P,0.20,125.50 - 131.40,129.00 - 135.00,3.50 - 9.50,116.50,690.55,82380,3,0.222
+@_,JSE.L,Jadestone Energy plc,Energy,Oil & Gas E&P,0.00,19.50 - 20.57,20.49 - 21.00,0.99 - 1.50,20.35,736.67,1182344,6,0.728
+@_,JSG.L,Johnson Service Group PLC,Industrials,Specialty Business Services,0.00,134.00 - 134.00,146.20 - 146.20,12.20 - 12.20,144.20,451.40,3534325,6,1.582
+@_,JTC.L,JTC PLC,Financial Services,Asset Management,1.00,828.00 - 836.00,840.00 - 848.00,12.00 - 20.00,842.00,221.95,508729,5,0.807
+@_,JUP.L,Jupiter Fund Management Plc,Financial Services,Asset Management,0.67,102.00 - 120.80,104.80 - 122.20,2.80 - 20.20,123.40,1189.10,1288563,6,1.139
+@_,JUSC.L,JPMorgan US Smaller Companies Ord,Financial Services,Asset Management,2.50,394.00 - 397.00,399.00 - 407.00,5.00 - 13.00,401.00,180.00,171409,3,UNKNOWN
+*_,JUST.L,Just Group plc,Financial Services,Insurance Specialty,0.50,128.22 - 128.73,131.40 - 133.40,3.18 - 5.18,124.60,298.30,4308033,6,1.407
+@_,KAV.L,Kavango Resources Plc,Basic Materials,Other Industrial Metals & Mining,0.00,1.00 - 1.06,1.10 - 1.15,0.10 - 0.15,1.10,1400.54,3144454,6,0.155
+@_,KBT.L,K3 Business Technology Group plc,Technology,Information Technology Services,0.80,75.00 - 78.10,79.80 - 80.00,4.80 - 5.00,80.00,1081.56,28611,2,0.647
+@_,KDNC.L,Cadence Minerals Plc,Basic Materials,Other Industrial Metals & Mining,0.36,1.50 - 1.60,1.67 - 1.70,0.17 - 0.20,1.60,4819.54,560540,5,1.766
+@_,KDR.L,Karelian Diamond Resources Plc,Basic Materials,Other Precious Metals & Mining,2.00,0.56 - 0.60,0.64 - 0.68,0.08 - 0.12,0.62,1380.88,1872390,6,0.566
+*_,KEFI.L,KEFI Gold and Copper Plc,Basic Materials,Gold,0.40,0.51 - 0.53,0.53 - 0.55,0.01 - 0.04,0.52,2002.95,17734874,8,1.237
+@_,KEN.L,Kendrick Resources PLC,Basic Materials,Other Industrial Metals & Mining,0.00,0.23 - 0.27,0.28 - 0.28,0.05 - 0.05,0.28,2036.63,295001,4,-0.657
+*_,KETL.L,Strix Group Plc,Technology,Electronic Components,3.00,41.65 - 41.65,42.80 - 42.80,1.15 - 1.15,40.75,138.00,321102,4,0.616
+@_,KEYS.L,Keystone Law Group plc,Industrials,Specialty Business Services,0.50,602.00 - 608.00,613.34 - 618.00,11.34 - 16.00,615.00,346.72,21460,2,0.059
+*_,KGF.L,Kingfisher plc,Consumer Cyclical,Home Improvement Retail,1.00,286.30 - 286.30,292.10 - 292.10,5.80 - 5.80,276.60,98.60,5821333,7,0.761
+@_,KGH.L,Knights Group Holdings plc,Industrials,Specialty Business Services,0.00,191.38 - 194.10,194.50 - 196.50,3.12 - 5.12,200.15,736.87,96650,3,1.336
+@_,KIE.L,Kier Group plc,Industrials,Engineering & Construction,1.33,197.09 - 201.60,201.00 - 206.62,3.91 - 9.53,204.50,327.23,1599812,6,1.181
+@_,KIST.L,Kistos Holdings Plc,Energy,Oil & Gas E&P,0.17,160.00 - 168.55,163.00 - 175.00,3.00 - 15.00,171.50,853.25,161638,3,0.45
+@_,KITW.L,Kitwave Group plc,Consumer Defensive,Food Distribution,2.00,235.00 - 239.68,243.51 - 255.00,8.51 - 20.00,245.00,485.11,1171073,6,0.822
+@_,KLR.L,Keller Group plc,Industrials,Engineering & Construction,2.50,1357.27 - 1378.00,1396.00 - 1412.00,38.73 - 54.73,1402.00,218.19,153284,3,1.156
+@_,KLSO.L,Kelso Group Holdings Plc,Financial Services,Asset Management,0.00,3.05 - 3.05,3.19 - 3.19,0.14 - 0.14,3.05,229.46,74429,3,1.647
+@_,KMK.L,Kromek Group plc,Technology,Scientific & Technical Instruments,0.20,5.40 - 5.61,5.55 - 5.70,0.15 - 0.30,5.55,665.77,1033992,6,0.604
+*_,KMR.L,Kenmare Resources plc,Basic Materials,Other Industrial Metals & Mining,0.60,323.98 - 335.00,328.98 - 343.88,4.99 - 19.90,332.00,477.42,81043,3,0.407
+*_,KNOS.L,Kainos Group plc,Technology,Software Application,1.67,724.50 - 730.50,736.50 - 747.00,12.00 - 22.50,712.00,242.94,282447,4,0.735
+@_,KOD.L,Kodal Minerals PLC,Basic Materials,Other Industrial Metals & Mining,5.00,0.24 - 0.24,0.40 - 0.40,0.16 - 0.16,0.35,3347.20,104894494,10,0.053
+@_,KOO.L,Kooth plc,Healthcare,Health Information Services,1.00,187.00 - 187.00,194.00 - 194.00,7.00 - 7.00,190.00,182.00,46064,2,0.914
+@_,KOS.L,Kosmos Energy Ltd.,Energy,Oil & Gas E&P,0.60,133.50 - 155.50,143.50 - 162.00,10.00 - 28.50,158.00,1492.00,11535,2,1.449
+*_,KP2.L,Kore Potash plc,Basic Materials,Other Industrial Metals & Mining,0.00,2.32 - 2.36,2.40 - 2.47,0.08 - 0.15,2.35,556.46,1392128,6,0.932
+@_,KRS.L,Keras Resources Plc,Basic Materials,Other Industrial Metals & Mining,3.50,1.14 - 1.14,1.48 - 1.49,0.34 - 0.35,1.30,3025.65,130736,3,0.003
+*_,KYGA.L,Kerry Group plc,Consumer Defensive,Packaged Foods,1.00,90.60 - 92.80,92.80 - 96.00,2.20 - 5.40,90.80,290.60,74721,3,0.627
+*_,KZG.L,Kazera Global plc,Financial Services,Asset Management,0.00,1.55 - 1.57,1.58 - 1.70,0.03 - 0.15,1.52,1768.74,696700,5,1.312
+*_,LAND.L,Land Securities Group Plc,Real Estate,REIT Diversified,2.00,594.00 - 594.00,602.50 - 602.50,8.50 - 8.50,576.00,68.00,2425958,6,1.295
+@_,LAS.L,London & Associated Properties Plc,Real Estate,Real Estate Services,0.00,8.25 - 8.25,9.00 - 9.00,0.75 - 0.75,9.00,454.50,6315,1,0.094
+@_,LBG.L,LBG Media plc,Communication Services,Publishing,0.57,100.00 - 103.43,103.50 - 105.25,3.50 - 5.25,104.00,974.22,66588,3,0.651
+@_,LDG.L,Logistics Development Group plc,Industrials,Integrated Freight & Logistics,0.36,15.15 - 15.66,15.70 - 16.11,0.55 - 0.96,15.75,1661.96,646306,5,0.242
+@_,LEND.L,Sancus Lending Group Limited,Financial Services,Credit Services,2.50,0.40 - 0.40,0.45 - 0.50,0.05 - 0.10,0.47,1874.85,639970,5,0.787
+*_,LEX.L,Lexington Gold Ltd,Basic Materials,Gold,0.29,3.50 - 3.62,3.69 - 3.74,0.19 - 0.24,3.50,1598.90,319131,4,-0.461
+@_,LGEN.L,Legal & General Group Plc,Financial Services,Asset Management,4.00,246.80 - 249.60,251.40 - 252.90,4.60 - 6.10,252.60,158.00,15308176,8,1.165
+@_,LIFS.L,LifeSafe Holdings plc,Industrials,Building Products & Equipment,0.00,6.60 - 6.60,6.75 - 6.75,0.15 - 0.15,6.75,113.55,6049,1,0.071
+@_,LIKE.L,Likewise Group Plc,Consumer Cyclical,Furnishings  Fixtures & Appliances,1.67,23.36 - 23.79,24.00 - 24.40,0.64 - 1.04,24.00,445.62,117591,3,0.922
+*_,LINV.L,LendInvest plc,Financial Services,Mortgage Finance,2.00,38.00 - 38.94,38.50 - 40.00,0.50 - 2.00,38.00,201.18,8930,1,0.327
+@_,LIO.L,Liontrust Asset Management PLC,Financial Services,Asset Management,2.50,360.10 - 361.00,364.75 - 393.50,4.65 - 33.40,372.00,482.95,726331,5,1.27
+@_,LIT.L,Litigation Capital Management Limited,Financial Services,Credit Services,1.00,23.33 - 25.00,26.50 - 27.61,3.17 - 4.29,26.70,1200.38,356620,4,0.193
+@_,LLOY.L,Lloyds Banking Group plc,Financial Services,Banks Regional,1.67,73.50 - 75.26,75.35 - 76.70,1.85 - 3.20,75.70,278.26,129712368,10,1.088
+*_,LMP.L,LondonMetric Property Plc,Real Estate,REIT Industrial,0.00,197.22 - 197.22,200.80 - 200.80,3.58 - 3.58,193.00,89.50,8151869,7,0.84
+@_,LND.L,Landore Resources Limited,Basic Materials,Other Industrial Metals & Mining,1.50,2.63 - 2.72,2.73 - 2.80,0.10 - 0.16,2.75,580.98,221828,4,UNKNOWN
+*_,LORD.L,Lords Group Trading plc,Industrials,Industrial Distribution,0.50,48.00 - 54.75,48.80 - 56.00,0.80 - 8.00,52.50,1104.09,155950,3,1.252
+@_,LPA.L,LPA Group Plc,Industrials,Electrical Equipment & Parts,0.00,52.15 - 52.15,53.50 - 53.50,1.35 - 1.35,53.50,128.25,1349,1,-0.348
+@_,LRE.L,Lancashire Holdings Limited,Financial Services,Insurance Specialty,1.67,572.00 - 587.00,586.00 - 594.00,14.00 - 22.00,592.00,227.36,273904,4,0.549
+*_,LSL.L,LSL Property Services plc,Real Estate,Real Estate Services,0.00,319.00 - 323.85,329.00 - 329.00,10.00 - 10.00,307.00,227.25,62126,3,0.702
+@_,LST.L,Light Science Technologies Holdings Plc,Technology,Electronic Components,0.00,3.30 - 3.35,3.40 - 3.60,0.10 - 0.30,3.45,1872.16,894263,5,-0.858
+@_,LTHM.L,James Latham plc,Basic Materials,Lumber & Wood Production,1.00,1111.00 - 1133.00,1130.00 - 1150.00,19.00 - 39.00,1145.00,382.80,13231,2,0.553
+@_,LTI.L,Lindsell Train Ord,Financial Services,Asset Management,2.00,841.00 - 841.00,853.00 - 853.00,12.00 - 12.00,844.00,60.00,250,1,UNKNOWN
+*_,LUCE.L,Luceco plc,Industrials,Electrical Equipment & Parts,1.00,143.00 - 150.40,147.20 - 152.40,4.20 - 9.40,141.20,281.40,124518,3,1.101
+@_,LWDB.L,Law Debenture Corporation Ord,Financial Services,Asset Management,4.00,997.00 - 997.00,1008.00 - 1008.00,11.00 - 11.00,1008.00,55.00,222340,4,UNKNOWN
+@_,MAB.L,Mitchells & Butlers plc,Consumer Cyclical,Restaurants,1.67,280.50 - 284.50,286.50 - 293.00,6.00 - 12.50,286.50,297.50,315681,4,1.517
+*_,MAB1.L,Mortgage Advice Bureau (Holdings) plc,Financial Services,Mortgage Finance,0.00,840.00 - 880.94,868.00 - 916.00,28.00 - 76.00,804.00,315.30,170856,3,0.932
+*_,MAC.L,Marechale Capital Plc,Financial Services,Capital Markets,2.00,2.15 - 2.15,2.22 - 2.22,0.07 - 0.07,2.10,162.75,107002,3,0.591
+*_,MACF.L,Macfarlane Group PLC,Consumer Cyclical,Packaging & Containers,1.00,99.15 - 118.50,100.50 - 120.50,1.35 - 21.35,97.80,433.26,686057,5,0.597
+@_,MAFL.L,Mineral & Financial Investments Limited,Financial Services,Asset Management,0.75,23.00 - 23.71,24.00 - 24.34,1.00 - 1.34,24.00,748.90,14586,2,0.738
+@_,MAI.L,Maintel Holdings Plc,Communication Services,Telecom Services,0.00,185.00 - 185.00,192.90 - 192.90,7.90 - 7.90,187.00,213.30,1360,1,0.102
+@_,MAJE.L,Majedie Investments Ord,Financial Services,Asset Management,1.00,242.00 - 242.00,246.00 - 246.00,4.00 - 4.00,242.00,80.00,39293,2,UNKNOWN
+*_,MANO.L,Manolete Partners Plc,Industrials,Consulting Services,0.00,82.36 - 85.80,85.00 - 87.00,2.64 - 4.64,82.00,363.00,96557,3,UNKNOWN
+@_,MARS.L,Marston's PLC,Consumer Cyclical,Restaurants,0.80,41.65 - 43.20,42.10 - 43.92,0.45 - 2.27,43.45,494.48,1362046,6,1.247
+*_,MAST.L,MAST Energy Developments PLC,Utilities,Utilities Renewable,0.57,1.26 - 1.76,1.37 - 1.84,0.11 - 0.58,1.58,3570.31,3385045,6,0.651
+*_,MATD.L,Petro Matad Limited,Energy,Oil & Gas E&P,0.50,1.10 - 1.25,1.14 - 1.29,0.04 - 0.19,0.82,810.70,10830256,8,1.434
+@_,MBH.L,Michelmersh Brick Holdings plc,Basic Materials,Building Materials,1.00,105.00 - 106.00,106.22 - 110.00,1.22 - 5.00,109.50,245.34,93587,3,0.995
+@_,MBO.L,MobilityOne Limited,Technology,Information Technology Services,0.00,1.10 - 1.20,1.25 - 1.35,0.15 - 0.25,1.25,1306.65,34103,2,2.976
+@_,MBT.L,Mobile Tornado Group plc,Technology,Software Application,1.25,1.45 - 1.45,1.49 - 1.58,0.04 - 0.13,1.45,1482.64,163618,3,1.324
+@_,MCB.L,McBride plc,Consumer Defensive,Household & Personal Products,1.67,151.40 - 154.10,153.80 - 161.17,2.40 - 9.77,159.00,407.84,430136,4,1.283
+@_,MCG.L,Mobico Group Plc,Industrials,Railroads,1.33,28.42 - 30.50,30.60 - 31.32,2.18 - 2.90,29.16,751.66,3303392,6,1.125
+@_,MCON.L,Mincon Group plc,Industrials,Tools & Accessories,0.00,34.03 - 34.20,35.00 - 36.00,0.97 - 1.97,35.00,404.42,2653,1,0.212
+*_,MCT.L,Middlefield Canadian Income Ord,Financial Services,Asset Management,3.00,129.99 - 131.74,132.00 - 134.49,2.01 - 4.50,131.00,178.13,UNKNOWN,0,UNKNOWN
+*_,MEGP.L,ME Group International plc,Industrials,Business Equipment & Supplies,0.00,225.50 - 225.50,228.50 - 228.50,3.00 - 3.00,220.00,66.00,321814,4,0.646
+@_,MER.L,Mears Group plc,Consumer Cyclical,Personal Services,2.33,374.50 - 379.00,381.00 - 384.50,6.50 - 10.00,380.00,227.50,87647,3,0.807
+@_,MERC.L,Mercia Asset Management PLC,Financial Services,Asset Management,0.71,32.55 - 33.41,33.48 - 34.00,0.93 - 1.45,33.48,902.67,1197409,6,0.953
+@_,MET.L,Metir plc,Technology,Scientific & Technical Instruments,1.00,0.65 - 0.65,0.76 - 0.76,0.12 - 0.12,0.73,846.12,1709674,6,0.08
+@_,MET1.L,Metals One PLC,Basic Materials,Other Industrial Metals & Mining,3.50,19.82 - 20.77,21.20 - 28.00,1.38 - 8.18,24.39,2082.96,24511535,8,UNKNOWN
+@_,MEX.L,Tortilla Mexican Grill plc,Consumer Cyclical,Restaurants,0.00,43.55 - 44.10,44.50 - 45.00,0.95 - 1.45,45.00,509.76,22617,2,-0.069
+*_,MFAI.L,Mindflair Plc,Financial Services,Asset Management,0.25,0.90 - 1.13,1.00 - 1.18,0.09 - 0.28,0.98,2219.22,8322143,7,1.173
+@_,MFX.L,Manx Financial Group PLC,Financial Services,Banks Regional,0.00,22.00 - 22.00,22.50 - 22.50,0.50 - 0.50,22.50,454.00,36211,2,0.633
+@_,MGAM.L,Morgan Advanced Materials plc,Industrials,Specialty Industrial Machinery,1.00,218.12 - 220.51,224.50 - 230.00,6.38 - 11.88,228.50,485.54,478890,4,1.102
+@_,MGNS.L,Morgan Sindall Group plc,Industrials,Engineering & Construction,1.33,4370.00 - 4435.00,4445.00 - 4525.00,75.00 - 155.00,4565.00,248.86,82764,3,1.065
+@_,MHA.L,UNKNOWN,Industrials,Specialty Business Services,2.00,129.00 - 130.80,133.00 - 133.00,4.00 - 4.00,131.75,377.34,317830,4,UNKNOWN
+@_,MHC.L,MyHealthChecked PLC,Healthcare,Medical Devices,2.00,9.75 - 9.75,10.95 - 10.95,1.20 - 1.20,10.00,614.40,9313,1,1.46
+*_,MIDW.L,Midwich Group plc,Technology,Electronics & Computer Distribution,0.00,216.00 - 220.97,223.94 - 225.00,7.94 - 9.00,198.00,491.34,103581,3,0.512
+*_,MILA.L,Mila Resources Plc,Financial Services,Asset Management,0.50,0.68 - 0.80,0.73 - 0.85,0.04 - 0.17,0.57,1700.59,19031772,8,0.319
+@_,MIND.L,Mind Gym plc,Industrials,Specialty Business Services,0.00,17.00 - 17.00,17.50 - 17.50,0.50 - 0.50,17.50,147.00,1350,1,0.794
+@_,MKA.L,Mkango Resources Ltd.,Basic Materials,Other Industrial Metals & Mining,3.00,15.00 - 26.67,30.50 - 34.50,15.50 - 19.50,27.50,7209.71,9368413,7,1.751
+*_,MKS.L,Marks and Spencer Group plc,Consumer Cyclical,Department Stores,0.00,338.05 - 341.20,342.90 - 345.24,4.85 - 7.19,326.90,124.46,11249978,8,1.4
+*_,MNDI.L,Mondi plc,Basic Materials,Paper & Paper Products,1.00,1184.00 - 1231.00,1216.50 - 1249.00,32.50 - 65.00,1190.50,202.00,1036288,6,0.732
+@_,MNG.L,M&G plc,Financial Services,Asset Management,3.00,253.60 - 254.80,257.10 - 258.62,3.50 - 5.02,257.13,139.08,4019784,6,1.123
+@_,MNL.L,Manchester & London Ord,Financial Services,Asset Management,3.00,800.00 - 805.00,816.00 - 832.00,16.00 - 32.00,832.00,258.00,64029,3,UNKNOWN
+@_,MONY.L,MONY Group plc,Communication Services,Internet Content & Information,2.00,215.60 - 218.80,218.40 - 221.60,2.80 - 6.00,219.20,200.80,850151,5,0.825
+*_,MOON.L,Moonpig Group PLC,Consumer Cyclical,Specialty Retail,0.50,209.00 - 228.00,215.50 - 241.25,6.50 - 32.25,209.38,427.75,2170217,6,1.119
+*_,MOTR.L,Motorpoint Group Plc,Consumer Cyclical,Auto & Truck Dealerships,0.80,176.50 - 180.46,179.24 - 186.60,2.74 - 10.10,176.90,519.56,101230,3,0.684
+@_,MPAC.L,Mpac Group plc,Industrials,Specialty Industrial Machinery,2.00,260.00 - 271.52,275.00 - 279.77,15.00 - 19.77,277.50,438.27,304674,4,0.273
+@_,MPE.L,M.P. Evans Group PLC,Consumer Defensive,Farm Products,1.40,1160.00 - 1190.00,1173.00 - 1210.00,13.00 - 50.00,1210.00,320.72,89902,3,0.396
+@_,MPL.L,Mercantile Ports & Logistics Limited,Industrials,Marine Shipping,3.00,0.95 - 0.98,1.00 - 1.80,0.05 - 0.85,1.50,4576.11,824314,5,-0.024
+@_,MRK.L,Marks Electrical Group PLC,Consumer Cyclical,Specialty Retail,0.60,60.00 - 61.00,60.80 - 63.00,0.80 - 3.00,61.00,541.80,53235,3,0.69
+@_,MRO.L,Melrose Industries PLC,Industrials,Specialty Industrial Machinery,1.33,519.60 - 524.20,526.80 - 535.80,7.20 - 16.20,532.80,279.00,2145112,6,1.046
+*_,MSI.L,MS INTERNATIONAL plc,Industrials,Conglomerates,0.29,1134.75 - 1225.90,1150.00 - 1240.00,15.25 - 105.25,1120.00,657.40,56617,3,-0.226
+*_,MSLH.L,Marshalls plc,Basic Materials,Building Materials,0.50,259.50 - 266.00,263.79 - 271.50,4.29 - 12.00,257.00,180.51,569474,5,1.179
+@_,MTC.L,Mothercare plc,Consumer Cyclical,Specialty Retail,1.50,2.61 - 2.62,3.25 - 3.30,0.64 - 0.69,3.25,2522.01,43959,2,0.24
+@_,MTE.L,Montanaro European Smaller Ord,Financial Services,Asset Management,6.00,177.00 - 177.00,182.00 - 182.00,5.00 - 5.00,181.50,140.00,238801,4,UNKNOWN
+@_,MTEC.L,Made Tech Group Plc,Technology,Information Technology Services,1.25,36.00 - 37.50,36.60 - 38.50,0.60 - 2.50,38.35,791.91,522558,5,0.796
+@_,MTL.L,Metals Exploration plc,Basic Materials,Gold,1.33,12.09 - 15.50,15.08 - 16.03,2.99 - 3.94,15.84,2233.49,21144424,8,-0.452
+*_,MTO.L,Mitie Group plc,Industrials,Specialty Business Services,2.00,138.40 - 140.40,140.87 - 142.40,2.47 - 4.00,137.20,158.92,2006271,6,1.131
+*_,MTRO.L,Metro Bank Holdings PLC,Financial Services,Banks Regional,0.40,124.40 - 131.79,126.60 - 135.24,2.20 - 10.84,131.20,641.12,785275,5,2.077
+@_,MUL.L,Mulberry Group plc,Consumer Cyclical,Footwear & Accessories,0.00,85.00 - 85.00,92.50 - 92.50,7.50 - 7.50,92.50,435.00,1287,1,1.128
+@_,MUT.L,Murray Income Trust Ord,Financial Services,Asset Management,3.00,870.00 - 870.00,883.00 - 883.00,13.00 - 13.00,883.00,65.00,199465,3,UNKNOWN
+@_,MWE.L,M.T.I Wireless Edge Ltd.,Technology,Communication Equipment,0.30,44.52 - 50.55,45.20 - 51.58,0.68 - 7.06,51.25,1414.79,107052,3,0.919
+@_,MYI.L,Murray International Ord,Financial Services,Asset Management,3.00,277.00 - 277.00,281.00 - 281.00,4.00 - 4.00,282.50,72.00,684008,5,UNKNOWN
+*_,MYX.L,MYCELX Technologies Corporation,Industrials,Pollution & Treatment Controls,0.00,25.50 - 25.50,26.00 - 26.00,0.50 - 0.50,25.30,98.00,10590,2,1.079
+@_,N4P.L,N4 Pharma Plc,Healthcare,Drug Manufacturers Specialty & Generic,0.83,0.35 - 0.38,0.40 - 0.40,0.05 - 0.05,0.38,2495.14,1031192,6,0.715
+@_,N91.L,Ninety One Group,Financial Services,Asset Management,1.67,185.20 - 186.40,187.80 - 189.20,2.60 - 4.00,186.80,215.80,883124,5,0.67
+*_,NAH.L,NAHL Group Plc,Communication Services,Advertising Agencies,0.00,42.00 - 42.60,42.50 - 43.40,0.50 - 1.40,42.30,307.80,47283,2,0.242
+@_,NANO.L,Nanoco Group plc,Technology,Semiconductor Equipment & Materials,4.00,9.65 - 9.65,14.78 - 14.78,5.13 - 5.13,12.45,2657.34,1542401,6,0.33
+*_,NARF.L,Narf Industries Plc,Technology,Software Infrastructure,0.00,0.50 - 0.52,0.55 - 0.55,0.05 - 0.05,0.47,1177.81,3050736,6,0.064
+@_,NAVF.L,Nippon Active Value Ord,Financial Services,Asset Management,2.00,200.00 - 200.00,205.00 - 205.00,5.00 - 5.00,205.00,125.00,162026,3,UNKNOWN
+@_,NBB.L,Norman Broadbent plc,Industrials,Staffing & Employment Services,1.00,142.70 - 186.20,190.00 - 195.00,47.30 - 52.30,195.00,1884.30,3786,1,-0.162
+@_,NBPE.L,NB Private Equity Partners Limited,UNKNOWN,UNKNOWN,8.00,1428.00 - 1428.00,1456.00 - 1456.00,28.00 - 28.00,1456.00,84.00,UNKNOWN,0,UNKNOWN
+@_,NCC.L,NCC Group plc,Technology,Software Infrastructure,5.00,140.00 - 140.00,149.60 - 149.60,9.60 - 9.60,143.50,336.00,1413044,6,0.696
+@_,NCYF.L,CQS New City High Yield Ord,Financial Services,Asset Management,2.00,51.60 - 51.60,52.20 - 52.20,0.60 - 0.60,52.20,115.20,UNKNOWN,0,UNKNOWN
+*_,NCYT.L,Novacyt S.A.,Healthcare,Medical Devices,0.80,40.30 - 41.47,41.00 - 42.70,0.70 - 2.40,40.70,681.80,31090,2,0.125
+@_,NET.L,Netcall plc,Technology,Software Application,0.67,114.36 - 116.00,116.38 - 118.00,2.02 - 3.64,116.00,539.22,114966,3,-0.144
+@_,NEXS.L,Nexus Infrastructure plc,Industrials,Engineering & Construction,1.50,155.00 - 157.00,158.50 - 160.00,3.50 - 5.00,157.50,205.00,5459,1,UNKNOWN
+*_,NFG.L,Next 15 Group plc,Communication Services,Advertising Agencies,1.00,250.69 - 256.50,253.50 - 268.00,2.81 - 17.31,255.50,357.20,570003,5,1.219
+@_,NFM.L,New Frontier Minerals Limited,Basic Materials,Copper,5.00,0.50 - 0.50,0.60 - 0.60,0.10 - 0.10,0.55,1000.00,176877,3,0.029
+*_,NG.L,National Grid plc,Utilities,Utilities Regulated Electric,1.00,1033.50 - 1033.50,1049.00 - 1049.00,15.50 - 15.50,1026.00,62.00,9850706,7,0.293
+*_,NICL.L,Nichols plc,Consumer Defensive,Beverages Non-Alcoholic,0.50,1391.55 - 1432.70,1442.00 - 1466.50,50.45 - 74.95,1355.00,501.87,37362,2,0.386
+@_,NIOX.L,NIOX Group Plc,Healthcare,Medical Devices,1.20,67.40 - 69.00,68.45 - 69.80,1.05 - 2.40,69.80,472.15,396585,4,0.508
+@_,NOG.L,Nostrum Oil & Gas PLC,Energy,Oil & Gas Integrated,1.00,3.02 - 3.22,3.45 - 3.74,0.43 - 0.72,3.36,2740.16,70160,3,0.518
+*_,NRR.L,NewRiver REIT plc,Real Estate,REIT Retail,1.00,72.80 - 73.30,73.60 - 74.10,0.80 - 1.30,71.54,108.80,792816,5,UNKNOWN
+@_,NTBR.L,Northern Bear PLC,Industrials,Building Products & Equipment,1.50,79.00 - 86.62,82.00 - 93.00,3.00 - 14.00,93.50,1074.53,26884,2,0.157
+@_,NTEA.L,Northern Electric PLC,Utilities,Utilities Regulated Electric,1.33,129.60 - 134.23,135.00 - 137.00,5.40 - 7.40,132.50,429.79,54678,3,UNKNOWN
+*_,NTVO.L,Nativo Resources plc,Basic Materials,Other Precious Metals & Mining,0.29,0.26 - 0.29,0.29 - 0.35,0.04 - 0.09,0.28,3641.90,6815771,7,0.376
+@_,NWF.L,NWF Group plc,Energy,Oil & Gas Refining & Marketing,0.33,168.71 - 169.05,171.00 - 171.75,2.29 - 3.04,170.00,219.82,30305,2,0.12
+*_,NWG.L,NatWest Group plc,Financial Services,Banks Regional,1.00,472.98 - 494.50,482.30 - 500.83,9.32 - 27.85,489.94,333.50,34936389,8,0.98
+@_,NWT.L,Newmark Security plc,Industrials,Security & Protection Services,10.00,77.50 - 77.50,84.93 - 84.93,7.43 - 7.43,77.50,475.52,1160,1,1.392
+*_,NXQ.L,Nexteq plc,Consumer Cyclical,Gambling,1.50,64.15 - 66.95,64.90 - 68.00,0.75 - 3.85,63.00,475.11,279392,4,0.756
+@_,NXR.L,Norcros plc,Industrials,Building Products & Equipment,2.67,270.00 - 272.15,275.00 - 277.44,5.00 - 7.44,275.00,239.22,175848,3,0.836
+*_,OBD.L,Oxford BioDynamics Plc,Healthcare,Diagnostics & Research,0.00,0.25 - 0.30,0.31 - 0.35,0.06 - 0.10,0.26,3183.60,32164652,8,-0.165
+*_,OBI.L,Ondine Biomedical Inc.,Healthcare,Biotechnology,0.50,13.65 - 14.25,14.30 - 14.75,0.65 - 1.10,13.75,412.90,92515,3,0.122
+@_,OCDO.L,Ocado Group plc,Consumer Defensive,Grocery Stores,1.00,230.00 - 237.76,240.30 - 243.70,10.30 - 13.70,235.10,341.04,2162325,6,2.139
+@_,OCN.L,Ocean Wilsons Holdings Limited,Financial Services,Asset Management,2.00,1490.00 - 1490.00,1510.00 - 1510.00,20.00 - 20.00,1495.00,60.00,76608,3,0.783
+@_,OHGR.L,One Health Group Plc,Healthcare,Medical Care Facilities,2.00,209.90 - 211.00,215.84 - 244.70,5.94 - 34.80,231.00,911.72,13490,2,UNKNOWN
+@_,OIG.L,Oryx International Growth Ord,Financial Services,Asset Management,2.00,1205.00 - 1230.00,1240.00 - 1242.50,35.00 - 37.50,1220.00,190.00,UNKNOWN,0,UNKNOWN
+@_,OIT.L,Odyssean Investment Trust Ord,Financial Services,Asset Management,3.00,158.00 - 158.00,162.00 - 162.00,4.00 - 4.00,161.50,124.00,211794,4,UNKNOWN
+*_,OMG.L,Oxford Metrics plc,Technology,Software Application,0.50,49.76 - 50.46,50.38 - 50.98,0.61 - 1.22,48.54,266.87,385936,4,0.853
+*_,OMI.L,Orosur Mining Inc.,Basic Materials,Gold,0.43,7.60 - 8.27,7.90 - 8.50,0.30 - 0.90,7.65,983.61,421000,4,-0.107
+@_,OMIP.L,One Media iP Group Plc,Communication Services,Entertainment,6.00,3.85 - 3.85,4.50 - 4.50,0.65 - 0.65,4.35,843.70,71182,3,0.112
+*_,OMU.L,Old Mutual Limited,Financial Services,Financial Conglomerates,0.33,49.90 - 50.00,50.60 - 51.00,0.70 - 1.10,47.90,271.00,275676,4,0.838
+*_,ONDO.L,Ondo InsurTech Plc,Technology,Scientific & Technical Instruments,0.67,21.98 - 23.40,22.69 - 24.00,0.72 - 2.02,22.00,367.02,428624,4,-0.039
+@_,ONT.L,Oxford Nanopore Technologies plc,Healthcare,Biotechnology,0.40,139.00 - 151.20,145.90 - 152.84,6.90 - 13.84,148.90,693.67,1888581,6,0.98
+@_,ONWD.L,Onward Opportunities Limited,UNKNOWN,UNKNOWN,7.00,129.00 - 129.00,130.50 - 130.50,1.50 - 1.50,129.00,57.00,UNKNOWN,0,UNKNOWN
+@_,OPG.L,OPG Power Ventures Plc,Utilities,Utilities Independent Power Producers,0.83,7.43 - 8.11,7.77 - 8.50,0.34 - 1.07,8.25,1378.24,412113,4,0.403
+*_,OPT.L,Optima Health plc,Healthcare,Health Information Services,0.00,191.50 - 210.25,195.00 - 214.00,3.50 - 22.50,188.00,246.94,485351,4,UNKNOWN
+*_,OPTI.L,OptiBiotix Health Plc,Healthcare,Biotechnology,0.00,10.70 - 11.07,11.14 - 11.73,0.44 - 1.03,11.00,1351.35,118694,3,1.713
+@_,ORCA.L,Orcadian Energy Plc,Energy,Oil & Gas E&P,0.50,10.00 - 10.65,10.60 - 11.00,0.60 - 1.00,10.50,464.15,98332,3,-2.212
+*_,ORCH.L,Orchard Funding Group plc,Financial Services,Credit Services,0.00,55.50 - 63.65,56.50 - 65.00,1.00 - 9.50,56.50,584.92,66024,3,-0.198
+@_,ORIT.L,Octopus Renewables Infrastructure Ord,UNKNOWN,UNKNOWN,2.00,73.40 - 73.40,74.60 - 74.60,1.20 - 1.20,74.50,81.60,1439676,6,UNKNOWN
+@_,ORR.L,Oriole Resources PLC,Basic Materials,Gold,2.00,0.21 - 0.23,0.24 - 0.24,0.03 - 0.03,0.23,1389.96,28629697,8,0.753
+@_,OSB.L,OSB Group Plc,Financial Services,Mortgage Finance,1.67,509.00 - 551.00,529.00 - 563.00,20.00 - 54.00,555.50,531.00,1210191,6,1.284
+@_,OTB.L,On the Beach Group plc,Consumer Cyclical,Travel Services,0.80,284.50 - 297.98,294.00 - 302.50,9.50 - 18.00,294.00,489.77,324705,4,2.11
+@_,OXB.L,Oxford Biomedica plc,Healthcare,Biotechnology,0.22,315.00 - 354.50,329.50 - 365.00,14.50 - 50.00,353.63,1120.49,123262,3,0.998
+@_,OXIG.L,Oxford Instruments plc,Technology,Scientific & Technical Instruments,0.67,1912.00 - 2005.00,2010.00 - 2030.00,98.00 - 118.00,2000.00,300.00,136504,3,0.977
+@_,PAC.L,Pacific Assets Ord,Financial Services,Asset Management,3.00,346.00 - 346.00,352.00 - 352.00,6.00 - 6.00,351.00,84.00,128426,3,UNKNOWN
+@_,PACS.L,PACSCo Limited,Consumer Defensive,Farm Products,0.00,0.48 - 0.48,0.62 - 0.62,0.13 - 0.13,0.55,1455.30,92468,3,-0.427
+@_,PAF.L,Pan African Resources PLC,Basic Materials,Gold,1.40,46.39 - 49.25,47.10 - 50.70,0.71 - 4.31,50.90,755.50,3248207,6,0.473
+@_,PAG.L,Paragon Banking Group PLC,Financial Services,Mortgage Finance,1.25,912.50 - 936.00,931.00 - 946.50,18.50 - 34.00,939.50,290.00,334501,4,1.536
+@_,PAGE.L,PageGroup plc,Industrials,Staffing & Employment Services,1.00,262.40 - 267.40,269.60 - 273.34,7.20 - 10.94,270.20,380.52,538374,5,1.094
+@_,PALM.L,Panther Metals PLC,Basic Materials,Gold,0.43,59.40 - 63.55,63.40 - 65.00,4.00 - 5.60,62.50,1910.99,46833,2,0.087
+*_,PANR.L,Pantheon Resources Plc,Energy,Oil & Gas E&P,0.25,21.34 - 23.85,22.20 - 25.15,0.86 - 3.81,22.60,810.38,9194261,7,-0.812
+@_,PAT.L,Panthera Resources PLC,Basic Materials,Gold,0.33,11.90 - 14.16,12.95 - 15.00,1.05 - 3.10,14.00,2149.34,828039,5,1.18
+@_,PAY.L,PayPoint plc,Technology,Software Infrastructure,0.25,800.64 - 816.65,814.00 - 826.00,13.36 - 25.36,826.00,344.94,172454,3,0.43
+@_,PBEE.L,PensionBee Group plc,Financial Services,Capital Markets,1.67,167.45 - 168.02,170.00 - 174.00,2.55 - 6.55,170.00,320.45,103457,3,0.428
+@_,PCA.L,Palace Capital Plc,Real Estate,REIT Diversified,0.17,219.00 - 221.00,222.37 - 228.00,3.37 - 9.00,228.00,822.14,22159,2,0.262
+@_,PCGH.L,Polar Capital Glb Healthcare Ord,Financial Services,Asset Management,2.00,327.00 - 327.00,331.00 - 331.00,4.00 - 4.00,330.00,60.00,186393,3,UNKNOWN
+*_,PCIP.L,PCI-PAL PLC,Technology,Software Infrastructure,0.33,48.00 - 50.65,49.00 - 51.50,1.00 - 3.50,49.00,275.50,52674,3,0.435
+@_,PCT.L,Polar Capital Technology Ord,Financial Services,Asset Management,7.00,364.50 - 364.50,373.00 - 373.00,8.50 - 8.50,373.00,110.50,1741100,6,UNKNOWN
+*_,PCTN.L,Picton Property Income Limited,Real Estate,REIT Diversified,1.50,79.22 - 79.27,80.50 - 80.90,1.28 - 1.68,79.20,183.33,694213,5,0.54
+*_,PDL.L,Petra Diamonds Limited,Basic Materials,Other Precious Metals & Mining,0.25,13.05 - 13.37,13.45 - 13.76,0.40 - 0.71,12.40,560.86,242389,4,-0.184
+@_,PEB.L,Pebble Beach Systems Group plc,Technology,Communication Equipment,2.00,9.00 - 9.00,9.50 - 9.50,0.50 - 0.50,9.00,832.50,46966,2,0.621
+@_,PEBB.L,The Pebble Group plc,Communication Services,Advertising Agencies,1.00,47.38 - 48.00,49.00 - 49.00,1.62 - 1.62,48.50,274.10,93715,3,0.882
+*_,PEEL.L,Peel Hunt Limited,Financial Services,Capital Markets,0.50,92.30 - 94.30,96.00 - 99.00,3.70 - 6.70,92.50,451.90,136311,3,1.12
+@_,PEG.L,Petards Group plc,Industrials,Security & Protection Services,0.00,7.75 - 7.75,8.25 - 8.25,0.50 - 0.50,8.25,322.50,19060,2,0.199
+*_,PEN.L,Pennant International Group plc,Technology,Software Application,0.00,26.00 - 27.05,27.00 - 27.80,1.00 - 1.80,26.00,472.48,68882,3,0.272
+*_,PET.L,Petrel Resources Plc,Energy,Oil & Gas E&P,0.75,0.90 - 0.92,0.94 - 1.05,0.04 - 0.15,0.82,1765.77,431151,4,0.609
+*_,PETS.L,Pets at Home Group Plc,Consumer Cyclical,Specialty Retail,0.00,245.60 - 251.00,250.05 - 253.80,4.45 - 8.20,242.81,142.20,720342,5,0.946
+*_,PFD.L,Premier Foods plc,Consumer Defensive,Packaged Foods,0.00,196.80 - 196.80,199.00 - 199.00,2.20 - 2.20,191.80,55.00,1324244,6,0.44
+*_,PGH.L,Personal Group Holdings Plc,Financial Services,Insurance Property & Casualty,0.00,290.16 - 290.16,296.00 - 296.00,5.84 - 5.84,286.00,99.28,19689,2,0.161
+@_,PHAR.L,Pharos Energy plc,Energy,Oil & Gas E&P,0.43,21.00 - 21.20,21.34 - 21.80,0.34 - 0.80,21.55,773.05,322560,4,0.777
+@_,PHE.L,PowerHouse Energy Group Plc,Industrials,Specialty Industrial Machinery,0.00,0.51 - 0.52,0.53 - 0.55,0.02 - 0.04,0.52,679.81,11142508,8,2.753
+@_,PHI.L,Pacific Horizon Ord,Financial Services,Asset Management,7.00,610.00 - 610.00,620.00 - 620.00,10.00 - 10.00,620.00,80.00,129355,3,UNKNOWN
+@_,PHLL.L,Petershill Partners Ord,Financial Services,Asset Management,1.00,226.00 - 226.00,232.50 - 232.50,6.50 - 6.50,231.00,143.00,275920,4,UNKNOWN
+@_,PHNX.L,Phoenix Group Holdings plc,Financial Services,Insurance Life,4.00,639.00 - 639.00,649.50 - 649.50,10.50 - 10.50,642.50,73.50,2926170,6,0.798
+@_,PIN.L,Pantheon International Ord,Financial Services,Asset Management,7.00,311.50 - 311.50,318.00 - 318.00,6.50 - 6.50,318.00,104.00,535248,5,UNKNOWN
+@_,PINE.L,Pinewood Technologies Group PLC,Technology,Software Application,1.00,442.00 - 475.00,447.00 - 484.50,5.00 - 42.50,481.50,524.50,129149,3,-0.147
+@_,PINT.L,Pantheon Infrastructure Ord,Financial Services,Asset Management,1.00,99.80 - 99.80,101.00 - 101.00,1.20 - 1.20,100.50,60.00,1649944,6,UNKNOWN
+@_,PIP.L,PipeHawk plc,Technology,Scientific & Technical Instruments,4.00,1.38 - 1.38,1.42 - 1.44,0.05 - 0.06,1.38,363.60,24829,2,-0.546
+@_,PLSR.L,Pulsar Helium Inc.,Basic Materials,Other Industrial Metals & Mining,1.33,26.04 - 26.50,26.72 - 27.00,0.68 - 0.96,26.50,279.08,39240,2,UNKNOWN
+@_,PLUS.L,Plus500 Ltd.,Financial Services,Capital Markets,1.33,3170.00 - 3290.00,3268.00 - 3342.00,98.00 - 172.00,3260.00,242.50,242627,4,0.397
+@_,PMG.L,The Parkmead Group plc,Energy,Oil & Gas E&P,1.25,14.50 - 15.00,14.75 - 15.45,0.25 - 0.95,15.00,670.72,142814,3,0.99
+*_,PMI.L,Premier Miton Group plc,Financial Services,Asset Management,0.00,76.23 - 76.52,77.74 - 77.74,1.51 - 1.51,67.72,177.45,441565,4,0.804
+*_,PMP.L,Portmeirion Group PLC,Consumer Cyclical,Furnishings  Fixtures & Appliances,1.33,133.28 - 135.25,135.00 - 137.50,1.72 - 4.22,135.00,237.14,13771,2,0.695
+*_,PNN.L,Pennon Group Plc,Utilities,Utilities Regulated Water,1.00,480.00 - 490.00,495.40 - 496.20,15.40 - 16.20,480.20,216.00,1325143,6,0.334
+@_,PNS.L,Panther Securities PLC,Real Estate,Real Estate Services,0.00,285.00 - 285.00,294.00 - 294.00,9.00 - 9.00,290.00,153.00,1223,1,-0.025
+@_,PODP.L,Pod Point Group Holdings Plc,Consumer Cyclical,Specialty Retail,0.00,6.32 - 6.36,6.52 - 6.68,0.20 - 0.36,6.52,1309.70,105523,3,0.93
+*_,POLB.L,Poolbeg Pharma PLC,Healthcare,Biotechnology,0.75,3.20 - 3.27,3.28 - 3.38,0.08 - 0.18,3.20,493.56,1194760,6,1.907
+@_,POLN.L,Pollen Street Group Limited,Financial Services,Asset Management,3.50,784.00 - 784.00,794.00 - 795.55,10.00 - 11.55,790.00,129.30,136664,3,0.06
+*_,POLR.L,Polar Capital Holdings Plc,Financial Services,Asset Management,0.67,474.50 - 491.00,490.50 - 501.58,16.00 - 27.08,468.50,408.10,542138,5,1.013
+*_,POLX.L,Polarean Imaging plc,Healthcare,Medical Devices,0.40,1.38 - 1.40,1.43 - 1.50,0.05 - 0.12,1.27,1515.37,914134,5,-0.04
+@_,POS.L,Plexus Holdings plc,Energy,Oil & Gas Equipment & Services,0.25,8.15 - 9.03,9.02 - 9.50,0.87 - 1.35,9.10,1206.28,276872,4,-0.071
+@_,POW.L,Power Metal Resources plc,Basic Materials,Other Industrial Metals & Mining,0.67,12.00 - 14.00,12.75 - 15.49,0.75 - 3.49,15.00,1946.98,622848,5,0.262
+*_,PPH.L,PPHE Hotel Group Limited,Consumer Cyclical,Lodging,0.00,1624.00 - 1644.00,1668.00 - 1672.00,44.00 - 48.00,1600.00,216.00,40998,2,0.669
+@_,PPHC.L,Public Policy Holding Company  Inc.,Industrials,Consulting Services,2.50,157.20 - 158.50,158.92 - 161.25,1.72 - 4.05,161.00,138.57,120741,3,-0.016
+*_,PR1.L,UNKNOWN,Technology,Software Infrastructure,0.75,5.52 - 5.72,5.80 - 6.40,0.28 - 0.88,4.50,1297.93,8597297,7,0.432
+@_,PRD.L,Predator Oil & Gas Holdings Plc,Energy,Oil & Gas E&P,0.50,2.69 - 2.95,2.99 - 3.10,0.30 - 0.41,2.85,2460.19,1259151,6,1.076
+*_,PRE.L,Pensana Plc,Basic Materials,Other Industrial Metals & Mining,0.20,57.80 - 77.20,58.60 - 78.60,0.80 - 20.80,74.60,2121.12,833313,5,0.86
+@_,PRIM.L,Primorus Investments plc,Financial Services,Asset Management,1.00,3.00 - 3.93,3.30 - 4.15,0.30 - 1.15,4.15,2920.76,539370,5,0.32
+@_,PRM.L,Proteome Sciences plc,Healthcare,Diagnostics & Research,0.33,2.61 - 2.94,3.04 - 3.48,0.43 - 0.87,3.04,2565.76,68203,3,-0.006
+@_,PROC.L,ProCook Group plc,Consumer Cyclical,Specialty Retail,1.50,38.20 - 42.90,39.72 - 46.80,1.52 - 8.60,44.00,1251.94,53099,3,1.025
+@_,PRTC.L,PureTech Health plc,Healthcare,Biotechnology,1.25,125.40 - 129.80,130.60 - 133.40,5.20 - 8.00,130.20,565.02,229756,4,0.903
+@_,PRU.L,Prudential plc,Financial Services,Insurance Life,1.00,897.00 - 912.00,923.94 - 926.40,26.94 - 29.40,917.20,206.70,4382703,6,1.212
+@_,PRV.L,Porvair plc,Industrials,Pollution & Treatment Controls,1.00,726.00 - 736.00,742.54 - 748.00,16.54 - 22.00,740.00,231.24,51438,3,0.459
+@_,PSH.L,Pershing Square Holdings Ord,Financial Services,Asset Management,2.00,4088.00 - 4088.00,4168.00 - 4168.00,80.00 - 80.00,4158.00,80.00,UNKNOWN,0,UNKNOWN
+*_,PSN.L,Persimmon Plc,Consumer Cyclical,Residential Construction,1.67,1199.00 - 1214.00,1218.50 - 1235.00,19.50 - 36.00,1211.00,247.20,1477915,6,1.304
+@_,PSON.L,Pearson plc,Communication Services,Publishing,0.00,1050.00 - 1050.00,1063.00 - 1063.00,13.00 - 13.00,1052.50,52.00,1488475,6,0.302
+@_,PTAL.L,PetroTal Corp.,Energy,Oil & Gas E&P,0.83,36.00 - 36.52,36.65 - 37.50,0.65 - 1.50,36.75,498.73,191794,3,1.184
+@_,PTEC.L,Playtech plc,Consumer Cyclical,Gambling,2.00,367.00 - 370.50,374.17 - 377.00,7.17 - 10.00,379.00,286.00,800308,5,0.697
+*_,PTSB.L,Permanent TSB Group Holdings plc,Financial Services,Banks Regional,1.00,2.04 - 2.10,2.12 - 2.18,0.08 - 0.14,2.09,914.66,28528,2,0.757
+@_,PXC.L,Phoenix Copper Limited,Basic Materials,Other Industrial Metals & Mining,1.00,4.20 - 4.64,4.65 - 5.00,0.45 - 0.80,4.55,1172.50,970470,5,0.515
+*_,PXEN.L,Prospex Energy Plc,Energy,Oil & Gas E&P,0.33,4.41 - 4.65,4.75 - 4.81,0.34 - 0.40,4.40,732.44,627279,5,-1.444
+*_,PXS.L,Provexis plc,Healthcare,Drug Manufacturers Specialty & Generic,0.50,0.80 - 0.80,0.87 - 0.90,0.06 - 0.10,0.76,1059.78,4036497,6,0.741
+@_,PYC.L,Physiomics Plc,Healthcare,Biotechnology,0.00,0.40 - 0.40,0.48 - 0.48,0.08 - 0.08,0.47,999.92,4200685,6,0.562
+@_,PYX.L,PYX Resources Limited,Basic Materials,Other Industrial Metals & Mining,0.00,0.60 - 0.64,0.69 - 0.70,0.09 - 0.10,0.65,2804.12,2381504,6,-0.285
+@_,PZC.L,PZ Cussons plc,Consumer Defensive,Household & Personal Products,3.00,72.50 - 73.71,75.59 - 76.20,3.09 - 3.70,73.70,376.95,451086,4,0.439
+*_,QBT.L,Quantum Blockchain Technologies Plc,Financial Services,Capital Markets,0.29,1.00 - 1.01,1.02 - 1.06,0.02 - 0.06,0.95,1295.60,23839345,8,1.353
+*_,QED.L,Quadrise Plc,Energy,Oil & Gas Integrated,0.62,3.65 - 4.10,3.78 - 4.36,0.13 - 0.71,3.84,1529.22,3538955,6,1.159
+@_,QLT.L,Quilter plc,Financial Services,Asset Management,1.20,152.60 - 160.60,156.90 - 165.40,4.30 - 12.80,163.90,607.05,2489164,6,0.869
+*_,QQ.L,QinetiQ Group plc,Industrials,Aerospace & Defense,2.00,486.00 - 495.80,492.20 - 503.28,6.20 - 17.28,488.60,136.80,1006726,6,0.523
+*_,QTX.L,Quartix Technologies plc,Technology,Scientific & Technical Instruments,1.00,236.07 - 258.00,249.90 - 270.00,13.83 - 33.93,231.00,891.59,37202,2,0.689
+*_,QUBE.L,Quantum Base Holdings PLC,Industrials,Security & Protection Services,0.33,24.01 - 25.00,25.44 - 26.00,1.43 - 1.99,22.75,1404.44,98622,3,UNKNOWN
+@_,RAT.L,Rathbones Group Plc,Financial Services,Asset Management,2.67,1726.00 - 1776.00,1756.00 - 1838.00,30.00 - 112.00,1838.00,240.00,74689,3,0.638
+@_,RBN.L,Robinson plc,Consumer Cyclical,Packaging & Containers,2.50,127.50 - 130.00,134.50 - 134.50,7.00 - 7.00,130.00,444.00,2106,1,0.28
+@_,RBW.L,Rainbow Rare Earths Limited,Basic Materials,Other Industrial Metals & Mining,0.44,10.81 - 12.99,11.38 - 13.50,0.57 - 2.69,13.80,2045.84,948103,5,1.635
+@_,RCDO.L,Ricardo plc,Industrials,Consulting Services,2.50,426.00 - 426.00,431.00 - 431.00,5.00 - 5.00,429.00,110.00,52250,3,0.05
+*_,RCFX.L,RC Fornax Plc,Industrials,Consulting Services,0.50,26.33 - 31.22,28.50 - 32.50,2.17 - 6.17,27.50,1677.98,56377,3,UNKNOWN
+@_,RCGH.L,RC365 Holding plc,Technology,Software Infrastructure,0.00,1.00 - 1.00,1.04 - 1.10,0.04 - 0.10,1.05,2650.00,146113,3,0.527
+@_,RCH.L,Reach plc,Communication Services,Publishing,1.00,70.50 - 74.50,73.20 - 76.41,2.70 - 5.91,75.60,543.25,851884,5,1.048
+@_,RCN.L,Redcentric plc,Technology,Information Technology Services,2.00,123.00 - 123.67,125.00 - 126.00,2.00 - 3.00,124.50,285.20,68339,3,0.08
+@_,RDT.L,Rosslyn Data Technologies plc,Technology,Software Application,10.00,3.50 - 3.50,3.70 - 3.70,0.20 - 0.20,3.70,285.60,11516,2,0.412
+@_,RE.L,R.E.A. Holdings plc,Consumer Defensive,Farm Products,0.00,82.61 - 82.61,85.75 - 85.75,3.14 - 3.14,83.50,188.40,6756,1,0.455
+*_,REAT.L,REACT Group PLC,Industrials,Specialty Business Services,0.50,55.05 - 55.40,56.00 - 56.00,0.95 - 0.95,53.50,139.50,27690,2,0.436
+*_,REC.L,Record plc,Financial Services,Asset Management,1.00,61.92 - 62.88,63.00 - 63.80,1.08 - 1.88,61.81,333.62,389089,4,0.81
+*_,REE.L,Altona Rare Earths Plc,Basic Materials,Other Industrial Metals & Mining,0.75,1.90 - 2.10,1.92 - 2.30,0.02 - 0.40,1.95,1174.87,547414,5,0.093
+@_,REL.L,RELX PLC,Industrials,Specialty Business Services,2.33,3842.00 - 3925.00,3894.00 - 4007.00,52.00 - 165.00,3980.00,194.00,2440736,6,0.459
+@_,RENX.L,Renalytix Plc,Healthcare,Health Information Services,0.12,6.68 - 6.85,6.98 - 7.50,0.30 - 0.82,7.00,2173.92,170531,3,1.625
+@_,RESI.L,Residential Secure Income Ord,Real Estate,REIT Residential,1.00,59.20 - 59.40,59.80 - 60.60,0.60 - 1.40,60.60,151.20,297213,4,UNKNOWN
+@_,REVB.L,Revolution Beauty Group plc,Consumer Defensive,Household & Personal Products,0.50,4.46 - 5.05,4.67 - 5.28,0.21 - 0.82,5.09,2390.11,319346,4,1.147
+@_,RFX.L,Ramsdens Holdings PLC,Consumer Cyclical,Luxury Goods,0.67,316.75 - 327.10,322.49 - 332.90,5.74 - 16.15,332.50,383.10,92911,3,0.593
+@_,RGL.L,Regional REIT Ord,Real Estate,REIT Office,1.50,118.20 - 124.20,125.00 - 126.00,6.80 - 7.80,125.00,357.60,UNKNOWN,0,UNKNOWN
+@_,RHIM.L,RHI Magnesita N.V.,Industrials,Metal Fabrication,2.33,3000.00 - 3024.08,3060.00 - 3085.00,60.00 - 85.00,3060.00,170.92,10947,2,1.398
+@_,RIII.L,Rights & Issues Investment Trust Ord,Financial Services,Asset Management,2.00,2150.00 - 2150.00,2195.00 - 2195.00,45.00 - 45.00,2185.00,90.00,2469,1,UNKNOWN
+@_,RIO.L,Rio Tinto Group,Basic Materials,Other Industrial Metals & Mining,1.50,4255.00 - 4321.75,4388.50 - 4468.00,133.50 - 213.00,4449.00,279.75,2657999,6,0.633
+@_,RKH.L,Rockhopper Exploration plc,Energy,Oil & Gas E&P,3.50,48.40 - 58.50,61.40 - 62.06,13.00 - 13.66,62.00,1653.48,4364392,6,0.232
+@_,RKT.L,Reckitt Benckiser Group plc,Consumer Defensive,Household & Personal Products,8.00,4959.00 - 4959.00,5094.00 - 5094.00,135.00 - 135.00,5014.00,135.00,1194215,6,0.098
+@_,RLE.L,Real Estate Investors Plc,Real Estate,REIT Diversified,0.80,31.57 - 32.00,32.33 - 32.80,0.77 - 1.23,32.00,557.02,22559,2,0.482
+@_,RM.L,RM plc,Technology,Software Application,0.44,84.70 - 95.38,90.80 - 98.50,6.10 - 13.80,95.50,1279.50,2422403,6,1.691
+@_,RMII.L,RM Infrastructure Income Ord,Financial Services,Asset Management,2.00,66.50 - 66.50,67.50 - 67.50,1.00 - 1.00,67.50,75.00,771924,5,UNKNOWN
+@_,RMR.L,Rome Resources Plc,Basic Materials,Other Industrial Metals & Mining,2.00,0.28 - 0.28,0.31 - 0.31,0.03 - 0.03,0.30,529.08,6075127,7,UNKNOWN
+@_,RMV.L,Rightmove plc,Communication Services,Internet Content & Information,1.67,759.20 - 774.00,779.60 - 784.00,20.40 - 24.80,782.60,253.62,1229433,6,0.976
+@_,RNK.L,The Rank Group Plc,Consumer Cyclical,Gambling,1.50,134.33 - 139.80,139.52 - 141.80,5.19 - 7.47,142.00,466.87,1071385,6,2.366
+@_,RNWH.L,Renew Holdings plc,Industrials,Engineering & Construction,2.00,805.00 - 817.50,816.00 - 827.00,11.00 - 22.00,821.00,175.20,157449,3,0.813
+*_,ROAD.L,Roadside Real Estate plc,Real Estate,Real Estate Development,1.00,49.13 - 51.25,50.00 - 52.00,0.87 - 2.87,50.00,357.60,59895,3,UNKNOWN
+@_,ROQ.L,Roquefort Therapeutics plc,Healthcare,Biotechnology,1.33,1.23 - 1.30,1.43 - 1.70,0.20 - 0.47,1.55,3071.40,727730,5,-0.306
+@_,ROR.L,Rotork plc,Industrials,Specialty Industrial Machinery,1.50,316.20 - 319.00,320.40 - 325.40,4.20 - 9.20,319.40,159.00,1702521,6,0.822
+*_,ROSE.L,Rosebank Industries plc,Financial Services,Asset Management,0.00,320.80 - 320.80,324.65 - 324.65,3.85 - 3.85,317.20,57.75,1212805,6,UNKNOWN
+*_,RPI.L,Raspberry Pi Holdings plc,Technology,Electronic Components,0.67,455.00 - 468.00,473.20 - 484.60,18.20 - 29.60,460.20,402.10,172220,3,UNKNOWN
+@_,RR.L,Rolls-Royce Holdings plc,Industrials,Aerospace & Defense,0.75,931.59 - 964.00,957.20 - 982.60,25.61 - 51.01,986.80,355.65,18848198,8,1.785
+@_,RS1.L,RS Group plc,Industrials,Industrial Distribution,1.00,572.00 - 583.00,588.00 - 595.00,16.00 - 23.00,588.00,300.00,616283,5,0.772
+@_,RSE.L,Riverstone Energy Ord,Financial Services,Asset Management,1.00,820.00 - 820.00,834.00 - 834.00,14.00 - 14.00,834.00,84.00,UNKNOWN,0,UNKNOWN
+@_,RSG.L,Resolute Mining Limited,Basic Materials,Gold,0.20,29.60 - 31.60,31.10 - 32.60,1.50 - 3.00,32.15,991.21,84174,3,1.194
+@_,RST.L,Restore plc,Industrials,Specialty Business Services,2.00,260.00 - 261.01,262.65 - 265.00,2.65 - 5.00,263.50,126.16,175801,3,0.293
+@_,RSW.L,Renishaw plc,Technology,Scientific & Technical Instruments,1.00,2775.00 - 2775.00,2858.98 - 2858.98,83.98 - 83.98,2825.00,83.98,171455,3,0.584
+@_,RTC.L,RTC Group plc,Industrials,Staffing & Employment Services,0.00,91.40 - 91.40,95.00 - 95.00,3.60 - 3.60,95.00,388.80,4710,1,0.918
+*_,RTO.L,Rentokil Initial plc,Industrials,Specialty Business Services,2.00,338.10 - 349.90,342.40 - 353.70,4.30 - 15.60,342.30,113.40,3805407,6,0.349
+*_,RUA.L,RUA Life Sciences plc,Healthcare,Medical Devices,0.00,12.00 - 12.13,12.38 - 12.75,0.37 - 0.75,11.50,571.60,95682,3,0.974
+@_,RVRB.L,River Global Plc,Financial Services,Asset Management,0.40,34.10 - 34.69,35.00 - 35.40,0.90 - 1.30,35.00,540.79,131793,3,UNKNOWN
+@_,RVRG.L,River Global Plc,Financial Services,Asset Management,0.33,6.50 - 6.50,6.93 - 7.50,0.43 - 1.00,7.00,1868.67,607190,5,UNKNOWN
+*_,RWA.L,Robert Walters plc,Industrials,Staffing & Employment Services,0.00,169.61 - 169.61,175.85 - 175.85,6.24 - 6.24,166.00,180.96,302144,4,0.615
+*_,RWS.L,RWS Holdings plc,Industrials,Specialty Business Services,1.00,85.79 - 86.50,88.30 - 89.10,2.51 - 3.31,84.80,294.58,1561349,6,0.449
+@_,S247.L,Smarttech247 Group plc,Technology,Software Infrastructure,0.00,8.00 - 8.25,8.50 - 8.50,0.50 - 0.50,8.50,1141.90,34213,2,0.009
+@_,S32.L,South32 Limited,Basic Materials,Other Industrial Metals & Mining,1.00,144.20 - 149.80,149.40 - 153.80,5.20 - 9.60,150.60,308.80,371579,4,0.712
+@_,SAA.L,M&C Saatchi plc,Communication Services,Advertising Agencies,0.50,190.15 - 190.50,193.50 - 200.95,3.35 - 10.80,197.00,358.80,359647,4,0.493
+@_,SAAS.L,Microlise Group plc,Technology,Software Application,0.83,106.55 - 123.00,112.00 - 125.60,5.45 - 19.05,126.00,938.06,70796,3,0.282
+*_,SAE.L,SIMEC Atlantis Energy Limited,Utilities,Utilities Renewable,0.00,1.93 - 2.11,2.12 - 2.30,0.19 - 0.37,2.00,2691.03,1243237,6,1.29
+*_,SAFE.L,Safestore Holdings Plc,Real Estate,REIT Industrial,1.00,674.50 - 674.50,685.15 - 685.15,10.65 - 10.65,674.00,74.55,797094,5,0.828
+@_,SAG.L,Science Group plc,Industrials,Consulting Services,1.67,516.00 - 528.00,529.00 - 540.00,13.00 - 24.00,537.50,297.00,28120,2,0.373
+*_,SAGA.L,Saga plc,Financial Services,Insurance Diversified,1.20,181.20 - 186.40,183.82 - 191.50,2.62 - 10.30,183.60,426.25,240919,4,2.412
+@_,SAIN.L,Scottish American Ord,Financial Services,Asset Management,4.00,508.00 - 508.00,516.00 - 516.00,8.00 - 8.00,516.00,72.00,268596,4,UNKNOWN
+*_,SALT.L,MicroSalt plc,Consumer Defensive,Packaged Foods,0.29,71.50 - 76.90,74.92 - 78.00,3.42 - 6.50,66.50,1311.23,33632,2,UNKNOWN
+*_,SAR.L,Sareum Holdings plc,Healthcare,Biotechnology,0.25,18.00 - 19.50,18.50 - 22.00,0.50 - 4.00,19.00,1496.56,548313,5,-1.692
+*_,SAV.L,Savannah Resources Plc,Basic Materials,Other Industrial Metals & Mining,0.67,3.22 - 3.52,3.35 - 3.70,0.13 - 0.48,3.30,987.94,1834518,6,0.557
+@_,SBAR.L,Sundae Bar Plc,Technology,Software Application,0.12,10.00 - 10.18,10.23 - 10.60,0.23 - 0.60,10.75,1184.28,352394,4,UNKNOWN
+@_,SBDS.L,Silver Bullet Data Services Group PLC,Communication Services,Advertising Agencies,2.67,26.10 - 28.50,29.00 - 30.00,2.90 - 3.90,28.00,1013.50,16321,2,-0.178
+@_,SBRE.L,Sabre Insurance Group plc,Financial Services,Insurance Brokers,0.75,143.95 - 145.80,145.60 - 148.60,1.65 - 4.65,148.80,259.76,659483,5,0.259
+@_,SBRY.L,J Sainsbury plc,Consumer Defensive,Grocery Stores,2.00,276.50 - 282.20,283.40 - 286.60,6.90 - 10.10,280.80,260.20,7298638,7,0.949
+@_,SBTX.L,SkinBioTherapeutics plc,Healthcare,Biotechnology,0.80,16.31 - 16.63,16.50 - 17.00,0.19 - 0.69,17.00,470.14,1162417,6,0.76
+@_,SCE.L,Surface Transforms Plc,Consumer Cyclical,Auto Parts,0.71,0.88 - 0.93,0.94 - 0.99,0.05 - 0.10,0.95,1707.53,3375347,6,0.134
+@_,SCF.L,Schroder Income Growth Ord,Financial Services,Asset Management,7.00,308.00 - 308.00,315.00 - 315.00,7.00 - 7.00,315.00,112.00,63812,3,UNKNOWN
+@_,SCGL.L,Sealand Capital Galaxy Limited,Communication Services,Internet Content & Information,0.00,0.40 - 0.42,0.42 - 0.45,0.02 - 0.05,0.43,2473.94,4224901,6,-0.216
+@_,SCLP.L,Scancell Holdings plc,Healthcare,Biotechnology,1.00,9.41 - 10.00,10.19 - 10.50,0.77 - 1.09,10.25,1965.54,813078,5,-0.016
+@_,SCT.L,Softcat plc,Technology,Electronics & Computer Distribution,1.00,1603.00 - 1661.00,1631.00 - 1684.00,28.00 - 81.00,1657.70,321.00,339495,4,0.753
+*_,SDG.L,Sanderson Design Group plc,Consumer Cyclical,Furnishings  Fixtures & Appliances,0.57,50.11 - 54.50,51.70 - 57.00,1.59 - 6.89,52.50,1183.56,157183,3,0.831
+@_,SDI.L,SDI Group plc,Technology,Scientific & Technical Instruments,0.80,89.00 - 91.60,92.00 - 94.04,3.00 - 5.04,95.00,746.62,183312,3,1.239
+@_,SDP.L,Schroder AsiaPacific Ord,Financial Services,Asset Management,2.00,562.00 - 562.00,569.00 - 569.00,7.00 - 7.00,569.00,56.00,332187,4,UNKNOWN
+@_,SDR.L,Schroders plc,Financial Services,Asset Management,2.00,363.00 - 375.60,370.60 - 384.00,7.60 - 21.00,383.80,460.20,2761864,6,1.187
+*_,SDY.L,Speedy Hire Plc,Industrials,Rental & Leasing Services,1.00,29.84 - 30.83,30.95 - 31.55,1.11 - 1.70,28.70,559.51,967018,5,1.084
+@_,SEA.L,Seascape Energy Asia plc,Energy,Oil & Gas E&P,0.71,54.00 - 64.20,56.79 - 66.40,2.79 - 12.40,65.00,1672.26,420730,4,-0.863
+*_,SEE.L,Seeing Machines Limited,Technology,Software Infrastructure,0.18,2.90 - 3.08,3.09 - 3.16,0.19 - 0.26,2.87,1924.94,7133839,7,0.412
+@_,SEIT.L,SDCL Efficiency Income Trust plc.,UNKNOWN,UNKNOWN,3.00,56.00 - 56.70,56.80 - 57.60,0.80 - 1.60,57.60,150.40,3768734,6,UNKNOWN
+*_,SEPL.L,Seplat Energy Plc,Energy,Oil & Gas E&P,1.25,222.80 - 235.50,229.00 - 244.00,6.20 - 21.20,230.00,628.90,259089,4,-0.036
+@_,SEQI.L,Sequoia Economic Infrastructure Inc Ord,Financial Services,Asset Management,1.00,79.50 - 79.50,80.80 - 80.80,1.30 - 1.30,81.10,80.60,UNKNOWN,0,UNKNOWN
+@_,SERE.L,Schroder European Real Estate Inv Trust,Real Estate,REIT Diversified,4.00,68.00 - 68.00,69.80 - 69.80,1.80 - 1.80,69.60,131.40,208838,4,UNKNOWN
+*_,SFOR.L,S4 Capital plc,Communication Services,Advertising Agencies,0.00,25.50 - 25.69,25.77 - 26.00,0.27 - 0.50,23.53,180.96,1997962,6,0.847
+*_,SFR.L,Severfield plc,Industrials,Engineering & Construction,0.75,35.40 - 38.99,37.30 - 40.00,1.90 - 4.60,35.20,738.94,640197,5,0.833
+*_,SFT.L,Software Circle plc,Industrials,Specialty Business Services,2.00,28.31 - 29.50,29.00 - 29.81,0.69 - 1.50,29.00,261.33,243632,4,-0.29
+@_,SGE.L,The Sage Group plc,Technology,Software Application,1.00,1176.50 - 1233.00,1210.50 - 1247.06,34.00 - 70.56,1225.50,310.24,2935505,6,0.382
+*_,SGRO.L,SEGRO Plc,Real Estate,REIT Industrial,0.50,659.14 - 666.60,668.20 - 675.20,9.06 - 16.06,657.00,123.62,1577536,6,0.825
+*_,SHC.L,Shaftesbury Capital PLC,Real Estate,REIT Retail,1.33,151.80 - 153.31,153.80 - 155.20,2.00 - 3.40,151.30,182.08,4427613,6,1.149
+@_,SHEL.L,Shell plc,Energy,Oil & Gas Integrated,3.00,2550.00 - 2550.00,2651.00 - 2651.00,101.00 - 101.00,2670.50,101.00,7150652,7,0.301
+@_,SHI.L,SIG plc,Industrials,Industrial Distribution,0.40,14.39 - 15.10,15.00 - 16.00,0.61 - 1.61,15.42,1147.48,3859145,6,1.25
+*_,SHOE.L,Shoe Zone plc,Consumer Cyclical,Apparel Retail,0.62,98.00 - 104.00,101.50 - 108.00,3.50 - 10.00,101.50,1457.89,16004,2,1.081
+@_,SHRS.L,Shires Income Ord,Financial Services,Asset Management,1.00,275.50 - 275.50,282.00 - 282.00,6.50 - 6.50,282.00,117.00,51226,3,UNKNOWN
+*_,SKA.L,Shuka Minerals Plc,Basic Materials,Other Industrial Metals & Mining,0.50,3.66 - 4.06,4.19 - 4.50,0.53 - 0.84,3.75,2057.34,447307,4,0.714
+@_,SKL.L,Skillcast Group plc,Technology,Software Application,0.00,47.00 - 47.00,48.12 - 48.12,1.12 - 1.12,47.00,118.72,6830,1,0.364
+*_,SLP.L,Sylvania Platinum Limited,Basic Materials,Other Precious Metals & Mining,0.60,67.64 - 69.00,68.50 - 71.00,0.86 - 3.36,67.80,541.43,674012,5,0.474
+@_,SMIN.L,Smiths Group plc,Industrials,Specialty Industrial Machinery,2.00,2220.00 - 2268.00,2252.00 - 2310.00,32.00 - 90.00,2307.00,224.00,939740,5,0.595
+@_,SML.L,Strategic Minerals Plc,Basic Materials,Other Industrial Metals & Mining,1.67,0.29 - 0.30,0.32 - 0.33,0.03 - 0.04,0.32,1527.09,14142037,8,0.447
+@_,SMT.L,Scottish Mortgage Ord,Financial Services,Asset Management,6.00,1026.00 - 1026.00,1046.00 - 1046.00,20.00 - 20.00,1045.50,80.00,2917536,6,UNKNOWN
+*_,SMWH.L,WH Smith PLC,Consumer Cyclical,Specialty Retail,1.50,1063.00 - 1088.00,1090.00 - 1107.00,27.00 - 44.00,1054.00,184.00,248325,4,1.472
+@_,SN.L,Smith & Nephew plc,Healthcare,Medical Devices,2.50,1101.00 - 1102.50,1122.72 - 1156.50,21.72 - 55.50,1124.50,302.88,1320616,6,0.625
+@_,SNR.L,Senior plc,Industrials,Aerospace & Defense,1.33,177.80 - 186.00,185.40 - 188.00,7.60 - 10.20,184.40,329.60,399381,4,1.205
+@_,SNT.L,Sabien Technology Group Plc,Industrials,Specialty Industrial Machinery,1.50,7.03 - 7.05,7.75 - 7.75,0.72 - 0.72,7.75,1008.22,20646,2,0.514
+*_,SNWS.L,Smiths News plc,Communication Services,Publishing,0.60,55.98 - 58.00,57.00 - 59.40,1.02 - 3.42,56.00,477.48,280065,4,0.387
+@_,SNX.L,Synectics plc,Industrials,Security & Protection Services,0.20,316.70 - 325.56,329.48 - 341.00,12.78 - 24.30,335.00,773.55,78184,3,0.621
+*_,SOHO.L,Social Housing REIT plc,Real Estate,REIT Residential,1.00,71.10 - 71.10,72.20 - 72.20,1.10 - 1.10,70.00,77.00,732682,5,UNKNOWN
+@_,SOI.L,Schroder Oriental Income Ord,Financial Services,Asset Management,7.00,289.50 - 289.50,298.50 - 298.50,9.00 - 9.00,298.50,153.00,283048,4,UNKNOWN
+@_,SOLG.L,SolGold Plc,Basic Materials,Other Industrial Metals & Mining,1.00,6.80 - 6.90,6.96 - 7.10,0.16 - 0.30,6.96,380.62,3953165,6,1.257
+*_,SOLI.L,Solid State plc,Technology,Electronic Components,0.80,180.16 - 203.00,182.90 - 210.00,2.74 - 29.84,186.00,505.41,114420,3,0.719
+*_,SOM.L,Somero Enterprises  Inc.,Industrials,Farm & Heavy Construction Machinery,1.50,201.02 - 230.00,225.00 - 327.50,23.98 - 126.48,225.00,2623.02,106008,3,0.628
+*_,SORT.L,Sorted Group Holdings Plc,Technology,Software Application,0.00,20.00 - 20.00,21.00 - 21.00,1.00 - 1.00,18.50,500.00,1556,1,0.062
+*_,SOS.L,Sosandar Plc,Consumer Cyclical,Internet Retail,0.14,8.00 - 8.16,8.20 - 8.27,0.20 - 0.27,8.00,682.61,181301,3,1.558
+@_,SOU.L,Sound Energy plc,Energy,Oil & Gas E&P,0.00,0.60 - 0.60,0.68 - 0.74,0.07 - 0.14,0.68,3666.52,1365377,6,1.195
+*_,SOUC.L,Southern Energy Corp.,Energy,Oil & Gas E&P,2.00,2.80 - 3.15,3.00 - 3.30,0.20 - 0.50,3.00,1027.55,59658,3,0.678
+*_,SPA.L,1Spatial Plc,Technology,Software Application,1.50,46.00 - 46.01,46.65 - 46.74,0.65 - 0.74,43.50,149.04,347389,4,0.065
+*_,SPDI.L,Secure Property Development & Investment Plc,Real Estate,Real Estate Services,1.25,3.75 - 6.15,4.00 - 7.00,0.25 - 3.25,5.50,5374.05,80973,3,0.108
+*_,SPEC.L,INSPECS Group plc,Healthcare,Medical Instruments & Supplies,0.00,48.55 - 49.00,49.60 - 51.00,1.05 - 2.45,46.50,533.46,63042,3,2.187
+*_,SPI.L,Spire Healthcare Group plc,Healthcare,Medical Care Facilities,0.67,221.13 - 224.56,224.00 - 229.00,2.87 - 7.87,222.25,248.82,747106,5,0.663
+@_,SPR.L,Springfield Properties Plc,Consumer Cyclical,Residential Construction,0.50,97.32 - 101.82,102.00 - 104.28,4.68 - 6.96,100.50,672.72,81883,3,1.11
+@_,SPSY.L,Spectra Systems Corporation,Technology,Software Application,2.00,221.00 - 225.36,225.60 - 229.99,4.60 - 8.99,226.00,313.06,69386,3,-0.079
+@_,SPT.L,Spirent Communications plc,Technology,Software Infrastructure,7.00,191.60 - 191.60,194.40 - 194.40,2.80 - 2.80,193.00,72.80,1305804,6,0.514
+@_,SQZ.L,Serica Energy plc,Energy,Oil & Gas E&P,2.00,157.53 - 166.20,162.20 - 170.40,4.67 - 12.87,169.60,587.37,1461119,6,0.013
+@_,SRAD.L,Stelrad Group PLC,Industrials,Building Products & Equipment,0.00,161.00 - 169.00,166.69 - 175.24,5.69 - 14.24,175.50,737.66,104847,3,0.313
+@_,SRB.L,Serabi Gold plc,Basic Materials,Gold,0.43,165.10 - 181.00,167.68 - 188.55,2.58 - 23.45,190.00,963.75,286048,4,0.574
+@_,SRC.L,SigmaRoc plc,Basic Materials,Building Materials,2.00,105.20 - 114.00,114.55 - 115.20,9.35 - 10.00,114.00,491.05,3793528,6,1.201
+@_,SRE.L,Sirius Real Estate Limited,Real Estate,Real Estate Services,0.50,92.45 - 94.80,94.40 - 96.60,1.95 - 4.15,95.00,198.90,3524418,6,1.18
+@_,SRP.L,Serco Group plc,Industrials,Specialty Business Services,1.50,201.60 - 209.20,206.80 - 211.52,5.20 - 9.92,212.00,341.36,1442812,6,0.231
+@_,SRT.L,SRT Marine Systems plc,Technology,Scientific & Technical Instruments,1.67,74.00 - 74.51,75.35 - 85.74,1.35 - 11.74,82.10,935.99,262348,4,0.703
+@_,SSE.L,SSE plc,Utilities,Utilities Diversified,1.50,1809.00 - 1858.50,1874.00 - 1892.50,65.00 - 83.50,1829.00,198.00,2479702,6,0.581
+@_,SSIT.L,Seraphim Space Investment Trust Ord,Financial Services,Asset Management,2.00,76.80 - 76.80,79.40 - 79.40,2.60 - 2.60,79.40,169.00,748999,5,UNKNOWN
+@_,SSON.L,Smithson Investment Trust Ord,Financial Services,Asset Management,3.00,1520.00 - 1520.00,1550.00 - 1550.00,30.00 - 30.00,1532.00,90.00,347815,4,UNKNOWN
+*_,SSPG.L,SSP Group plc,Consumer Cyclical,Restaurants,1.67,184.80 - 185.50,187.60 - 188.80,2.80 - 4.00,172.48,222.40,1736260,6,1.737
+@_,SST.L,Scottish Oriental Smaller Cos Ord,Financial Services,Asset Management,7.00,294.00 - 294.00,300.50 - 300.50,6.50 - 6.50,302.00,110.50,134177,3,UNKNOWN
+@_,SSTY.L,Safestay plc,Consumer Cyclical,Lodging,0.25,23.21 - 23.35,24.50 - 24.50,1.29 - 1.29,24.50,1015.65,34026,2,0.653
+@_,STAF.L,Staffline Group PLC,Industrials,Staffing & Employment Services,1.25,46.71 - 47.40,47.91 - 48.60,1.20 - 1.89,47.60,528.65,137485,3,1.051
+@_,STAN.L,Standard Chartered PLC,Financial Services,Banks Diversified,1.50,1187.50 - 1241.00,1216.50 - 1292.50,29.00 - 105.00,1279.50,488.52,5211036,7,0.685
+*_,STAR.L,Star Energy Group Plc,Energy,Oil & Gas E&P,0.43,6.84 - 7.80,7.19 - 8.23,0.35 - 1.39,7.55,1856.09,123943,3,-0.554
+@_,STB.L,Secure Trust Bank PLC,Financial Services,Banks Regional,1.33,834.00 - 860.64,864.00 - 952.21,30.00 - 118.21,952.00,666.45,151655,3,0.88
+@_,STCM.L,Steppe Cement Ltd.,Basic Materials,Building Materials,1.25,15.41 - 16.00,15.90 - 16.90,0.49 - 1.49,16.00,1075.92,89923,3,0.721
+@_,STEM.L,SThree plc,Industrials,Staffing & Employment Services,3.00,234.50 - 234.50,252.24 - 252.24,17.74 - 17.74,253.00,372.54,774051,5,0.699
+@_,STJ.L,St. James's Place plc,Financial Services,Asset Management,1.50,1157.50 - 1210.00,1183.50 - 1222.50,26.00 - 65.00,1223.50,398.00,1568973,6,1.081
+@_,STVG.L,STV Group plc,Communication Services,Broadcasting,1.25,178.50 - 194.00,188.50 - 198.00,10.00 - 19.50,194.08,729.50,173553,3,-0.042
+@_,STX.L,Shield Therapeutics plc,Healthcare,Drug Manufacturers Specialty & Generic,0.11,2.70 - 3.10,2.84 - 3.40,0.14 - 0.70,3.40,3161.87,755232,5,1.298
+@_,SUN.L,Surgical Innovations Group plc,Healthcare,Medical Devices,1.00,0.67 - 0.67,0.72 - 0.72,0.05 - 0.05,0.70,372.50,537717,5,0.292
+*_,SUP.L,Supreme Plc,Industrials,Conglomerates,0.00,180.57 - 182.50,184.75 - 185.00,4.18 - 4.43,176.50,180.36,246252,4,1.069
+*_,SUS.L,S&U plc,Financial Services,Credit Services,1.50,1729.52 - 1816.92,1780.00 - 1855.00,50.48 - 125.48,1750.00,347.12,8343,1,0.466
+@_,SVML.L,Sovereign Metals Limited,Basic Materials,Other Industrial Metals & Mining,1.00,32.10 - 34.15,32.75 - 34.90,0.65 - 2.80,34.50,698.03,204235,4,0.583
+@_,SVNS.L,Solvonis Therapeutics plc,Industrials,Specialty Industrial Machinery,2.00,0.27 - 0.28,0.31 - 0.35,0.04 - 0.08,0.33,2045.18,152144261,10,1.536
+*_,SVS.L,Savills plc,Real Estate,Real Estate Services,0.50,938.97 - 949.00,953.00 - 963.00,14.03 - 24.03,948.00,140.15,245171,4,1.158
+*_,SWEF.L,Starwood European Real Estate Finance,Financial Services,Asset Management,4.00,87.00 - 87.00,88.00 - 88.00,1.00 - 1.00,86.50,57.00,UNKNOWN,0,UNKNOWN
+*_,SWG.L,Shearwater Group plc,Technology,Software Infrastructure,1.50,46.00 - 63.25,48.00 - 64.30,2.00 - 18.30,61.22,2306.55,143414,3,0.758
+@_,SWR.L,Smurfit Westrock Plc,Consumer Cyclical,Packaging & Containers,1.67,3369.00 - 3437.00,3464.00 - 3504.00,95.00 - 135.00,3478.00,250.00,208149,4,1.017
+*_,SYM.L,Symphony Environmental Technologies plc,Consumer Cyclical,Packaging & Containers,0.00,11.65 - 12.50,12.25 - 12.98,0.60 - 1.33,12.00,2530.81,390375,4,0.616
+@_,SYNC.L,Syncona Ord,Financial Services,Asset Management,7.00,93.70 - 93.70,96.40 - 96.40,2.70 - 2.70,96.40,143.10,UNKNOWN,0,UNKNOWN
+@_,SYNT.L,Synthomer plc,Basic Materials,Specialty Chemicals,0.80,93.50 - 97.17,95.67 - 99.20,2.17 - 5.70,97.96,699.77,387310,4,1.927
+@_,SYS.L,SysGroup plc,Technology,Software Infrastructure,0.00,20.15 - 20.20,20.50 - 20.50,0.35 - 0.35,20.50,160.90,7534,1,0.386
+*_,SYS1.L,System1 Group PLC,Communication Services,Advertising Agencies,0.50,363.67 - 445.00,398.00 - 458.00,34.33 - 94.33,405.00,1505.37,43356,2,1.312
+*_,TAM.L,Tatton Asset Management plc,Financial Services,Asset Management,0.50,676.00 - 696.08,689.47 - 710.00,13.47 - 34.00,696.00,636.58,133053,3,0.695
+@_,TAN.L,Tanfield Group PLC,Financial Services,Asset Management,0.00,4.70 - 4.80,4.90 - 4.90,0.20 - 0.20,4.90,420.80,25778,2,0.477
+@_,TAO.L,UNKNOWN,UNKNOWN,UNKNOWN,0.00,5.91 - 5.91,7.00 - 7.00,1.09 - 1.09,6.98,922.14,9954526,7,UNKNOWN
+*_,TATE.L,Tate & Lyle plc,Consumer Defensive,Packaged Foods,1.00,539.00 - 539.00,551.50 - 551.50,12.50 - 12.50,518.50,112.50,2288357,6,0.435
+@_,TAVI.L,Tavistock Investments Plc,Financial Services,Capital Markets,0.80,4.10 - 4.40,4.47 - 4.50,0.37 - 0.40,4.35,1265.89,625888,5,-0.6
+@_,TBCG.L,TBC Bank Group PLC,Financial Services,Banks Regional,1.25,4580.00 - 4830.00,4810.00 - 4915.00,230.00 - 335.00,4880.00,480.00,67819,3,0.764
+@_,TBLD.L,tinyBuild  Inc.,Communication Services,Electronic Gaming & Multimedia,0.75,5.51 - 5.77,5.97 - 6.00,0.46 - 0.49,5.88,1052.04,316123,4,-0.639
+@_,TCAP.L,TP ICAP Group PLC,Financial Services,Capital Markets,1.67,270.50 - 293.50,281.50 - 297.50,11.00 - 27.00,299.50,581.36,2496575,6,0.647
+@_,TCF.L,Theracryf Plc,Healthcare,Biotechnology,0.00,0.23 - 0.24,0.25 - 0.28,0.02 - 0.05,0.25,1705.43,1034446,6,1.266
+@_,TEAM.L,TEAM plc,Financial Services,Asset Management,0.67,30.51 - 32.09,32.85 - 33.50,2.34 - 2.99,31.50,833.97,39296,2,0.78
+@_,TEK.L,Tekcapital plc,Financial Services,Asset Management,1.33,7.30 - 7.43,7.75 - 8.00,0.45 - 0.70,7.80,1008.80,475946,4,0.967
+@_,TEM.L,Templeton Emerging Mkts Invmt Tr TEMIT,Financial Services,Asset Management,4.00,190.00 - 190.00,193.60 - 193.60,3.60 - 3.60,193.60,93.60,2934776,6,UNKNOWN
+*_,TENG.L,Ten Lifestyle Group Plc,Consumer Cyclical,Travel Services,1.00,66.00 - 69.00,69.11 - 72.00,3.11 - 6.00,66.25,518.37,71354,3,0.845
+@_,TEP.L,Telecom Plus Plc,Utilities,Utilities Diversified,1.33,1914.30 - 2010.00,1983.79 - 2035.00,69.48 - 120.70,1980.78,301.20,148363,3,0.527
+@_,TERN.L,Tern Plc,Financial Services,Asset Management,0.43,1.20 - 1.27,1.30 - 1.32,0.10 - 0.11,1.22,1892.91,803376,5,-0.065
+@_,TET.L,Treatt plc,Basic Materials,Specialty Chemicals,1.33,244.94 - 246.50,248.85 - 254.50,3.91 - 9.56,249.00,334.20,598656,5,0.722
+@_,TFW.L,FW Thorpe Plc,Industrials,Electrical Equipment & Parts,0.50,330.00 - 334.93,337.00 - 347.00,7.00 - 17.00,340.00,1108.03,47407,2,0.392
+@_,TGA.L,Thungela Resources Limited,Energy,Thermal Coal,1.00,353.50 - 357.50,361.36 - 396.00,7.86 - 42.50,403.50,1072.54,417988,4,-0.928
+@_,TGP.L,Tekmar Group plc,Industrials,Engineering & Construction,1.50,5.62 - 6.05,5.89 - 6.50,0.26 - 0.88,6.25,1502.97,152690,3,2.229
+*_,THG.L,THG Plc,Consumer Cyclical,Internet Retail,0.25,31.12 - 33.19,31.52 - 33.71,0.40 - 2.59,31.85,549.71,3715168,6,2.18
+@_,THR.L,Thor Energy Plc,Basic Materials,Other Industrial Metals & Mining,0.33,0.45 - 0.49,0.50 - 0.55,0.05 - 0.10,0.55,3301.30,1160612,6,-0.42
+@_,THRG.L,BlackRock Throgmorton Trust Ord,Financial Services,Asset Management,6.00,587.00 - 587.00,597.00 - 597.00,10.00 - 10.00,594.00,80.00,404355,4,UNKNOWN
+*_,THRL.L,Target Healthcare REIT Ord,Real Estate,REIT Healthcare Facilities,3.00,101.00 - 101.00,102.60 - 102.60,1.60 - 1.60,99.30,78.40,894129,5,UNKNOWN
+*_,THRU.L,Thruvision Group plc,Industrials,Security & Protection Services,0.43,1.17 - 1.70,1.25 - 1.73,0.08 - 0.56,1.30,2914.07,8554205,7,0.305
+@_,THS.L,Tharisa plc,Basic Materials,Other Precious Metals & Mining,2.00,82.00 - 85.83,87.00 - 88.00,5.00 - 6.00,87.00,543.86,312595,4,0.966
+@_,THX.L,Thor Explorations Ltd.,Basic Materials,Gold,1.50,40.30 - 40.50,41.90 - 41.95,1.60 - 1.65,40.45,376.80,438364,4,1.329
+@_,TIDE.L,Crimson Tide plc,Technology,Software Application,0.00,60.77 - 63.10,63.50 - 65.00,2.73 - 4.23,65.00,373.96,31573,2,0.221
+@_,TIG.L,Team Internet Group plc,Communication Services,Internet Content & Information,3.00,61.18 - 63.40,67.00 - 68.22,5.82 - 7.04,66.50,847.38,150779,3,0.732
+*_,TIME.L,Time Finance plc,Financial Services,Credit Services,0.00,63.15 - 63.30,63.96 - 64.50,0.81 - 1.35,62.00,434.30,248670,4,1.2
+@_,TKO.L,Taseko Mines Limited,Basic Materials,Copper,1.33,233.00 - 239.00,246.20 - 268.00,13.20 - 35.00,265.00,1114.20,27482,2,1.715
+*_,TLW.L,Tullow Oil plc,Energy,Oil & Gas E&P,1.00,15.64 - 16.25,16.14 - 16.58,0.50 - 0.94,15.90,575.13,3110512,6,0.746
+@_,TMG.L,The Mission Group plc,Communication Services,Advertising Agencies,0.00,24.04 - 24.80,24.99 - 25.40,0.95 - 1.36,25.70,979.00,57746,3,1.582
+*_,TMI.L,Taylor Maritime Limited,Industrials,Marine Shipping,1.33,0.88 - 0.88,0.89 - 0.90,0.01 - 0.02,0.88,226.88,51400,3,0.425
+*_,TMIP.L,Taylor Maritime Limited,Industrials,Marine Shipping,0.00,65.00 - 65.44,66.70 - 67.00,1.70 - 2.00,64.48,247.76,96456,3,0.425
+*_,TMO.L,Time Out Group plc,Consumer Cyclical,Restaurants,0.50,17.00 - 18.00,17.20 - 19.00,0.20 - 2.00,17.00,335.80,48059,2,0.395
+@_,TMPL.L,Temple Bar Ord,Financial Services,Asset Management,4.00,320.50 - 320.50,327.50 - 327.50,7.00 - 7.00,327.50,105.00,747826,5,UNKNOWN
+*_,TMT.L,TMT Investments PLC,Financial Services,Asset Management,6.00,2.55 - 2.55,2.70 - 2.70,0.15 - 0.15,2.54,294.00,4373,1,1.417
+*_,TND.L,Tandem Group plc,Consumer Cyclical,Leisure,0.57,195.00 - 211.57,199.00 - 218.00,4.00 - 23.00,211.00,1249.45,18944,2,1.171
+@_,TON.L,Titon Holdings Plc,Industrials,Building Products & Equipment,2.00,84.00 - 90.00,92.95 - 94.50,8.95 - 10.50,90.00,940.55,9506,1,-0.021
+@_,TOWN.L,Town Centre Securities Plc,Real Estate,REIT Diversified,1.50,124.50 - 125.70,139.00 - 139.00,14.50 - 14.50,139.00,1098.70,5409,1,1.021
+*_,TPK.L,Travis Perkins plc,Industrials,Industrial Distribution,0.50,584.00 - 594.50,599.50 - 605.50,15.50 - 21.50,571.00,212.00,889356,5,1.349
+@_,TPT.L,Topps Tiles Plc,Consumer Cyclical,Home Improvement Retail,0.44,36.20 - 38.95,37.50 - 39.80,1.30 - 3.60,39.90,1128.30,346177,4,1.16
+@_,TPX.L,TPXimpact Holdings plc,Technology,Information Technology Services,1.20,21.00 - 25.00,24.10 - 26.00,3.10 - 5.00,24.50,1977.87,79249,3,1.87
+@_,TRAC.L,t42 IoT Tracking Solutions PLC,Technology,Scientific & Technical Instruments,2.50,1.90 - 2.00,2.29 - 2.58,0.39 - 0.68,2.45,2510.49,576371,5,0.968
+@_,TRB.L,Tribal Group plc,Technology,Software Application,0.12,42.00 - 43.00,43.50 - 44.41,1.50 - 2.41,43.50,1221.21,822112,5,0.174
+@_,TRC.L,The Revel Collective Plc,Consumer Cyclical,Restaurants,0.00,0.21 - 0.21,0.25 - 0.25,0.04 - 0.05,0.25,9587.48,469949,4,2.159
+*_,TRCS.L,Tracsis plc,Technology,Software Application,0.75,400.30 - 425.00,414.00 - 430.00,13.70 - 29.70,404.00,635.20,50925,3,0.645
+@_,TRD.L,Triad Group plc,Technology,Information Technology Services,6.00,292.25 - 292.25,300.00 - 300.00,7.75 - 7.75,300.00,131.75,610,1,1.388
+*_,TRI.L,Trifast plc,Industrials,Tools & Accessories,0.43,67.20 - 70.54,68.60 - 71.71,1.40 - 4.51,67.40,734.76,343487,4,0.763
+*_,TRLS.L,Trellus Health plc,Healthcare,Health Information Services,0.40,0.50 - 0.63,0.60 - 0.79,0.10 - 0.29,0.60,5373.14,216792,4,2.255
+*_,TRN.L,Trainline plc,Consumer Cyclical,Travel Services,1.00,277.80 - 278.60,280.80 - 285.20,3.00 - 7.40,276.20,163.20,581201,5,1.377
+@_,TRST.L,Trustpilot Group plc,Technology,Software Application,0.43,227.60 - 248.00,231.00 - 252.80,3.40 - 25.20,250.40,662.09,1032132,6,0.907
+@_,TRT.L,Transense Technologies plc,Consumer Cyclical,Auto Parts,8.00,157.50 - 157.50,160.00 - 160.00,2.50 - 2.50,157.50,77.50,2753,1,0.015
+@_,TRU.L,TruFin plc,Financial Services,Credit Services,1.33,87.00 - 88.40,88.50 - 90.00,1.50 - 3.00,89.00,260.60,125166,3,0.581
+*_,TRX.L,Tissue Regenix Group plc,Healthcare,Biotechnology,1.00,25.00 - 28.00,26.50 - 28.50,1.50 - 3.50,26.06,473.04,72614,3,0.928
+@_,TSCO.L,Tesco PLC,Consumer Defensive,Grocery Stores,1.50,395.20 - 401.10,401.30 - 406.50,6.10 - 11.30,400.50,138.00,14545118,8,0.62
+@_,TST.L,Touchstar plc,Technology,Computer Hardware,0.00,85.00 - 86.90,90.50 - 91.50,5.50 - 6.50,90.50,582.20,2350,1,0.798
+@_,TSTL.L,Tristel plc,Healthcare,Medical Instruments & Supplies,0.50,397.00 - 420.00,430.00 - 430.00,33.00 - 33.00,415.00,506.00,119808,3,0.213
+@_,TTE.L,TotalEnergies SE,Energy,Oil & Gas Integrated,0.60,52.00 - 53.40,55.58 - 90.90,3.58 - 38.90,54.98,4613.22,3780921,6,0.705
+*_,TTG.L,TT Electronics plc,Technology,Electronic Components,0.67,105.64 - 107.30,107.72 - 114.40,2.08 - 8.76,107.20,489.04,263832,4,0.766
+@_,TUN.L,Tungsten West PLC,Basic Materials,Other Industrial Metals & Mining,0.38,9.06 - 10.07,10.18 - 10.35,1.11 - 1.29,10.00,1931.80,1551124,6,-0.613
+@_,TUNE.L,Focusrite plc,Consumer Cyclical,Leisure,0.00,161.00 - 162.52,165.00 - 174.00,4.00 - 13.00,178.69,1270.50,88270,3,0.576
+*_,TW.L,Taylor Wimpey plc,Consumer Cyclical,Residential Construction,1.00,111.65 - 113.15,113.70 - 114.70,2.05 - 3.05,111.10,158.40,17595960,8,1.684
+@_,TXP.L,Touchstone Exploration Inc.,Energy,Oil & Gas E&P,0.50,11.75 - 13.75,12.14 - 14.19,0.39 - 2.44,14.38,1930.83,2189743,6,0.454
+*_,UJO.L,Union Jack Oil plc,Energy,Oil & Gas E&P,0.00,8.90 - 8.91,9.01 - 9.20,0.11 - 0.30,8.42,981.75,192168,3,0.444
+@_,UKW.L,Greencoat UK Wind,Utilities,Utilities Renewable,2.00,121.30 - 121.30,123.40 - 123.40,2.10 - 2.10,123.40,86.10,2932515,6,UNKNOWN
+@_,ULTP.L,Ultimate Products Plc,Consumer Cyclical,Furnishings  Fixtures & Appliances,0.44,54.60 - 59.73,56.25 - 62.68,1.65 - 8.08,59.80,1165.89,373651,4,0.791
+@_,ULVR.L,Unilever PLC,Consumer Defensive,Household & Personal Products,2.50,4441.50 - 4451.82,4518.00 - 4524.00,76.50 - 82.50,4481.00,148.68,2125576,6,0.217
+*_,UOG.L,United Oil & Gas Plc,Energy,Oil & Gas E&P,1.00,0.16 - 0.17,0.19 - 0.19,0.02 - 0.03,0.16,2131.53,29911176,8,1.22
+*_,UPL.L,Upland Resources Limited,Energy,Oil & Gas E&P,1.00,1.12 - 1.15,1.17 - 1.25,0.05 - 0.12,1.12,1190.02,3551681,6,1.716
+@_,UPR.L,Uniphar plc,Healthcare,Medical Distribution,1.25,312.62 - 318.00,317.00 - 329.75,4.38 - 17.12,325.00,363.60,33628,2,0.955
+@_,URU.L,URU Metals Limited,Basic Materials,Other Industrial Metals & Mining,0.29,3.95 - 4.76,4.49 - 5.00,0.54 - 1.05,4.75,2892.80,540841,5,0.009
+*_,UTG.L,Unite Group PLC,Real Estate,REIT Diversified,3.00,812.50 - 812.50,824.50 - 824.50,12.00 - 12.00,804.00,72.00,748188,5,1.127
+@_,VAL.L,ValiRx plc,Healthcare,Biotechnology,0.14,0.52 - 0.57,0.59 - 0.64,0.07 - 0.12,0.60,3668.23,1891974,6,-0.471
+@_,VALT.L,Valterra Platinum Limited,Basic Materials,Other Precious Metals & Mining,0.33,3310.00 - 3480.00,3360.00 - 3532.67,50.00 - 222.67,3490.00,578.58,344094,4,0.802
+*_,VANL.L,Van Elle Holdings plc,Industrials,Engineering & Construction,0.14,40.95 - 43.99,42.00 - 45.00,1.05 - 4.05,41.00,881.28,176263,3,0.609
+@_,VANQ.L,Vanquis Banking Group plc,Financial Services,Banks Regional,2.00,97.89 - 98.70,99.40 - 107.80,1.51 - 9.91,103.80,667.61,514209,5,1.482
+@_,VARE.L,Various Eateries PLC,Consumer Cyclical,Restaurants,0.00,12.87 - 12.87,13.15 - 13.15,0.28 - 0.28,13.15,217.28,8672,1,0.112
+@_,VAST.L,Vast Resources plc,Basic Materials,Other Industrial Metals & Mining,0.67,0.35 - 0.35,0.36 - 0.37,0.01 - 0.02,0.35,997.28,64629390,9,3.033
+*_,VCP.L,Victoria PLC,Consumer Cyclical,Furnishings  Fixtures & Appliances,1.67,70.89 - 83.50,73.00 - 89.00,2.11 - 18.11,82.94,1595.00,362484,4,0.727
+*_,VCT.L,Victrex plc,Basic Materials,Specialty Chemicals,1.00,720.00 - 782.00,730.54 - 794.00,10.54 - 74.00,721.00,338.94,244491,4,0.641
+@_,VEIL.L,Vietnam Enterprise Ord,Financial Services,Asset Management,7.00,613.00 - 613.00,657.00 - 657.00,44.00 - 44.00,657.00,352.00,284276,4,UNKNOWN
+*_,VEL.L,Velocity Composites plc,Industrials,Aerospace & Defense,0.75,26.00 - 29.00,27.70 - 29.50,1.70 - 3.50,26.50,580.30,66632,3,1.174
+*_,VIC.L,Victorian Plumbing Group plc,Consumer Cyclical,Home Improvement Retail,0.50,75.46 - 77.50,76.60 - 79.20,1.14 - 3.74,72.43,335.84,466893,4,0.886
+@_,VID.L,Videndum Plc,Technology,Consumer Electronics,0.11,82.12 - 87.00,86.48 - 94.40,4.36 - 12.28,94.40,1755.61,129822,3,0.638
+@_,VINO.L,Virgin Wines UK PLC,Consumer Defensive,Beverages Wineries & Distilleries,0.50,60.50 - 63.85,61.96 - 64.84,1.46 - 4.34,64.70,710.94,45779,2,1.209
+@_,VIP.L,Value and Indexed Property Income Ord,Financial Services,Asset Management,3.00,199.00 - 199.00,201.50 - 201.50,2.50 - 2.50,201.50,62.50,32854,2,UNKNOWN
+@_,VLE.L,Volvere plc,Consumer Defensive,Packaged Foods,0.00,2315.00 - 2315.00,2350.00 - 2400.00,35.00 - 85.00,2350.00,416.00,636,1,0.483
+*_,VLG.L,Venture Life Group plc,Consumer Defensive,Household & Personal Products,0.00,58.20 - 60.21,60.00 - 62.53,1.80 - 4.33,59.00,512.32,406709,4,0.257
+@_,VLX.L,Volex plc,Industrials,Electrical Equipment & Parts,1.67,274.75 - 370.83,375.93 - 379.93,101.18 - 105.18,368.50,2100.59,649367,5,0.909
+@_,VNET.L,Vianet Group plc,Industrials,Specialty Business Services,0.00,93.00 - 93.00,94.40 - 94.40,1.40 - 1.40,94.00,74.20,12741,2,0.788
+@_,VNH.L,VietNam Holding Ord,Financial Services,Asset Management,7.00,340.00 - 340.00,358.50 - 358.50,18.50 - 18.50,358.50,259.00,UNKNOWN,0,UNKNOWN
+@_,VOD.L,Vodafone Group Public Limited Company,Communication Services,Telecom Services,2.00,78.48 - 80.30,81.16 - 81.72,2.68 - 3.24,80.50,257.44,67180181,9,0.429
+@_,VOF.L,VinaCapital Vietnam Opp Fund Ord,Financial Services,Asset Management,3.00,426.00 - 433.50,436.50 - 446.00,10.50 - 20.00,446.00,253.00,UNKNOWN,0,UNKNOWN
+*_,VP.L,Vp plc,Industrials,Rental & Leasing Services,0.33,603.80 - 605.40,618.00 - 638.00,14.20 - 34.20,598.00,480.80,10381,2,0.554
+@_,VRCI.L,Verici Dx plc,Healthcare,Diagnostics & Research,0.00,1.00 - 1.01,1.12 - 1.25,0.12 - 0.25,1.12,4835.12,177791,3,1.461
+@_,VSL.L,VPC Specialty Lending Investments Ord,UNKNOWN,UNKNOWN,2.00,14.20 - 14.20,14.48 - 14.75,0.28 - 0.55,14.75,292.16,538656,5,UNKNOWN
+*_,VSVS.L,Vesuvius plc,Basic Materials,Steel,1.50,388.20 - 388.95,394.60 - 400.80,6.40 - 12.60,388.70,219.00,299820,4,1.048
+*_,VTU.L,Vertu Motors plc,Consumer Cyclical,Auto & Truck Dealerships,0.00,61.19 - 62.70,62.10 - 63.50,0.91 - 2.31,61.04,375.51,479034,4,0.707
+*_,VTY.L,Vistry Group PLC,Consumer Cyclical,Residential Construction,1.33,610.60 - 617.95,625.44 - 637.40,14.84 - 26.80,607.20,400.72,906494,5,2.015
+*_,W7L.L,Warpaint London PLC,Consumer Defensive,Household & Personal Products,0.67,425.00 - 428.00,429.80 - 435.00,4.80 - 10.00,427.50,234.30,96296,3,0.085
+*_,WATR.L,Water Intelligence plc,Industrials,Specialty Business Services,0.00,330.00 - 342.50,335.00 - 347.50,5.00 - 17.50,330.00,353.50,24763,2,0.558
+@_,WEIR.L,The Weir Group PLC,Industrials,Specialty Industrial Machinery,1.00,2476.00 - 2552.00,2526.00 - 2606.00,50.00 - 130.00,2592.00,346.00,538352,5,1.049
+@_,WHI.L,WH Ireland Group plc,Financial Services,Capital Markets,0.00,2.00 - 2.00,2.20 - 2.20,0.20 - 0.20,2.20,500.00,16801,2,0.39
+@_,WHR.L,Warehouse REIT Ord,Real Estate,REIT Industrial,3.00,111.20 - 112.20,112.40 - 115.00,1.20 - 3.80,115.00,176.00,11208461,8,UNKNOWN
+@_,WIL.L,Wilmington plc,Consumer Defensive,Education & Training Services,0.33,318.62 - 327.00,324.78 - 348.00,6.16 - 29.38,329.00,1386.90,101192,3,0.343
+*_,WINE.L,Naked Wines plc,Consumer Defensive,Beverages Wineries & Distilleries,0.00,70.20 - 73.70,71.24 - 75.80,1.04 - 5.60,72.20,1113.45,65739,3,1.548
+*_,WINK.L,M Winkworth PLC,Real Estate,Real Estate Services,1.00,202.00 - 206.50,206.00 - 210.00,4.00 - 8.00,203.22,322.80,2898,1,0.56
+@_,WISE.L,Wise plc,Technology,Information Technology Services,1.33,1032.00 - 1090.00,1063.00 - 1112.00,31.00 - 80.00,1084.00,516.00,1171231,6,0.63
+*_,WIX.L,Wickes Group plc,Consumer Cyclical,Home Improvement Retail,1.00,226.00 - 228.00,230.50 - 232.00,4.50 - 6.00,225.00,183.00,722948,5,0.916
+*_,WIZZ.L,Wizz Air Holdings Plc,Industrials,Airlines,0.67,1064.00 - 1086.09,1083.00 - 1111.00,19.00 - 47.00,1038.00,265.16,851345,5,2.159
+*_,WJG.L,Watkin Jones Plc,Consumer Cyclical,Residential Construction,1.00,27.50 - 27.95,28.00 - 28.35,0.50 - 0.85,27.45,329.03,839296,5,1.467
+@_,WKP.L,Workspace Group Plc,Real Estate,REIT Office,1.00,392.95 - 393.00,397.50 - 398.50,4.55 - 5.55,397.00,120.60,1027794,6,0.936
+@_,WKS.L,Winking Studios Limited,Communication Services,Electronic Gaming & Multimedia,1.33,12.50 - 12.50,12.90 - 13.00,0.40 - 0.50,12.50,520.00,18421,2,UNKNOWN
+@_,WNX.L,Wellnex Life Limited,Consumer Defensive,Packaged Foods,0.00,15.05 - 15.05,15.50 - 15.50,0.45 - 0.45,15.50,149.40,644,1,0.993
+*_,WOSG.L,Watches of Switzerland Group PLC,Consumer Cyclical,Luxury Goods,1.50,364.20 - 369.33,375.40 - 379.00,11.20 - 14.80,361.00,271.31,1657802,6,1.848
+@_,WPHO.L,Windar Photonics PLC,Technology,Electronic Components,0.71,49.00 - 53.67,50.00 - 57.99,1.00 - 8.99,56.00,1426.91,114061,3,1.331
+*_,WPP.L,WPP plc,Communication Services,Advertising Agencies,0.00,426.60 - 426.60,445.10 - 445.10,18.50 - 18.50,421.60,203.50,5408867,7,0.787
+@_,WPS.L,W.A.G payment solutions plc,Technology,Software Infrastructure,0.67,79.60 - 85.16,82.60 - 87.20,3.00 - 7.60,87.00,715.92,260947,4,0.162
+@_,WRKS.L,TheWorks.co.uk plc,Consumer Cyclical,Specialty Retail,0.67,55.71 - 58.75,58.29 - 60.00,2.58 - 4.29,59.25,938.53,150641,3,1.184
+@_,WSBN.L,Wishbone Gold Plc,Basic Materials,Gold,9.00,0.27 - 0.27,0.75 - 0.75,0.48 - 0.48,0.69,8781.12,209989937,10,1.46
+*_,WSG.L,Westminster Group PLC,Industrials,Security & Protection Services,0.50,2.50 - 2.83,2.65 - 2.90,0.15 - 0.40,2.60,1119.98,561163,5,0.997
+@_,WSP.L,Wynnstay Properties Plc,Real Estate,Real Estate Diversified,6.00,760.00 - 760.00,800.00 - 800.00,40.00 - 40.00,760.00,240.00,591,1,0.078
+@_,WTB.L,Whitbread plc,Consumer Cyclical,Lodging,4.00,2915.00 - 2997.00,2995.06 - 3063.51,80.06 - 148.51,3010.00,146.57,831818,5,1.109
+@_,WWH.L,Worldwide Healthcare Ord,Financial Services,Asset Management,3.00,299.50 - 299.50,308.00 - 308.00,8.50 - 8.50,305.50,136.00,1784751,6,UNKNOWN
+*_,WYN.L,Wynnstay Group Plc,Basic Materials,Agricultural Inputs,1.00,363.50 - 376.10,380.00 - 385.00,16.50 - 21.50,362.50,449.15,42914,2,0.291
+@_,XAR.L,Xaar plc,Technology,Computer Hardware,0.40,121.80 - 124.65,125.00 - 127.50,3.20 - 5.70,126.50,918.50,45067,2,0.895
+@_,XPF.L,XP Factory Plc,Consumer Cyclical,Leisure,0.00,11.00 - 11.10,11.25 - 11.50,0.25 - 0.50,11.25,940.18,173928,3,1.795
+@_,XPP.L,XP Power Limited,Industrials,Electrical Equipment & Parts,1.00,870.00 - 900.00,903.62 - 942.00,33.62 - 72.00,932.00,704.40,15169,2,1.44
+@_,XPS.L,XPS Pensions Group plc,Consumer Cyclical,Personal Services,0.60,356.50 - 378.00,364.00 - 387.50,7.50 - 31.00,379.33,560.00,1170178,6,0.334
+@_,XSG.L,Xeros Technology Group plc,Industrials,Specialty Industrial Machinery,0.00,1.40 - 1.42,1.50 - 1.55,0.10 - 0.15,1.50,3408.79,527021,5,2.032
+@_,XTR.L,Xtract Resources Plc,Basic Materials,Gold,0.00,0.70 - 0.75,0.77 - 0.80,0.07 - 0.10,0.75,3903.61,876889,5,-0.31
+@_,YCA.L,Yellow Cake plc,Energy,Uranium,1.00,474.00 - 474.00,482.60 - 482.60,8.60 - 8.60,490.40,86.00,719680,5,0.316
+*_,YNGA.L,Young & Co.'s Brewery  P.L.C.,Consumer Cyclical,Restaurants,1.25,937.00 - 945.00,951.00 - 962.00,14.00 - 25.00,930.00,275.00,38459,2,1.364
+@_,YNGN.L,Young & Co.'s Brewery  P.L.C.,Consumer Cyclical,Restaurants,0.67,615.00 - 641.00,626.00 - 666.24,11.00 - 51.24,656.75,534.44,41061,2,1.364
+@_,YOU.L,YouGov plc,Industrials,Consulting Services,1.67,376.00 - 385.50,383.38 - 395.50,7.38 - 19.50,392.00,457.44,662002,5,1.178
+@_,YU.L,Yü Group PLC,Utilities,Utilities Diversified,0.50,1570.00 - 1611.20,1619.80 - 1650.00,49.80 - 80.00,1637.00,265.80,17422,2,0.684
+@_,ZAM.L,Zambeef Products PLC,Consumer Defensive,Packaged Foods,0.00,3.70 - 3.90,4.00 - 4.00,0.30 - 0.30,3.80,533.50,92098,3,-0.316
+@_,ZED.L,Zenova Group Plc,Basic Materials,Specialty Chemicals,1.00,0.22 - 0.23,0.24 - 0.25,0.02 - 0.03,0.24,1528.13,1108916,6,-0.517
+@_,ZEG.L,Zegona Communications plc,Communication Services,Telecom Services,2.50,694.00 - 748.00,756.00 - 774.00,62.00 - 80.00,770.00,590.00,272129,4,3.014
+*_,ZEN.L,Zenith Energy Ltd.,Energy,Oil & Gas E&P,0.50,16.00 - 16.75,16.45 - 17.50,0.45 - 1.50,16.00,979.80,428735,4,0.793
+*_,ZIG.L,Zigup Plc,Industrials,Rental & Leasing Services,2.00,325.50 - 355.50,334.50 - 364.50,9.00 - 39.00,338.00,388.50,757467,5,1.403
+@_,ZIN.L,Zinc Media Group plc,Communication Services,Entertainment,0.00,67.00 - 67.00,68.50 - 68.50,1.50 - 1.50,68.50,111.00,2569,1,-0.3
+*_,ZIOC.L,Zanaga Iron Ore Company Limited,Basic Materials,Steel,1.00,6.53 - 6.86,6.95 - 7.48,0.42 - 0.95,6.75,1483.79,531242,5,2.251
+@_,ZNWD.L,Zinnwald Lithium Plc,Basic Materials,Other Industrial Metals & Mining,0.11,5.20 - 5.35,5.40 - 5.50,0.20 - 0.30,5.30,1223.62,200648,4,0.417
+@_,ZOO.L,ZOO Digital Group plc,Technology,Software Application,1.00,14.95 - 15.75,15.94 - 17.40,0.99 - 2.45,16.00,1186.71,288404,4,0.761
+*_,ZPHR.L,Zephyr Energy plc,Energy,Oil & Gas E&P,0.00,2.90 - 2.96,2.98 - 3.04,0.08 - 0.13,2.95,1008.83,3106770,6,0.471
+*_,ZTF.L,Zotefoams plc,Basic Materials,Specialty Chemicals,0.33,302.76 - 322.00,315.00 - 331.00,12.24 - 28.24,316.77,413.56,54162,3,0.756
