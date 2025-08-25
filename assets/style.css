@@ -1,0 +1,21 @@
+.green-text {
+    color: green;
+}
+
+.red-text {
+    color: red;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.bold-profit {
+    font-weight: bold;
+}
+
+.wrap-header .ag-header-cell-label {
+    white-space: normal !important;
+    line-height: 1.2;
+    text-align: center;
+}
