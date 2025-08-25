@@ -1055,7 +1055,7 @@ app.layout = dbc.Container([
     dbc.Col([
         dbc.Tabs([
                 dbc.Tab(homepage_content, label="Home"),
-                dbc.Tab(treemap_content, label="Tree Maps"),
+                #dbc.Tab(treemap_content, label="Tree Maps"),
                 dbc.Tab(advanced_filter, label="Advanced Filter"),
                 dbc.Tab(propage_content, label="Pro Analysis"),
                 dbc.Tab(Calculator, label="Calculator"),
@@ -2257,4 +2257,5 @@ def disbale_treemap_button(n_clicks, selected_sector, selected_industry, stored_
 
 if __name__ == "__main__":
     app.run(debug=True)
+
     
