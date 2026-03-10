@@ -7,6 +7,7 @@ import yfinance as yf
 import numpy as np
 import plotly.express as px
 import plotly.graph_objs as go
+from plotly.subplots import make_subplots
 from scipy.interpolate import make_interp_spline
 import dash_daq as daq
 import requests
@@ -22,6 +23,105 @@ import json
 
 from bs4 import BeautifulSoup
 from zoneinfo import ZoneInfo
+
+# ---------------------------------------------------
+# FTSE Sectors 
+# ---------------------------------------------------
+uk_sector_indices = {
+    "Industrials": ["AVON.L","BA.L","BAB.L","BBY.L","BOY.L", 
+    "CHG.L","CKN.L","COST.L","CWR.L","EAAS.L","EXPN.L","EZJ.L","FAN.L",
+    "FGP.L","GEN.L","GFRD.L","GFTU.L","HAS.L","HILS.L","HLMA.L","IAG.L",
+    "IMI.L","ITRK.L","JSG.L","KIE.L","KLR.L","MEGP.L","MGAM.L","MGNS.L",
+    "MRO.L","MTO.L","PAGE.L","QQ.L","REL.L","RHIM.L","ROR.L","RR.L",
+    "RS1.L","RTO.L","SMIN.L","SNR.L","SRP.L","STEM.L","TPK.L","WATR.L",
+    "WEIR.L","WIZZ.L","ZIG.L"],
+    #"BMTO.L"],
+    
+    "Financial Services": [
+    "ABDN.L","ADM.L","AJB.L","ASHM.L","BARC.L","BEZ.L","BPT.L","CABP.L",
+    "CAV.L","CBG.L","CMCX.L","CSN.L","DFCH.L","EMG.L","FCH.L","FSG.L",
+    "HSBA.L","HSX.L","IHP.L","IGG.L","INVP.L","IPF.L","IPO.L","JUP.L",
+    "JUST.L","LGEN.L","LLOY.L","LRE.L","MNG.L","MTRO.L","N91.L","OSB.L",
+    "PAG.L","PLUS.L","POLN.L","PPH.L","PRU.L","QLT.L","RAT.L","SHAW.L",
+    "STAN.L","STJ.L","TBCG.L","TCAP.L"],
+
+    "Basic Materials": [
+    "1SN.L","AAL.L","ANTO.L","ATYM.L","BREE.L","CAML.L","EDV.L","ELM.L",
+    "FRES.L","GLEN.L","HOC.L","IBST.L","JMAT.L","KAV.L","MNDI.L","MSLH.L",
+    "ORR.L","PAF.L","SAV.L","VCT.L","VSVS.L"],
+
+    "Consumer Cyclical": [
+    "AML.L","ANG.L","AO.L","AURR.L","AUTG.L","BKG.L","BOWL.L","BRBY.L",
+    "BTRW.L","BWY.L","CCL.L","COA.L","CPG.L","CURY.L","DNLM.L","DOCS.L",
+    "DOM.L","ENT.L","FRAS.L","GRG.L","HWDN.L","IHG.L","INCH.L","JD.L",
+    "JDW.L","KGF.L","MAB.L","MKS.L","MOON.L","PETS.L","PPH.L","PSN.L",
+    "PTEC.L","RNK.L","SMWH.L","SSPG.L","TENG.L","THG.L","TRN.L","TW.L",
+    "VTY.L","WIX.L","WOSG.L","WTB.L","XPS.L"],
+
+    "Consumer Defensive": [
+    "ABF.L","AEP.L","APN.L","BAG.L","BATS.L","BME.L","BNZL.L","CCH.L",
+    "CCR.L","DGE.L","GNC.L","HFG.L","IMB.L","OCDO.L","PFD.L","PRN.L",
+    "SBRY.L","TATE.L","TSCO.L"],
+
+    "Communication Services": [
+    "AAF.L","AUTO.L","BBSN.L","BCG.L","FOUR.L","FUTR.L","GAMA.L",
+    "HTWS.L","INF.L","ITV.L","MONY.L","PSON.L","RMV.L","VOD.L","WPP.L"],
+
+    "Energy": [
+    "BP.L","DCC.L","ENOG.L","HBR.L","HTG.L","ITH.L","SHEL.L"],
+
+    "Healthcare": [
+    "AVCT.L","CTEC.L","GNS.L","GSK.L","HIK.L","HLN.L","ONT.L",
+    "OXB.L","SPI.L","SN.L"],
+
+    "Real Estate": [
+    "BLND.L","BYG.L","DLN.L","GPE.L","GRI.L","HMSO.L","HWG.L",
+    "IWG.L","LAND.L","LMP.L","NRR.L","PHP.L","SAFE.L","SHC.L",
+    "SRE.L","SVS.L","UTG.L","WKP.L"],
+
+    "Technology": [
+    "ALFA.L","BYIT.L","CCC.L","DSCV.L","EWG.L","GBG.L","ING.L",
+    "KNOS.L","NCC.L","OXIG.L","PCT.L","PINE.L","RPI.L","RSW.L",
+    "SAAS.L","SCT.L","SGE.L","TRST.L"],
+
+    "Utilities": [
+    "CNA.L","DRX.L","HGEN.L","MTLN.L","NG.L","PNN.L","SSE.L",
+    "TEP.L","TRIG.L","UKW.L","UU.L"],
+}
+
+# ---------------------------------------------------
+# Sector ETF symbols (S&P 500 sectors)
+# ---------------------------------------------------
+us_sector_indices = {
+    "Materials (XLB)": "XLB",
+    "Energy (XLE)": "XLE",
+    "Financials (XLF)": "XLF",
+    "Industrials (XLI)": "XLI",
+    "Technology (XLK)": "XLK",
+    "Consumer Staples (XLP)": "XLP",
+    "Utilities (XLU)": "XLU",
+    "Health Care (XLV)": "XLV",
+    "Consumer Discretionary (XLY)": "XLY",
+    "Real Estate (XLRE)": "XLRE",
+    "Communication Services (XLC)": "XLC"
+}
+
+metals_indices = {
+    "Gold": ["GC=F"],
+    "Silver": ["SI=F"],
+    "Platinum": ["PL=F"],
+    "Palladium": ["PA=F"],
+    "Copper": ["HG=F"]
+}
+
+crypto_indices = {
+    "Bitcoin": ["BTC-USD"],
+    "Ethereum": ["ETH-USD"],
+    "Solana": ["SOL-USD"],
+    "Binance Coin": ["BNB-USD"],
+    "XRP": ["XRP-USD"]
+}
+
 
 # Load data
 DATA_ROOT = "data/Exchange"
@@ -53,6 +153,66 @@ news_columnDefs = [
 uk_stock_data = yf.download("^FTSE", period="1y", interval="1wk", auto_adjust=True) 
 us_stock_data = yf.download("^GSPC", period="1y", interval="1wk", auto_adjust=True)
 
+
+
+def build_sector_indices(sectors_indices):
+    local_sector_data = {}
+    
+    for sector_name, tickers in sectors_indices.items():
+        print (f"{sector_name}:  {tickers}")
+        # Try downloading — allow partial success
+        df = yf.download(tickers, period="1y", auto_adjust=True, progress=True)
+
+        if df.empty:
+            print(f"⚠ No data for sector: {sector_name}")
+            continue
+
+        # Flatten MultiIndex if needed
+        if isinstance(df.columns, pd.MultiIndex):
+            df.columns = ['_'.join(col).strip() for col in df.columns]
+
+        # Extract Close_ columns
+        close_cols = [c for c in df.columns if c.startswith("Close_")]
+
+        if not close_cols:
+            print(f"⚠ No close prices for sector: {sector_name}")
+            continue
+
+        closes = df[close_cols].dropna(how="all")  # drop rows where ALL tickers are NaN
+
+        if closes.empty:
+            print(f"⚠ All tickers failed for sector: {sector_name}")
+            continue
+
+        # Remove tickers that failed entirely
+        closes = closes.dropna(axis=1, how="all")
+
+        if closes.empty:
+            print(f"⚠ No usable tickers left in sector: {sector_name}")
+            continue
+
+        # Normalize
+        closes.columns = [c.replace("Close_", "") for c in closes.columns]
+
+        # Ensure at least 1 row remains
+        if len(closes) < 2:
+            print(f"⚠ Not enough data for sector: {sector_name}")
+            continue
+
+        norm = closes / closes.iloc[0] * 100.0
+        sector_index = norm.mean(axis=1)
+
+        sdf = pd.DataFrame({"Close": sector_index})
+        sdf.index = sdf.index.tz_localize(None)
+
+        sdf["DPCM_raw"] = sdf["Close"].diff()
+        sdf["DPCM_q"] = sdf["DPCM_raw"].apply(lambda x: 1 if x > 0 else (-1 if x < 0 else 0))
+
+        local_sector_data[sector_name] = sdf
+        
+    return local_sector_data
+
+
 def get_index_map():
     #Usage
     #index_map = get_index_map()
@@ -82,6 +242,7 @@ def load_country_data(country):
     df_batch = df
     df_batch = df_batch.dropna(subset=["Ticker", "Sector", "Industry"])
     sector_options = sorted(df_batch["Sector"].dropna().unique())
+            
     return df, df_buysell, padded_filenames, padded_values, sector_options
         
 
@@ -211,6 +372,14 @@ sector_summary_card = dbc.Card(
     style={"backgroundColor": "#f8f9fa"}
 )
 
+sector_data = {}
+uk_sector_indices_data = build_sector_indices(uk_sector_indices)
+us_sector_indices_data = build_sector_indices(us_sector_indices)
+metals_indices_data = build_sector_indices(metals_indices)
+crypto_indices_data = build_sector_indices(crypto_indices)
+
+sector_data = uk_sector_indices_data
+
 # Insert into your homepage_content layout
 homepage_content = dbc.Card(
     dbc.CardBody([
@@ -310,13 +479,13 @@ treemap_content = dbc.Card(
                         dcc.Dropdown(
                             id="treemap_sector-dropdown",
                             options=[{"label": s, "value": s} for s in treemap_sector_options],
-                            placeholder="Select Sector",
+                            placeholder="All Sectors",
                             clearable=False,
                             style={"width": "250px", "marginBottom": "20px"}
                         ),
                         dcc.Dropdown(
                             id="treemap_industry-dropdown",
-                            placeholder="Select Industry",
+                            placeholder="All Industries",
                             clearable=False,
                             style={"width": "340px", "marginBottom": "20px"}
                         ),
@@ -374,16 +543,21 @@ propage_content = dbc.Card(
                         {"field": "Ticker", "minWidth": 90, "maxWidth": 90},
                         {"field": "Name", "minWidth": 240, "maxWidth": 240},
                         {"field": "Industry", "minWidth": 240, "maxWidth": 240},
-                        {"field": "Avg Hold Period(days)", "minWidth": 190, "maxWidth": 190},
+                        {"field": "Avg Hold Period(days)", "headerClass": "wrap-header", "minWidth": 120, "maxWidth": 120},
                         {"field": "BUY Range", "minWidth": 150, "maxWidth": 150},
                         {"field": "SELL Range", "minWidth": 150, "maxWidth": 150},
                         {"field": "Price Movement", "minWidth": 150, "maxWidth": 150},
+                        {"field": "Dropped Samples %", "headerClass": "wrap-header", "minWidth": 110, "maxWidth": 110},
+                        {"field": "Ask-Bid Spread", "headerClass": "wrap-header", "minWidth": 110, "maxWidth": 110},
                         {"field": "Total Profit", "minWidth": 110, "maxWidth": 110}
                     ],
                     rowData=df.to_dict("records"),
                     columnSize="sizeToFit",
                     dashGridOptions={"rowSelection": "single"},
-                    style={"height": "400px", "width": "100%"},
+                    style={"height": "400px",
+                            "maxWidth": "1400px",     # 👈 controls grid width
+                            "margin": "0 auto"
+                          },
                     className="ag-theme-alpine"
                 )
             ])
@@ -672,98 +846,187 @@ advanced_filter = html.Div([
                     id="filter-sector",
                     options=[{"label": s, "value": s} for s in sorted(df["Sector"].dropna().unique())],
                     multi=True,
-                    placeholder="Select Sector"
+                    placeholder="All Sectors"
                 )
-            ]),
+            ], width=12, md=6),
             dbc.Col([
                 html.Label("Industry"),
                 dcc.Dropdown(
                     id="filter-industry",
                     options=[{"label": i, "value": i} for i in sorted(df["Industry"].dropna().unique())],
                     multi=True,
-                    placeholder="Select Industry"
+                    placeholder="All Industries"
                 )
-            ])
+            ], width=12, md=6)
         ], className="mb-3", style={"marginTop": "1.5rem"}),
 
-        dbc.Row([
-            dbc.Col([
-                html.Label("Avg Hold Period (days)"),
-                dcc.RangeSlider(
-                    id="filter-hold-period",
-                    min=int(df["Avg Hold Period(days)"].min()),
-                    max=int(df["Avg Hold Period(days)"].max()),
-                    value=[
-                        int(df["Avg Hold Period(days)"].min()),
-                        int(df["Avg Hold Period(days)"].max())
-                    ],
-                    marks=None,
-                    allowCross=False,
-                    tooltip={"placement": "bottom", "always_visible": False}
-                )
-            ]),
-            dbc.Col([
-                html.Label("Num of Trades (BUY/SELL Pairs)"),
-                dcc.RangeSlider(
-                    id="filter-transactions",
-                    min=int(df["Num of Trades"].min()),
-                    max=int(df["Num of Trades"].max()),
-                    value=[
-                        int(df["Num of Trades"].min()),
-                        int(df["Num of Trades"].max())
-                    ],
-                    marks=None,
-                    allowCross=False,
-                    step=1,
-                    tooltip={"placement": "bottom", "always_visible": False}
-                )
-            ])
-        ], className="mb-3"),
+        # ── Risk Card
+        dbc.Card([
+            dbc.CardHeader("Risk Filter", style={"fontWeight": "bold", "fontSize": "0.8rem"}),
 
-        dbc.Row([
-            dbc.Col([
-                html.Label("Volume Indicator"),
-                dcc.RangeSlider(
-                    id="filter-volume",
-                    min=0, max=10,
-                    value=[0, 10],
-                    step=1,
-                    allowCross=False,
-                    #marks={i: str(i) for i in range(0, 11)},
-                )
-            ], style={"marginTop": "2rem"}),
-    
-            dbc.Col([
-                html.Div(id="Beta-Risk-label", style={"fontWeight": "bold", "marginBottom": "0.5rem"}),
-                html.Label("Beta Risk"),
-                dcc.RangeSlider(
-                    id="filter-beta",
-                    min=-5, max=5,
-                    allowCross=False,
-                    value=[-1, 1],
-                    step=0.1,
-                    marks={i: str(i) for i in range(-5, 6)}
-                )
-            ]),
-        
-            dbc.Col([
-                html.Div(id="last-price-label", style={"fontWeight": "bold", "marginBottom": "0.5rem"}),
-                html.Label("Last Price"),
-                dcc.RangeSlider(float(df["last Price"].min()), float(df["last Price"].max()),
-                    id="filter-last-price",
-                    value=[float(df["last Price"].min()), float(df["last Price"].max()),],
-                    allowCross=False,
-                    step=1,
-                    marks=None,
-                    tooltip={
-                        "placement": "bottom",
-                        "always_visible": True,
-                        "style": {"color": "white", "fontSize": "20px"},
-                    },
-                ),
-            ])
-        ], className="mb-4"),
+            dbc.CardBody([
+                dbc.Row([
+                    dbc.Col([
+                    
+                        html.Div([
+                            html.Div("High Risk", style={
+                                "display": "inline-block",
+                                "width": "50%",
+                                "textAlign": "left",
+                                "fontWeight": "bold",
+                                "marginBottom": "0.5rem"
+                            }),
+                            html.Div("Low Risk", style={
+                                "display": "inline-block",
+                                "width": "50%",
+                                "textAlign": "right",
+                                "fontWeight": "bold",
+                                "marginBottom": "0.5rem"
+                            })
+                        ]),
+                        
+                        html.Label("Volume Indicator"),
+                        dcc.RangeSlider(
+                            id="filter-volume",
+                            min=0, max=10,
+                            value=[0, 10],
+                            step=1,
+                            allowCross=False,
+                        )
+                    ], width=12, md=4),
 
+                    dbc.Col([
+                        html.Div(id="Beta-Risk-label", style={"fontWeight": "bold", "marginBottom": "0.5rem"}),
+                        html.Label("Beta Risk"),
+                        dcc.RangeSlider(
+                            id="filter-beta",
+                            min=-5, max=5,
+                            allowCross=False,
+                            value=[-1, 1],
+                            step=0.1,
+                            marks={i: str(i) for i in range(-5, 6)}
+                        )
+                    ], width=12, md=4),
+
+                    dbc.Col([
+                    
+                        html.Div([
+                            html.Div("Low Risk", style={
+                                "display": "inline-block",
+                                "width": "50%",
+                                "textAlign": "left",
+                                "fontWeight": "bold",
+                                "marginBottom": "0.5rem"
+                            }),
+                            html.Div("High Risk", style={
+                                "display": "inline-block",
+                                "width": "50%",
+                                "textAlign": "right",
+                                "fontWeight": "bold",
+                                "marginBottom": "0.5rem"
+                            })
+                        ]),
+                    
+                        html.Label("Dropped Samples %"),
+                        dcc.RangeSlider(
+                            id="filter-drop-samples",
+                            min=int(df["Dropped Samples %"].min()),
+                            max=int(df["Dropped Samples %"].max()),
+                            value=[0, 60],
+                            marks=None,
+                            allowCross=False,
+                            step=1,
+                            tooltip={"placement": "bottom", "always_visible": True}
+                        )
+                    ], width=12, md=4)
+                ])
+            ])
+        ], className="mb-2", style={"padding": "0.0rem", "borderRadius": "0.5rem", "boxShadow": "0 0 4px rgba(0,0,0,0.1)"}),
+
+        # ── Performance Card
+        dbc.Card([
+            dbc.CardHeader("Additional Filter", style={"fontWeight": "bold", "fontSize": "0.8rem"}),
+
+            dbc.CardBody([
+                dbc.Row([
+                    dbc.Col([
+                        html.Label("Avg Hold Period (days)"),
+                        dcc.RangeSlider(
+                            id="filter-hold-period",
+                            min=int(df["Avg Hold Period(days)"].min()),
+                            max=int(df["Avg Hold Period(days)"].max()),
+                            value=[
+                                int(df["Avg Hold Period(days)"].min()),
+                                int(df["Avg Hold Period(days)"].max())
+                            ],
+                            marks=None,
+                            allowCross=False,
+                            tooltip={"placement": "bottom", "always_visible": True}
+                        )
+                    ], width=12, md=4, style={"marginTop": "0rem"}),
+
+                    dbc.Col([
+                        html.Label("Num of Trades (BUY/SELL Pairs)"),
+                        dcc.RangeSlider(
+                            id="filter-transactions",
+                            min=int(df["Num of Trades"].min()),
+                            max=int(df["Num of Trades"].max()),
+                            value=[
+                                int(df["Num of Trades"].min()),
+                                int(df["Num of Trades"].max())
+                            ],
+                            marks=None,
+                            allowCross=False,
+                            step=1,
+                            tooltip={"placement": "bottom", "always_visible": True}
+                        )
+                    ], width=12, md=4, style={"marginTop": "0rem"}),
+
+                    dbc.Col([
+
+                        html.Label("Spread (ASK/BID price)"),
+                        dcc.RangeSlider(
+                            id="filter-ask-bid-spread",
+                            min=int(df["Ask-Bid Spread"].min()),
+                            max=int(df["Ask-Bid Spread"].max()),
+                            value=[0, 4],
+                            step=0.01,
+                           
+                            marks=None,
+                            allowCross=False,
+                            tooltip={"placement": "bottom", "always_visible": True}
+                        )
+                    ], width=12, md=4, style={"marginTop": "0rem"}),
+                ]),
+                dbc.Row([
+                    dbc.Col([
+                        html.Div([
+                            html.Hr(style={"marginTop": "1rem", "marginBottom": "1rem"}),
+                        ]),
+                        
+                        html.Div(id="last-price-label", style={"fontWeight": "bold", "marginBottom": "0.5rem"}),
+                        html.Label("Last Price"),
+                        dcc.RangeSlider(
+                            id="filter-last-price",
+                            min=float(df["last Price"].min()),
+                            max=float(df["last Price"].max()),
+                            value=[float(df["last Price"].min()), float(df["last Price"].max())],
+                            allowCross=False,
+                            step=1,
+                            marks=None,
+                            tooltip={
+                                "placement": "bottom",
+                                "always_visible": True,
+                                #"style": {"color": "white", "fontSize": "20px"},
+                            },
+                        ),
+                    ]),
+
+                ])
+            ])
+        ], className="mb-2", style={"padding": "0.0rem", "borderRadius": "0.5rem", "boxShadow": "0 0 4px rgba(0,0,0,0.1)"}),
+
+        # ── Apply Button
         dbc.Button("Apply Filters", id="apply-filters-btn", color="primary", className="mb-3"),
     ]),
 
@@ -773,14 +1036,16 @@ advanced_filter = html.Div([
             id="advanced-filter-grid",
             columnDefs=[
                 {"field": "Ticker", "minWidth": 90, "maxWidth": 90},
-                {"field": "Name", "minWidth": 240, "maxWidth": 300},
-                {"field": "Sector", "minWidth": 200, "maxWidth": 300},
-                {"field": "Industry", "minWidth": 250, "maxWidth": 320},
+                {"field": "Name", "minWidth": 230, "maxWidth": 300},
+                {"field": "Sector", "minWidth": 170, "maxWidth": 300},
+                {"field": "Industry", "minWidth": 220, "maxWidth": 320},
                 {"field": "Avg Hold Period(days)", "headerClass": "wrap-header", "minWidth": 120, "maxWidth": 120},
                 {"field": "Volume Indicator", "headerClass": "wrap-header", "minWidth": 100, "maxWidth": 100},
-                {"field": "Num of Trades", "headerClass": "wrap-header", "minWidth": 120, "maxWidth": 120},
-                {"field": "Beta Risk", "minWidth": 120, "maxWidth": 120},
-                {"field": "last Price", "minWidth": 110, "maxWidth": 110},
+                {"field": "Num of Trades", "headerClass": "wrap-header", "minWidth": 90, "maxWidth": 90},
+                {"field": "Beta Risk", "headerClass": "wrap-header", "minWidth": 90, "maxWidth": 110},
+                {"field": "Dropped Samples %", "headerClass": "wrap-header", "minWidth": 110, "maxWidth": 110},
+                {"field": "Ask-Bid Spread", "headerClass": "wrap-header", "minWidth": 110, "maxWidth": 110},
+                {"field": "last Price", "minWidth": 100, "maxWidth": 100},
                 {"field": "Total Profit", "minWidth": 110, "maxWidth": 110}
             ],
             rowData=[],  # updated via callback
@@ -788,8 +1053,14 @@ advanced_filter = html.Div([
             style={"height": "600px", "width": "100%"},
             className="ag-theme-alpine"
         )
-    ], style={"marginBottom": "1rem"})
+    ], style={
+        "maxWidth": "1500px",     # 👈 controls grid width
+        "margin": "0 auto", 
+        "marginBottom": "1rem"
+       })
 ])
+
+
 
 
 Calculator = dbc.Card(
@@ -832,9 +1103,11 @@ Calculator = dbc.Card(
                                 value="manual",
                                 labelStyle={"display": "block", "marginBottom": "30px"}
                             ),
-                            html.Label("Platorm Fees:", style={"textAlign": "right", "paddingRight": "6px", "marginBottom": "20px"}),
-                            html.Label("Trading Fees:", style={"textAlign": "right", "paddingRight": "6px", "marginBottom": "20px"}),
-                            html.Label("Taxes (%):", style={"textAlign": "right", "paddingRight": "6px"})
+                            dbc.Col(html.Label("Platorm Fees:", style={"textAlign": "right", "paddingRight": "6px", "marginBottom": "20px"}), width=12),
+                            dbc.Col(html.Label("Trading Fees:", style={"textAlign": "right", "paddingRight": "6px", "marginBottom": "20px"}), width=12),
+                            dbc.Col(html.Label("Taxes (%):", style={"textAlign": "right", "paddingRight": "6px", "marginBottom": "20px"}), width=12),
+                            dbc.Col(html.Label("Desired Profit:", style={"textAlign": "right", "paddingRight": "6px"}), width=12),
+                            dbc.Col(html.Label("(Optional):", style={"textAlign": "right", "paddingRight": "6px"}), width=12)
                         ], width=4),
 
                         # Right Column – Inputs
@@ -871,7 +1144,8 @@ Calculator = dbc.Card(
                                 dbc.Col([
                                     dcc.Input(id="calc-platofrm-fees", type="number", value="11.99", className="form-control", style={"width": "110%", "maxWidth": "245px", "padding": "6px 12px", "border": "1px solid #ced4da", "borderRadius": "4px", "fontSize": "14px", "backgroundColor": "#fff", "marginBottom": "10px"}),
                                     dcc.Input(id="calc-trading-fees", type="number", value="3.99", className="form-control", style={"width": "110%", "maxWidth": "245px", "padding": "6px 12px", "border": "1px solid #ced4da", "borderRadius": "4px", "fontSize": "14px", "backgroundColor": "#fff", "marginBottom": "10px"}),
-                                    dcc.Input(id="calc-taxes", type="number", value="0.005", className="form-control", style={"width": "110%", "maxWidth": "245px", "padding": "6px 12px", "border": "1px solid #ced4da", "borderRadius": "4px", "fontSize": "14px", "backgroundColor": "#fff", "marginBottom": "10px"})
+                                    dcc.Input(id="calc-taxes", type="number", value="0.005", className="form-control", style={"width": "110%", "maxWidth": "245px", "padding": "6px 12px", "border": "1px solid #ced4da", "borderRadius": "4px", "fontSize": "14px", "backgroundColor": "#fff", "marginBottom": "10px"}),
+                                    dcc.Input(id="desired-profit", type="number", value="50", className="form-control", style={"width": "110%", "maxWidth": "245px", "padding": "6px 12px", "border": "1px solid #ced4da", "borderRadius": "4px", "fontSize": "14px", "backgroundColor": "#fff", "marginBottom": "10px"})
                                 ], width=6)
                             ]),
                             
@@ -913,14 +1187,14 @@ Calculator = dbc.Card(
                     dbc.CardBody([
                         dbc.Row([
                             dbc.Col([
-                                html.Div("Investment:", style={"fontWeight": "bold", "marginBottom": "10px"}),
+                                html.Div("Actual Investment:", style={"fontWeight": "bold", "marginBottom": "10px"}),
                                 html.Div("Buy Price:", style={"fontWeight": "bold", "marginBottom": "10px"}),
                                 html.Div("Sell Price:", style={"fontWeight": "bold", "marginBottom": "10px"}),
                                 html.Div("Num Shares:", style={"fontWeight": "bold", "marginBottom": "10px"}),
                                 html.Hr(style={"margin": "8px 0", "border": "1px solid #0d6efd"}),
                                 html.Div("Gross Gain Value:", style={"fontWeight": "bold", "marginBottom": "10px"}),
                                 html.Div("Platform Fees:", style={"fontWeight": "bold", "marginBottom": "10px"}), 
-                                html.Div("Trading Fees:", style={"fontWeight": "bold", "marginBottom": "10px"}),
+                                html.Div("Trading Fees (x2):", style={"fontWeight": "bold", "marginBottom": "10px"}),
                                 html.Div("Taxes:", style={"fontWeight": "bold", "marginBottom": "10px"}),
                                 html.Hr(style={"margin": "8px 0", "border": "1px solid #0d6efd"}),
                                 html.Div("Net Gain:", style={"fontWeight": "bold", "marginBottom": "10px"}),
@@ -964,14 +1238,16 @@ Calculator = dbc.Card(
                                 children=[
                                     dbc.DropdownMenuItem(
                                         html.Pre(
-                                            "tax_amount = investment * taxes\n"
-                                            "adjusted_investment = investment - tax_amount\n"
-                                            "shares = adjusted_investment / buy\n"
-                                            "gain = (shares * sell) - adjusted_investment\n"
-                                            "total_trading_fees = trading_fees * 2\n"
-                                            "num_months = end_date - start_date\n"
-                                            "total_platform_fees = platform_fees * num_months\n"
-                                            "net_gain_value = gain - total_trading_fees - total_platform_fees\n"
+                                            
+                                            "available_after_fee = investment - trading_fees\n"
+                                            "share_cost_before_tax = available_after_fee / (1 + taxes)\n"
+                                            "shares = int(share_cost_before_tax / buy)\n" 
+                                            "actual_share_cost = shares * buy\n" 
+                                            "stamp_duty = actual_share_cost * taxes\n" 
+                                            "total_buy_cost = actual_share_cost + stamp_duty + trading_fees\n" 
+                                            "sell_value = shares * sell\n" 
+                                            "net_gain_value = sell_value - total_buy_cost - trading_fees - total_platform_fees\n"  
+                                            "gain = sell_value - actual_share_cost\n" 
                                             "roi_percent = round((net_gain_value / investment) * 100, 2)\n"
                                             "\n"
                                             "* total_platform_fees are not applied in 'Manual Entry'",
@@ -1000,23 +1276,239 @@ Calculator = dbc.Card(
 
             # 🟦 Column 3 – Blue Placeholder
             dbc.Col([
-                html.H4("Performance Chart", className="mb-4"),
-
+                html.H4("Desired Profit Graphical Calculator", className="mb-4"),
                 dcc.Graph(
-                    id="performance-graph",
-                    style={"height": "465px", "border": "1px solid #D3D3D3"}  # You can tweak the height to suit your layout
+                    id="graphical-calculator-graph", style={"height": "465px", "border": "1px solid #D3D3D3"}  # You can tweak the height to suit your layout
                 )
             ], width=5)
 
-        ], className="g-3")
+        ], className="g-3"),
+        
+        html.Hr(style={"borderTop": "2px solid #ccc"}),
+        
+        
+        dbc.Row([
+            dbc.Col([
+                html.H4("Performance Charts", className="mb-4"),
+
+                dbc.Tabs(
+                    [
+                        dbc.Tab(
+                            dcc.Graph(
+                                id="calculator-macd-performance-graph",
+                                style={"height": "465px", "border": "1px solid #D3D3D3"}
+                            ),
+                            label="MACD"
+                        ),
+                        dbc.Tab(
+                            dcc.Graph(
+                                id="calculator-rsi-performance-graph",
+                                style={"height": "465px", "border": "1px solid #D3D3D3"}
+                            ),
+                            label="RSI"
+                        ),
+                        dbc.Tab(
+                            dcc.Graph(
+                                id="calculator-ema-performance-graph",
+                                style={"height": "465px", "border": "1px solid #D3D3D3"}
+                            ),
+                            label="EMA"
+                        ),
+                    ],
+                    id="performance-tabs",
+                    active_tab="calculator-performance-ema"   # default tab
+                )
+            ])
+        ])
+
+        
+        
+        
+        #dbc.Row([
+        #    dbc.Col([
+        #        
+        #        html.H4("Performance Chart", className="mb-4"),
+        #        dcc.Graph(
+        #            id="performance-graph",
+        #            style={"height": "465px", "border": "1px solid #D3D3D3"}  # You can tweak the height to suit your layout
+        #        )
+        #    ])
+        #])
+        
     ], style={
         "backgroundColor": "#f9f9f9",
         "padding": "20px",
         "borderRadius": "10px",
-        "marginTop": "-10px"
+        "marginTop": "-10px",
+        "height": "1200px"
     }),
     className="mt-4"
+
 )
+
+# Insert into your sector_indicies_content layout
+sector_indicies_content = dbc.Card(
+    dbc.CardBody([
+
+        html.H4("Global Sector Indices Analysis"),
+
+        # -----------------------------
+        # Ranking strip
+        # -----------------------------
+        html.Div(id="ranking-panel", style={"margin-bottom": "40px"}),
+
+        # -----------------------------
+        # Control Bar (Region + Trend + Lookback)
+        # -----------------------------
+        dbc.Row(
+            [
+                # Region selector
+                dbc.Col(
+                    dcc.Dropdown(
+                        id="region-select",
+                        options=[
+                            {"label": "UK Sectors", "value": "UK"},
+                            {"label": "US Sectors", "value": "US"},
+                            {"label": "Metals", "value": "METALS"},
+                            {"label": "Crypto", "value": "CRYPTO"},
+                        ],
+                        value="UK",
+                        clearable=False,
+                        style={"fontSize": "14px"}
+                    ),
+                    width=2,
+                    style={"paddingRight": "10px"}
+                ),
+
+                # Trend mode selector
+                dbc.Col(
+                    dcc.Dropdown(
+                        id="trend-mode",
+                        options=[
+                            {"label": "Pulse Count", "value": "pulse"},
+                            {"label": "Weighted Pulses", "value": "weighted"},
+                            {"label": "RSI", "value": "rsi"},
+                            {"label": "MACD", "value": "macd"},
+                        ],
+                        value="pulse",
+                        clearable=False,
+                        style={"fontSize": "14px"}
+                    ),
+                    width=3,
+                    style={"paddingRight": "10px"}
+                ),
+
+                # Lookback slider
+                dbc.Col(
+                    html.Div(
+                        dcc.Slider(
+                            id="lookback-slider",
+                            min=5,
+                            max=365,
+                            step=5,
+                            value=30,
+                            marks={i: str(i) for i in [5, 30, 90, 180, 365]},
+                        ),
+                        style={"paddingTop": "8px"}
+                    ),
+                    width=7
+                ),
+            ],
+            align="center",
+            style={"marginBottom": "25px"}
+        ),
+
+        # -----------------------------
+        # Bootstrap Tabs (Charts / Heatmap / Quadrant)
+        # -----------------------------
+        dbc.Tabs(
+            [
+                # -----------------------------
+                # Charts Tab
+                # -----------------------------
+                dbc.Tab(
+                    label="Charts",
+                    tab_id="charts",
+                    children=[
+                        html.Div(
+                            id="charts-container",
+                            style={
+                                "border": "1px solid #D3D3D3",
+                                "padding": "10px",
+                                "marginTop": "-10px",
+                                "borderRadius": "10px",
+                                "backgroundColor": "white"
+                            }
+                        )
+                    ],
+                    style={
+                        "border": "1px solid #D3D3D3",
+                        "paddingTop": "5px",
+                        "borderRadius": "10px"
+                    }
+                ),
+
+                # -----------------------------
+                # Heatmap Tab
+                # -----------------------------
+                dbc.Tab(
+                    label="Heatmap",
+                    tab_id="heatmap",
+                    children=[
+                        html.Div(
+                            id="heatmap-container",
+                            style={
+                                "border": "1px solid #D3D3D3",
+                                "padding": "10px",
+                                "marginTop": "-10px",
+                                "borderRadius": "10px",
+                                "backgroundColor": "white"
+                            }
+                        )
+                    ],
+                    style={
+                        "border": "1px solid #D3D3D3",
+                        "paddingTop": "5px",
+                        "borderRadius": "10px"
+                    }
+                ),
+
+                # -----------------------------
+                # Quadrant Tab
+                # -----------------------------
+                dbc.Tab(
+                    label="Quadrant",
+                    tab_id="quadrant",
+                    children=[
+                        html.Div(
+                            id="quadrant-container",
+                            style={
+                                "border": "1px solid #D3D3D3",
+                                "padding": "10px",
+                                "marginTop": "-10px",
+                                "borderRadius": "10px",
+                                "backgroundColor": "white"
+                            }
+                        )
+                    ],
+                    style={
+                        "border": "1px solid #D3D3D3",
+                        "paddingTop": "5px",
+                        "borderRadius": "10px"
+                    }
+                ),
+            ],
+            id="sector-subtabs",
+            active_tab="charts",
+            style={"marginBottom": "20px"}
+        ),
+
+    ]),
+    style={"backgroundColor": "#f8f9fa", "marginTop": "20px", "padding": "20px"},
+    className="mb-4 shadow-sm"
+)
+
+
 
 
 
@@ -1059,10 +1551,11 @@ app.layout = dbc.Container([
     
     dbc.Col([
         dbc.Tabs([
-                dbc.Tab(homepage_content, label="Home"),
+                dbc.Tab(homepage_content, label="Home"),   
                 dbc.Tab(treemap_content, label="Tree Maps"),
                 dbc.Tab(advanced_filter, label="Advanced Filter"),
                 dbc.Tab(propage_content, label="Pro Analysis"),
+                dbc.Tab(sector_indicies_content, label="Global Sector Analysis"),
                 dbc.Tab(Calculator, label="Calculator"),
                 
         ]),
@@ -1133,7 +1626,7 @@ def update_stock_chart(selected_rows, country, df_data, df_buysell_data):
     if selected_rows:
         ticker = selected_rows[0]['Ticker']
         selected_company = selected_rows[0]['Name']
-        
+
         try:
             hist = yf.download(ticker, period="1y", interval="1d", auto_adjust=False, progress=False)
             hist.reset_index(inplace=True)
@@ -1170,115 +1663,148 @@ def update_stock_chart(selected_rows, country, df_data, df_buysell_data):
                 yaxis={**graph_properties, "range": y_range}
             )
 
-            # ── EMA
-            hist['EMA_10'] = hist['Close'].ewm(span=10, adjust=False).mean()
-            hist['EMA_30'] = hist['Close'].ewm(span=30, adjust=False).mean()
-
-            fig_ema = go.Figure([
-                go.Scatter(x=hist['Datetime'], y=hist['Close'], mode='lines', name='Close Price',
-                           line=dict(color="#78afd9"), fill='tozeroy', fillcolor='rgba(214,235,255,0.5)'),
-                go.Scatter(x=hist['Datetime'], y=hist['EMA_10'], mode='lines', name='10-Day EMA',
-                           line=dict(color='orange', dash='dot')),
-                go.Scatter(x=hist['Datetime'], y=hist['EMA_30'], mode='lines', name='30-Day EMA',
-                           line=dict(color='green', dash='dot'))
-            ])
-            fig_ema.update_layout(title=f"{ticker}: {selected_company}", plot_bgcolor='white', yaxis={**graph_properties, "range": y_range},
-                    legend=dict(
-                    orientation="h",
-                    yanchor="top",
-                    y=1.2,
-                    xanchor="right",
-                    x=1
-                )
-            )
-            fig_ema.update_xaxes(**graph_properties)
-
-            # ── RSI
-            delta = hist['Close'].diff()
-            gain = delta.where(delta > 0, 0).rolling(window=14).mean()
-            loss = -delta.where(delta < 0, 0).rolling(window=14).mean()
-            rs = gain / loss
-            hist['RSI'] = 100 - (100 / (1 + rs))
-
-            fig_rsi = go.Figure([
-                go.Scatter(x=hist['Datetime'], y=hist['RSI'], mode='lines', name='RSI',
-                           line=dict(color="#78afd9"), fill='tozeroy', fillcolor='rgba(214,235,255,0.5)'),
-                go.Scatter(x=hist['Datetime'], y=[70]*len(hist), mode='lines', name='Overbought (70)',
-                           line=dict(dash='dot', color='grey')),
-                go.Scatter(x=hist['Datetime'], y=[30]*len(hist), mode='lines', name='Oversold (30)',
-                           line=dict(dash='dot', color='green'))
-            ])
-            fig_rsi.update_layout(title=f"{ticker}: {selected_company}", plot_bgcolor='white',
-                legend=dict(
-                    orientation="h",
-                    yanchor="top",
-                    y=1.2,
-                    xanchor="right",
-                    x=1
-                )
-            )
-            fig_rsi.update_xaxes(**graph_properties)
-            fig_rsi.update_yaxes(**graph_properties)
-
-            # ── MACD
-            exp1 = hist['Close'].ewm(span=12, adjust=False).mean()
-            exp2 = hist['Close'].ewm(span=26, adjust=False).mean()
-            hist['MACD'] = exp1 - exp2
-            hist['Signal Line'] = hist['MACD'].ewm(span=9, adjust=False).mean()
-            hist['MACD Histogram'] = hist['MACD'] - hist['Signal Line']
-
-            # Smooth histogram using spline
-            x = np.arange(len(hist))
-            y = hist['MACD Histogram'].values
-            spline = make_interp_spline(x, y, k=3)
-            x_smooth = np.linspace(x.min(), x.max(), len(hist))
-            y_smooth = spline(x_smooth)
-
-            fig_macd = go.Figure([
-                go.Scatter(x=hist['Datetime'], y=hist['MACD'], mode='lines', name='MACD',
-                           line=dict(color='green')),
-                go.Scatter(x=hist['Datetime'], y=hist['Signal Line'], mode='lines', name='Signal Line',
-                           line=dict(color='grey', dash='dot')),
-                go.Scatter(x=hist['Datetime'], y=y_smooth, mode='lines', name='Momentum',
-                           fill='tozeroy', fillcolor='rgba(214,235,255,0.5)', line=dict(color="#78afd9"))
-            ])
-
-            fig_macd.update_layout(
-                title=f"{ticker}: {selected_company}", plot_bgcolor='white',
-                legend=dict(
-                    orientation="h",
-                    yanchor="top",
-                    y=1.2,
-                    xanchor="right",
-                    x=1
-                )
+            # ────────────────────────────────────────────────
+            # NEW: Generate MACD, RSI, EMA using helper
+            # ────────────────────────────────────────────────
+            fig_macd, fig_rsi, fig_ema = generate_indicator_charts(
+                hist, ticker, selected_company, graph_properties
             )
 
-            fig_macd.update_xaxes(**graph_properties)
-            fig_macd.update_yaxes(**graph_properties)
-
-            #### Vp ####
-            #df, df_buysell, *_ = load_country_data(country)
-            # Reconstruct DataFrames from stored data
+            # ── Load DataFrames
             df = pd.DataFrame(df_data)
             df_buysell = pd.DataFrame(df_buysell_data)
-            
+
+            # ── Buy/Sell Signals
             signal_data = get_buysell_signals(ticker, country, df_buysell)
 
+            # ── Gauges
             volume_val, beta_val, volume_raw, beta_raw = get_gauge_values(ticker, country, df)
 
+            # ── News
             news_data = get_news_data(ticker)
-            
-            last_close = hist["Close"].iloc[-1]
-            
-            return fig_line, fig_macd, fig_rsi, fig_ema, signal_data, volume_val, beta_val, selected_company, news_data, f"{last_close:.2f}", f"{low_52week:.2f}", f"{high_52week:.2f}", volume_raw, beta_raw
 
+            # ── Last Close
+            last_close = hist["Close"].iloc[-1]
+
+            return (
+                fig_line,
+                fig_macd,
+                fig_rsi,
+                fig_ema,
+                signal_data,
+                volume_val,
+                beta_val,
+                selected_company,
+                news_data,
+                f"{last_close:.2f}",
+                f"{low_52week:.2f}",
+                f"{high_52week:.2f}",
+                volume_raw,
+                beta_raw
+            )
 
         except Exception as e:
             error_fig = px.line(title=f"Error: {e}")
-            return error_fig, error_fig, error_fig, error_fig, [], 0, 0, "No Selection", [], 0.00, 0.00, 0.00, 0.00, "UNKNOWN"
-    
-    return go.Figure(), go.Figure(), go.Figure(), go.Figure() , [], 0, 0, "No Selection", [], 0.00, 0.00, 0.00, 0.00, "UNKNOWN"
+            return (
+                error_fig, error_fig, error_fig, error_fig,
+                [], 0, 0, "No Selection", [],
+                0.00, 0.00, 0.00, 0.00, "UNKNOWN"
+            )
+
+    return (
+        go.Figure(), go.Figure(), go.Figure(), go.Figure(),
+        [], 0, 0, "No Selection", [],
+        0.00, 0.00, 0.00, 0.00, "UNKNOWN"
+    )
+
+
+
+def generate_indicator_charts(hist, ticker, selected_company, graph_properties):
+    """
+    Returns: fig_macd, fig_rsi, fig_ema
+    """
+
+    # ── EMA
+    hist['EMA_10'] = hist['Close'].ewm(span=10, adjust=False).mean()
+    hist['EMA_30'] = hist['Close'].ewm(span=30, adjust=False).mean()
+
+    fig_ema = go.Figure([
+        go.Scatter(x=hist['Datetime'], y=hist['Close'], mode='lines', name='Close Price',
+                   line=dict(color="#78afd9"), fill='tozeroy', fillcolor='rgba(214,235,255,0.5)'),
+        go.Scatter(x=hist['Datetime'], y=hist['EMA_10'], mode='lines', name='10-Day EMA',
+                   line=dict(color='orange', dash='dot')),
+        go.Scatter(x=hist['Datetime'], y=hist['EMA_30'], mode='lines', name='30-Day EMA',
+                   line=dict(color='green', dash='dot'))
+    ])
+    fig_ema.update_layout(
+        title=f"{ticker}: {selected_company}",
+        plot_bgcolor='white',
+        legend=dict(orientation="h", yanchor="top", y=1.2, xanchor="right", x=1)
+    )
+    fig_ema.update_xaxes(**graph_properties)
+    fig_ema.update_yaxes(**graph_properties)
+
+    # ── RSI
+    delta = hist['Close'].diff()
+    gain = delta.where(delta > 0, 0).rolling(window=14).mean()
+    loss = -delta.where(delta < 0, 0).rolling(window=14).mean()
+    rs = gain / loss
+    hist['RSI'] = 100 - (100 / (1 + rs))
+
+    fig_rsi = go.Figure([
+        go.Scatter(x=hist['Datetime'], y=hist['RSI'], mode='lines', name='RSI',
+                   line=dict(color="#78afd9"), fill='tozeroy', fillcolor='rgba(214,235,255,0.5)'),
+        go.Scatter(x=hist['Datetime'], y=[70]*len(hist), mode='lines', name='Overbought (70)',
+                   line=dict(dash='dot', color='grey')),
+        go.Scatter(x=hist['Datetime'], y=[30]*len(hist), mode='lines', name='Oversold (30)',
+                   line=dict(dash='dot', color='green'))
+    ])
+    fig_rsi.update_layout(
+        title=f"{ticker}: {selected_company}",
+        plot_bgcolor='white',
+        legend=dict(orientation="h", yanchor="top", y=1.2, xanchor="right", x=1)
+    )
+    fig_rsi.update_xaxes(**graph_properties)
+    fig_rsi.update_yaxes(**graph_properties)
+
+    # ── MACD
+    exp1 = hist['Close'].ewm(span=12, adjust=False).mean()
+    exp2 = hist['Close'].ewm(span=26, adjust=False).mean()
+    hist['MACD'] = exp1 - exp2
+    hist['Signal Line'] = hist['MACD'].ewm(span=9, adjust=False).mean()
+    hist['MACD Histogram'] = hist['MACD'] - hist['Signal Line']
+
+    # Smooth histogram
+    x = np.arange(len(hist))
+    y = hist['MACD Histogram'].values
+    spline = make_interp_spline(x, y, k=3)
+    x_smooth = np.linspace(x.min(), x.max(), len(hist))
+    y_smooth = spline(x_smooth)
+
+    fig_macd = go.Figure([
+        go.Scatter(x=hist['Datetime'], y=hist['MACD'], mode='lines', name='MACD',
+                   line=dict(color='green')),
+        go.Scatter(x=hist['Datetime'], y=hist['Signal Line'], mode='lines', name='Signal Line',
+                   line=dict(color='grey', dash='dot')),
+        go.Scatter(x=hist['Datetime'], y=y_smooth, mode='lines', name='Momentum',
+                   fill='tozeroy', fillcolor='rgba(214,235,255,0.5)', line=dict(color="#78afd9"))
+    ])
+    fig_macd.update_layout(
+        title=f"{ticker}: {selected_company}",
+        plot_bgcolor='white',
+        legend=dict(orientation="h", yanchor="top", y=1.2, xanchor="right", x=1)
+    )
+    fig_macd.update_xaxes(**graph_properties)
+    fig_macd.update_yaxes(**graph_properties)
+
+    return fig_macd, fig_rsi, fig_ema
+
+
+
+
+
+
+
 
 # Function to retrieve data for multiple ticker symbols
 def clean_keywords(raw_text):
@@ -1508,9 +2034,11 @@ def extract_us_stock_news(ticker: str):
     State("filter-volume", "value"),
     State("filter-beta", "value"),
     State("filter-last-price", "value"),  # ← Add this
+    State("filter-drop-samples", "value"),
+    State("filter-ask-bid-spread", "value"),    
     prevent_initial_call=True
 )
-def store_advanced_filter(n, sector, industry, hold, transactions, volume, beta, last_price):
+def store_advanced_filter(n, sector, industry, hold, transactions, volume, beta, last_price, dropped_samples, ask_bid):
     return {
         "sector": sector,
         "industry": industry,
@@ -1518,7 +2046,9 @@ def store_advanced_filter(n, sector, industry, hold, transactions, volume, beta,
         "transactions_range": transactions,
         "volume_range": volume,
         "beta_range": beta,
-        "last_price_range": last_price
+        "last_price_range": last_price,
+        "drop_samples_range": dropped_samples,
+        "ask_bid_spread": ask_bid
     }
     
 @app.callback(
@@ -1586,6 +2116,21 @@ def update_advanced_filtered_table(filter_data, country, df_data):
             (filtered["last Price"] <= price_max)
         ]
 
+    if "drop_samples_range" in filter_data:
+        price_min, price_max = filter_data["drop_samples_range"]
+        filtered["Dropped Samples %"] = pd.to_numeric(filtered["Dropped Samples %"], errors="coerce")
+        filtered = filtered[
+            (filtered["Dropped Samples %"] >= price_min) &
+            (filtered["Dropped Samples %"] <= price_max)
+        ]
+        
+    if "ask_bid_spread" in filter_data:
+        price_min, price_max = filter_data["ask_bid_spread"]
+        filtered["Ask-Bid Spread"] = pd.to_numeric(filtered["Ask-Bid Spread"], errors="coerce")
+        filtered = filtered[
+            (filtered["Ask-Bid Spread"] >= price_min) &
+            (filtered["Ask-Bid Spread"] <= price_max)
+        ]    
 
     return filtered.to_dict("records")
     
@@ -1600,8 +2145,8 @@ def update_labels(price_range, beta_range):
     low_p, high_p = price_range
     low_b, high_b = beta_range
     return (
-        f"Selected Price Range: {low_p:,.2f} – {high_p:,.2f}",
-        f"Selected Beta Range: {low_b:,.2f} – {high_b:,.2f}"
+        f"Share Price Range: {low_p:,.2f} – {high_p:,.2f}",
+        f"Beta Range: {low_b:,.2f} – {high_b:,.2f}"
     )
 
     
@@ -1673,11 +2218,14 @@ def reset_inputs(n_clicks):
     Output("taxes", "children"),
     Output("net-gain-value", "children"),
     Output("company-name", "children"),
-    Output("performance-graph", "figure"),
+    Output("calculator-macd-performance-graph", "figure"),
+    Output("calculator-rsi-performance-graph", "figure"),
+    Output("calculator-ema-performance-graph", "figure"),
     Output("cal-buy-price", "children"),
     Output("cal-sell-price", "children"),
     Output("cal-num-shares", "children"),
     Output("cal-investment", "children"),
+    Output("graphical-calculator-graph", "figure"),
     Input("calculate-btn", "n_clicks"),
     State("ticker-input", "value"),
     State("investment-input", "value"),
@@ -1688,9 +2236,10 @@ def reset_inputs(n_clicks):
     State("end-date", "date"),
     State("calc-platofrm-fees", "value"),
     State("calc-trading-fees", "value"),
-    State("calc-taxes", "value")
+    State("calc-taxes", "value"),
+    State("desired-profit", "value")
 )
-def calculate_metrics(n_clicks, ticker, investment, mode, buy, sell, start_date, end_date, platform_fees, trading_fees, taxes):
+def calculate_metrics(n_clicks, ticker, investment, mode, buy, sell, start_date, end_date, platform_fees, trading_fees, taxes, target_profit):
     #if not n_clicks:
     #    raise PreventUpdate
 
@@ -1711,33 +2260,68 @@ def calculate_metrics(n_clicks, ticker, investment, mode, buy, sell, start_date,
         
         
     except Exception:
-        return "0%", "0", "0", "0", "0", "0", "No Selection", go.Figure(), "0", "0", "0", "0"
+        return "0%", "0", "0", "0", "0", "0", "No Selection", go.Figure(), go.Figure(), go.Figure(), "0", "0", "0", "0", go.Figure()
 
     if not ticker or not isinstance(ticker, str) or not ticker.strip():
-         return "0%", "0", "0", "0", "0", "0", "No Selection", go.Figure(), "0", "0", "0", "0"
+         return "0%", "0", "0", "0", "0", "0", "No Selection", go.Figure(), go.Figure(), go.Figure(), "0", "0", "0", "0", go.Figure()
 
     roi_percent, gain, net_gain_value, tax_amount = 0, 0, 0, 0
-
+    
     if mode == "manual":
-        #tax_amount = investment * taxes
-        tax_amount = investment * taxes
-        adjusted_investment = investment - tax_amount
-        shares = adjusted_investment / buy if buy else 0
-        gain = (shares * sell) - adjusted_investment
-        total_trading_fees = trading_fees * 2
-        net_gain_value = gain - total_trading_fees
-        roi_percent = round((net_gain_value / investment) * 100, 2) if investment else 0
-        total_platform_fees = 0
-        data = yf.download(ticker, period="1y", auto_adjust=True)
-        calculated_buy_price = buy
-        calculated_sell_price = sell
+        if buy == 0 or sell == 0:
+            return "0%", "0", "0", "0", "0", "0", "No Selection", go.Figure(), go.Figure(), go.Figure(), "0", "0", "0", "0", go.Figure()
+            
+            
+    # ------------------------- # MANUAL MODE # ------------------------- 
+    if mode == "manual": 
+        if buy == 0 or sell == 0: 
+            return "0%", "0", "0", "0", "0", "0", "No Selection", go.Figure(), go.Figure(), go.Figure(), "0", "0", "0", "0", go.Figure() 
+            
+        # Remove buy-side trading fee 
+        available_after_fee = investment - trading_fees 
+        
+        # Share cost before stamp duty 
+        share_cost_before_tax = available_after_fee / (1 + taxes) 
+        
+        # Whole shares only 
+        shares = int(share_cost_before_tax / buy) 
+        
+        # Actual share cost 
+        actual_share_cost = shares * buy 
+        
+        # Stamp duty 
+        stamp_duty = actual_share_cost * taxes 
+        
+        # Total cost of buying 
+        total_buy_cost = actual_share_cost + stamp_duty + trading_fees 
+        
+        # Selling proceeds 
+        sell_value = shares * sell
+        
+        # Net gain (subtract sell fee) 
+        net_gain_value = sell_value - total_buy_cost - trading_fees 
+        
+        # Gross gain (before fees & taxes) 
+        gain = sell_value - actual_share_cost 
+        
+        # ROI 
+        roi_percent = round((net_gain_value / investment) * 100, 2) if investment else 0 
+            
+        # Stamp duty for display 
+        tax_amount = stamp_duty 
+            
+        # Manual mode has no platform fees 
+        total_platform_fees = 0 
+        data = yf.download(ticker, period="1y", auto_adjust=True) 
+        calculated_buy_price = buy 
+        calculated_sell_price = sell 
         calculated_num_shares = shares
         
 
     elif mode == "date":
         if not all([ticker, start_date, end_date]):
             print(F"MODE ERROR: ticker:{ticker}, start_date{start_date}, end_date{end_date}")
-            return "0%", "0", f"{platform_fees}", f"{trading_fees * 2}", "0", "0", "No Selection", go.Figure(), "0", "0", "0", "0"
+            return "0%", "0", f"{platform_fees}", f"{trading_fees * 2}", "0", "0", "No Selection", go.Figure(), go.Figure(), go.Figure(), "0", "0", "0", "0", go.Figure()
             
         #check the dates are valid
         start_date_obj = pd.to_datetime(start_date)
@@ -1745,7 +2329,7 @@ def calculate_metrics(n_clicks, ticker, investment, mode, buy, sell, start_date,
         
         if end_date_obj < start_date_obj:
             print("Date error:")
-            return "0%", "0", f"{platform_fees}", f"{trading_fees * 2}", "0", "0", "No Selection", go.Figure(), "0", "0", "0", "0"
+            return "0%", "0", f"{platform_fees}", f"{trading_fees * 2}", "0", "0", "No Selection", go.Figure(), go.Figure(), go.Figure(), "0", "0", "0", "0", go.Figure()
 
         try:
             # 🔍 Get historical data
@@ -1753,7 +2337,7 @@ def calculate_metrics(n_clicks, ticker, investment, mode, buy, sell, start_date,
 
             if data.empty or "Close" not in data.columns:
                 print(f"{data}")
-                return "0%", "0", f"{platform_fees}", f"{trading_fees * 2}", "0", "0", "No Selection", go.Figure(), "0", "0", "0", "0"
+                return "0%", "0", f"{platform_fees}", f"{trading_fees * 2}", "0", "0", "No Selection", go.Figure(), go.Figure(), go.Figure(), "0", "0", "0", "0", go.Figure()
 
             buy = float(data['Close'].iloc[0].item())     # ✅ Preferred
             sell = float(data['Close'].iloc[-1].item())   # ✅ Last row safely too
@@ -1765,71 +2349,68 @@ def calculate_metrics(n_clicks, ticker, investment, mode, buy, sell, start_date,
             
             #print (F"num_months:{num_months}, platform_fees{platform_fees}, total_platform_fees{total_platform_fees}")
             
-            tax_amount = investment * taxes
-            adjusted_investment = investment - tax_amount
-            shares = adjusted_investment / buy if buy else 0
-            gain = (shares * sell) - adjusted_investment
-            total_trading_fees = trading_fees * 2
-            net_gain_value = gain - total_trading_fees - total_platform_fees
-            roi_percent = round((net_gain_value / investment) * 100, 2) if investment else 0
-            
-            calculated_buy_price = buy
-            calculated_sell_price = sell
+            # Remove buy fee 
+            available_after_fee = investment - trading_fees 
+            # Share cost before stamp duty 
+            share_cost_before_tax = available_after_fee / (1 + taxes) 
+            # Whole shares 
+            shares = int(share_cost_before_tax / buy) 
+            # Actual share cost 
+            actual_share_cost = shares * buy 
+            # Stamp duty 
+            stamp_duty = actual_share_cost * taxes 
+            # Total buy cost 
+            total_buy_cost = actual_share_cost + stamp_duty + trading_fees 
+            # Selling proceeds 
+            sell_value = shares * sell 
+            # Net gain 
+            net_gain_value = sell_value - total_buy_cost - trading_fees - total_platform_fees 
+            # Gross gain 
+            gain = sell_value - actual_share_cost 
+            # ROI 
+            roi_percent = round((net_gain_value / investment) * 100, 2) if investment else 0 
+            tax_amount = stamp_duty 
+            calculated_buy_price = buy 
+            calculated_sell_price = sell 
             calculated_num_shares = shares
 
         except Exception:
-            return "0%", "0", f"{total_platform_fees}", f"{trading_fees * 2}", "0", "0", "No Selection", go.Figure(), "0", "0", "0", "0"
+            return "0%", "0", f"{total_platform_fees}", f"{trading_fees * 2}", "0", "0", "No Selection", go.Figure(), go.Figure(), go.Figure(), "0", "0", "0", "0", go.Figure()
         
         
     company_long_name = get_company_info(ticker)
     
     if not data.empty:
         
-        # Access Close prices using the dynamic ticker
+        # Convert to a uniform structure like your other callback 
+        #hist = data.reset_index() 
+        #hist.rename(columns={"Date": "Datetime"}, inplace=True)
+        hist = yf.download(ticker, period="1y", interval="1d", auto_adjust=False, progress=False)
+        hist.reset_index(inplace=True)
+        hist.columns = [col if isinstance(col, str) else col[0] for col in hist.columns]
+        hist.rename(columns={"Date": "Datetime"}, inplace=True)    
         
-        close_series = data["Close"][ticker]
-
-        # Build the figure
-        fig = go.Figure()
-        fig.add_trace(go.Scatter(
-            x=close_series.index,
-            y=close_series.values,
-            mode="lines",
-            name=ticker.upper(),
-            line=dict(color="#78afd9"),
-            fill="tozeroy",
-            fillcolor="rgba(214,235,255,0.5)")
-        )
-        fig.update_layout(
-            title=dict(
-                text=f"{ticker.upper()} : {company_long_name}",
-                #font=dict(size=18, family="Arial", color="#000", weight="bold"),
-                x=0.1,              # 👈 Position far left
-                xanchor="left",     # 👈 Anchor text to the left edge
-                y=0.955,              # Optional: lower it slightly
-                yanchor="top"
-            ),
-            xaxis_title="Datetime",
-            yaxis_title="Close Price",
-            margin=dict(l=40, r=10, t=50, b=40),
-            xaxis=graph_properties,
-            yaxis=graph_properties,
-            plot_bgcolor="#ffffff"
-        )
+        # Generate MACD, RSI, EMA charts 
+        fig_macd, fig_rsi, fig_ema = generate_indicator_charts( hist, ticker, company_long_name, graph_properties ) 
+        
+        fig_graphical_calculator = update_graphical_calculator(ticker, buy, target_profit, investment, taxes, trading_fees)
 
     return (
         f"{roi_percent}%",
-        f"{round(gain+tax_amount, 2)}",
+        f"{round(gain, 2)}",
         f"{round(total_platform_fees, 2)}",
         f"{round(trading_fees * 2, 2)}",
         f"{round(tax_amount, 2)}",
         f"{round(net_gain_value, 2)}",
         f"{company_long_name}",
-        fig,
+        fig_macd,
+        fig_rsi,
+        fig_ema,
         f"{round(calculated_buy_price,6)}",
         f"{round(calculated_sell_price,6)}",
         f"{int(calculated_num_shares)}",
-        f"{investment}"
+        f"{round(total_buy_cost, 2)}",
+        fig_graphical_calculator
     )
 
 
@@ -2299,6 +2880,796 @@ def update_treemap(n_clicks, selected_sector, selected_industry, stored_df, sele
 #        return False
 #    else:
 #        return True
+
+# -----------------------------
+# sector_indices_page
+# -----------------------------
+@app.callback(
+    [
+        Output("ranking-panel", "children"),
+        Output("charts-container", "children"),
+        Output("heatmap-container", "children"),
+        Output("quadrant-container", "children"),
+    ],
+    [
+        Input("lookback-slider", "value"),
+        Input("trend-mode", "value"),
+        Input("region-select", "value"),
+        Input("sector-subtabs", "active_tab"),   # IMPORTANT
+    ]
+)
+def update_sector_indices_page(lookback, mode, region, active_tab):
+
+    # -----------------------------
+    # Select dataset
+    # -----------------------------
+    if region == "UK":
+        active_data = uk_sector_indices_data
+    elif region == "US":
+        active_data = us_sector_indices_data
+    elif region == "METALS":
+        active_data = metals_indices_data
+    else:
+        active_data = crypto_indices_data
+
+    # ============================================================
+    # 1. RANKING PANEL (always visible)
+    # ============================================================
+    ranking = []
+
+    for name, df in active_data.items():
+        df_slice = df.tail(lookback)
+
+        if mode == "pulse":
+            score = df_slice["DPCM_q"].sum()
+
+        elif mode == "weighted":
+            score = df_slice["DPCM_raw"].sum()
+
+        elif mode == "rsi":
+            delta = df_slice["Close"].diff()
+            up = delta.clip(lower=0)
+            down = -delta.clip(upper=0)
+            roll_up = up.ewm(span=14, adjust=False).mean()
+            roll_down = down.ewm(span=14, adjust=False).mean()
+            rs = roll_up / roll_down
+            rsi = 100 - (100 / (1 + rs))
+            score = rsi.iloc[-1]
+
+        elif mode == "macd":
+            ema12 = df_slice["Close"].ewm(span=12, adjust=False).mean()
+            ema26 = df_slice["Close"].ewm(span=26, adjust=False).mean()
+            macd_line = ema12 - ema26
+            signal_line = macd_line.ewm(span=9, adjust=False).mean()
+            score = (macd_line - signal_line).iloc[-1]
+
+        ranking.append((name, score))
+
+    ranking_sorted = sorted(ranking, key=lambda x: x[1], reverse=True)
+
+    ranking_items = [
+        html.Div(
+            name,
+            style={
+                "padding": "8px 14px",
+                "borderRadius": "12px",
+                "backgroundColor": "rgb(200,255,200)" if score > 0 else "rgb(220,220,220)",
+                "fontSize": "12px",
+                "textAlign": "center",
+                "marginRight": "6px",
+                "marginBottom": "6px",
+                "display": "inline-block",
+            },
+        )
+        for name, score in ranking_sorted
+    ]
+
+    ranking_panel = html.Div(ranking_items)
+
+    # ============================================================
+    # 2. CHARTS TAB
+    # ============================================================
+    charts_output = ""
+    if active_tab == "charts":
+
+        graphs = []
+
+        for name, df in active_data.items():
+
+            df_slice = df.tail(lookback).copy()
+
+            # -----------------------------
+            # Ensure Close column exists
+            # -----------------------------
+            if "Close" not in df_slice or df_slice["Close"].isna().all():
+                for alt in ["close", "Close Price", "Adj Close", "adj_close", "Price", "price"]:
+                    if alt in df_slice and not df_slice[alt].isna().all():
+                        df_slice["Close"] = df_slice[alt]
+                        break
+                if "Close" not in df_slice or df_slice["Close"].isna().all():
+                    df_slice["Close"] = df_slice["DPCM_q"].cumsum()
+
+            # -----------------------------
+            # Weighted Pulses
+            # -----------------------------
+            if mode == "weighted":
+                score = df_slice["DPCM_raw"].sum()
+                direction = "UP" if score > 0 else "DOWN" if score < 0 else "NEUTRAL"
+
+                fig = make_subplots(specs=[[{"secondary_y": True}]])
+
+                # ---------------------------------------
+                # 1. Baseline trace (invisible)
+                # ---------------------------------------
+                fig.add_trace(go.Scatter(
+                    x=df_slice.index,
+                    y=[df_slice["Close"].min()] * len(df_slice),
+                    mode="lines",
+                    line=dict(color="rgba(0,0,0,0)"),
+                    showlegend=False
+                ), secondary_y=False)
+
+                # ---------------------------------------
+                # 2. Filled price line
+                # ---------------------------------------
+                fig.add_trace(go.Scatter(
+                    x=df_slice.index,
+                    y=df_slice["Close"],
+                    mode="lines",
+                    name="Sector Index",
+                    fill='tonexty',   # <-- fills to the baseline, NOT to zero
+                    fillcolor='rgba(214,235,255,0.5)',
+                    line=dict(color='#78afd9', width=2)
+                ), secondary_y=False)
+
+                # ---------------------------------------
+                # 3. Weighted pulses
+                # ---------------------------------------
+                fig.add_trace(go.Bar(
+                    x=df_slice.index,
+                    y=df_slice["DPCM_raw"],
+                    name="Weighted Pulses",
+                    marker_color="#78afd9",
+                    opacity=0.6
+                ), secondary_y=True)
+
+
+            # -----------------------------
+            # RSI
+            # -----------------------------
+            elif mode == "rsi":
+                delta = df_slice["Close"].diff()
+                up = delta.clip(lower=0)
+                down = -delta.clip(upper=0)
+                roll_up = up.ewm(span=14, adjust=False).mean()
+                roll_down = down.ewm(span=14, adjust=False).mean()
+                rs = roll_up / roll_down
+                rsi = 100 - (100 / (1 + rs))
+                rsi_last = rsi.iloc[-1]
+                direction = "UP" if rsi_last > 55 else "DOWN" if rsi_last < 45 else "NEUTRAL"
+
+                fig = make_subplots(specs=[[{"secondary_y": True}]])
+
+                #fig.add_trace(go.Scatter(
+                #    x=df_slice.index, y=df_slice["Close"],
+                #    mode="lines", name="Sector Index",
+                #    line=dict(color="black")
+                #), secondary_y=False)
+
+                fig.add_trace(go.Scatter(
+                    x=df_slice.index, y=rsi,
+                    mode="lines", name="RSI",
+                    line=dict(color="#78afd9"),
+                    fill='tozeroy',
+                    fillcolor='rgba(214,235,255,0.5)'
+                ), secondary_y=True)
+
+                fig.add_trace(go.Scatter(
+                    x=df_slice.index, y=[70]*len(df_slice),
+                    mode="lines", name="Overbought (70)",
+                    line=dict(color="grey", dash="dot")
+                ), secondary_y=True)
+
+                fig.add_trace(go.Scatter(
+                    x=df_slice.index, y=[30]*len(df_slice),
+                    mode="lines", name="Oversold (30)",
+                    line=dict(color="green", dash="dot")
+                ), secondary_y=True)
+
+            # -----------------------------
+            # MACD
+            # -----------------------------
+            elif mode == "macd":
+                ema12 = df_slice["Close"].ewm(span=12, adjust=False).mean()
+                ema26 = df_slice["Close"].ewm(span=26, adjust=False).mean()
+                macd_line = ema12 - ema26
+                signal_line = macd_line.ewm(span=9, adjust=False).mean()
+                momentum = macd_line - signal_line
+
+                direction = "UP" if macd_line.iloc[-1] > signal_line.iloc[-1] else \
+                            "DOWN" if macd_line.iloc[-1] < signal_line.iloc[-1] else "NEUTRAL"
+
+                fig = make_subplots(specs=[[{"secondary_y": True}]])
+
+                #fig.add_trace(go.Scatter(
+                #    x=df_slice.index, y=df_slice["Close"],
+                #    mode="lines", name="Sector Index",
+                #    line=dict(color="black")
+                #), secondary_y=False)
+
+                fig.add_trace(go.Scatter(
+                    x=df_slice.index, y=macd_line,
+                    mode="lines", name="MACD",
+                    line=dict(color="green")
+                ), secondary_y=True)
+
+                fig.add_trace(go.Scatter(
+                    x=df_slice.index, y=signal_line,
+                    mode="lines", name="Signal Line",
+                    line=dict(color="grey", dash="dot")
+                ), secondary_y=True)
+
+                fig.add_trace(go.Scatter(
+                    x=df_slice.index, y=momentum,
+                    mode="lines", name="Momentum",
+                    fill='tozeroy',
+                    fillcolor='rgba(214,235,255,0.5)',
+                    line=dict(color="#78afd9")
+                ), secondary_y=True)
+
+            # -----------------------------
+            # Pulse (DPCM_q)
+            # -----------------------------
+            else:
+                score = df_slice["DPCM_q"].sum()
+                direction = "UP" if score > 0 else "DOWN" if score < 0 else "NEUTRAL"
+
+                fig = make_subplots(specs=[[{"secondary_y": True}]])
+
+                # ---------------------------------------
+                # 1. Baseline trace (invisible)
+                # ---------------------------------------
+                fig.add_trace(go.Scatter(
+                    x=df_slice.index,
+                    y=[df_slice["Close"].min()] * len(df_slice),
+                    mode="lines",
+                    line=dict(color="rgba(0,0,0,0)"),
+                    showlegend=False
+                ), secondary_y=False)
+
+                # ---------------------------------------
+                # 2. Filled price line
+                # ---------------------------------------
+                fig.add_trace(go.Scatter(
+                    x=df_slice.index,
+                    y=df_slice["Close"],
+                    mode="lines",
+                    name="Sector Index",
+                    fill='tonexty',   # <-- fills to baseline, not zero
+                    fillcolor='rgba(214,235,255,0.5)',
+                    line=dict(color='#78afd9', width=2)
+                ), secondary_y=False)
+
+                # ---------------------------------------
+                # 3. Pulse (DPCM_q) line
+                # ---------------------------------------
+                fig.add_trace(go.Scatter(
+                    x=df_slice.index,
+                    y=df_slice["DPCM_q"],
+                    mode="lines",
+                    name="DPCM",
+                    line=dict(color="#78afd9", shape="hv")
+                ), secondary_y=True)
+
+
+            # -----------------------------
+            # Apply styling
+            # -----------------------------
+            fig.update_layout(
+                plot_bgcolor='white',
+                legend=dict(orientation="h", yanchor="top", y=1.15, xanchor="right", x=1),
+                height=400,
+                margin=dict(l=40, r=40, t=40, b=40),
+                title=f"{name} — Trend ({lookback} days, {mode}): {direction}"
+            )
+
+            fig.update_xaxes(showgrid=True, gridcolor="lightgrey")
+            fig.update_yaxes(showgrid=True, gridcolor="lightgrey")
+
+            graphs.append(html.Div([dcc.Graph(figure=fig)], style={"margin-bottom": "40px"}))
+
+        charts_output = html.Div(graphs)
+
+    # ============================================================
+    # 3. HEATMAP TAB
+    # ============================================================
+    heatmap_output = ""
+    if active_tab == "heatmap":
+
+        heatmap_data = {}
+
+        for name, df in active_data.items():
+            df_slice = df.tail(lookback)
+
+            if mode == "pulse":
+                series = df_slice["DPCM_q"].cumsum()
+
+            elif mode == "weighted":
+                series = df_slice["DPCM_raw"].cumsum()
+
+            elif mode == "rsi":
+                delta = df_slice["Close"].diff()
+                up = delta.clip(lower=0)
+                down = -delta.clip(upper=0)
+                roll_up = up.ewm(span=14, adjust=False).mean()
+                roll_down = down.ewm(span=14, adjust=False).mean()
+                rs = roll_up / roll_down
+                series = 100 - (100 / (1 + rs))
+                series = (series - series.mean()) / (series.std() + 1e-9)
+
+            elif mode == "macd":
+                ema12 = df_slice["Close"].ewm(span=12, adjust=False).mean()
+                ema26 = df_slice["Close"].ewm(span=26, adjust=False).mean()
+                macd_line = ema12 - ema26
+                signal_line = macd_line.ewm(span=9, adjust=False).mean()
+                hist = macd_line - signal_line
+                series = hist.rolling(5).mean()
+                series = (series - series.mean()) / (series.std() + 1e-9)
+
+            heatmap_data[name] = series
+
+        common_index = sorted(set.intersection(*[set(s.index) for s in heatmap_data.values()]))
+
+        aligned = {name: s.reindex(common_index).fillna(0) for name, s in heatmap_data.items()}
+
+        heatmap_df = pd.DataFrame(aligned, index=common_index)
+
+        heatmap_fig = go.Figure(
+            data=go.Heatmap(
+                z=heatmap_df.T.values,
+                x=heatmap_df.index.astype(str),
+                y=heatmap_df.columns,
+                colorscale="RdYlGn",
+                colorbar=dict(title=mode.upper()),
+            )
+        )
+
+        heatmap_output = html.Div(dcc.Graph(figure=heatmap_fig))
+
+    # ============================================================
+    # 4. QUADRANT TAB
+    # ============================================================
+    quadrant_output = ""
+    if active_tab == "quadrant":
+
+        quad_x = []
+        quad_y = []
+        quad_labels = []
+        quad_x_prev = []
+        quad_y_prev = []
+
+        # ---------------------------------------
+        # Dynamic windows based on slider
+        # ---------------------------------------
+        short_window = max(3, int(lookback * 0.10))   # 10% of lookback
+        long_window  = max(5, int(lookback * 0.30))   # 30% of lookback
+
+        for name, df in active_data.items():
+            df_slice = df.tail(lookback)
+
+            # ---------------------------------------
+            # Select indicator series
+            # ---------------------------------------
+            if mode == "pulse":
+                series = df_slice["DPCM_q"]
+
+            elif mode == "weighted":
+                series = df_slice["DPCM_raw"]
+
+            elif mode == "rsi":
+                delta = df_slice["Close"].diff()
+                up = delta.clip(lower=0)
+                down = -delta.clip(upper=0)
+                roll_up = up.ewm(span=14, adjust=False).mean()
+                roll_down = down.ewm(span=14, adjust=False).mean()
+                rs = roll_up / roll_down
+                series = 100 - (100 / (1 + rs))
+
+            elif mode == "macd":
+                ema12 = df_slice["Close"].ewm(span=12, adjust=False).mean()
+                ema26 = df_slice["Close"].ewm(span=26, adjust=False).mean()
+                macd_line = ema12 - ema26
+                signal_line = macd_line.ewm(span=9, adjust=False).mean()
+                series = macd_line - signal_line
+
+            # ---------------------------------------
+            # Short-term momentum (dynamic)
+            # ---------------------------------------
+            if len(series) > short_window:
+                short_mom = series.rolling(short_window).mean().iloc[-1]
+                short_prev = series.rolling(short_window).mean().iloc[-2]
+            else:
+                short_mom = series.iloc[-1]
+                short_prev = short_mom
+
+            # ---------------------------------------
+            # Long-term momentum (dynamic)
+            # ---------------------------------------
+            if len(series) > long_window:
+                long_mom = series.rolling(long_window).mean().iloc[-1]
+                long_prev = series.rolling(long_window).mean().iloc[-2]
+            else:
+                long_mom = series.iloc[-1]
+                long_prev = long_mom
+
+            quad_x.append(short_mom)
+            quad_y.append(long_mom)
+            quad_labels.append(name)
+            quad_x_prev.append(short_prev)
+            quad_y_prev.append(long_prev)
+
+        # ---------------------------------------
+        # Build quadrant figure
+        # ---------------------------------------
+        fig_q = go.Figure()
+
+        # Colour coding
+        colors = []
+        for x, y in zip(quad_x, quad_y):
+            if x >= 0 and y >= 0:
+                colors.append("green")
+            elif x < 0 and y >= 0:
+                colors.append("orange")
+            elif x < 0 and y < 0:
+                colors.append("red")
+            else:
+                colors.append("blue")
+
+        # Scatter points
+        fig_q.add_trace(
+            go.Scatter(
+                x=quad_x,
+                y=quad_y,
+                mode="markers+text",
+                text=quad_labels,
+                textposition="top center",
+                marker=dict(size=16, color=colors, line=dict(width=1, color="black")),
+            )
+        )
+
+        # Arrows showing movement
+        for x0, y0, x1, y1 in zip(quad_x_prev, quad_y_prev, quad_x, quad_y):
+            fig_q.add_annotation(
+                x=x1,
+                y=y1,
+                ax=x0,
+                ay=y0,
+                showarrow=True,
+                arrowhead=3,
+                arrowsize=1.2,
+                arrowwidth=1.5,
+                arrowcolor="black",
+            )
+
+        # Quadrant lines
+        fig_q.add_shape(type="line", x0=0, x1=0, y0=min(quad_y), y1=max(quad_y), line=dict(color="grey"))
+        fig_q.add_shape(type="line", x0=min(quad_x), x1=max(quad_x), y0=0, y1=0, line=dict(color="grey"))
+
+        # Labels
+        fig_q.add_annotation(x=max(quad_x)*0.7, y=max(quad_y)*0.7, text="LEADING", showarrow=False, font=dict(color="green", size=14))
+        fig_q.add_annotation(x=min(quad_x)*0.7, y=max(quad_y)*0.7, text="WEAKENING", showarrow=False, font=dict(color="orange", size=14))
+        fig_q.add_annotation(x=min(quad_x)*0.7, y=min(quad_y)*0.7, text="LAGGING", showarrow=False, font=dict(color="red", size=14))
+        fig_q.add_annotation(x=max(quad_x)*0.7, y=min(quad_y)*0.7, text="IMPROVING", showarrow=False, font=dict(color="blue", size=14))
+
+        fig_q.update_layout(
+            title=f"Quadrant Momentum ({lookback} days, {mode.upper()})",
+            xaxis_title=f"Short-Term Momentum ({short_window}-period)",
+            yaxis_title=f"Long-Term Momentum ({long_window}-period)",
+            height=650,
+            plot_bgcolor="white",
+        )
+
+        quadrant_output = html.Div(dcc.Graph(figure=fig_q))
+        
+    return ranking_panel, charts_output, heatmap_output, quadrant_output
+
+
+
+# ---------------------------------------------------------
+# Core calculation functions
+# ---------------------------------------------------------
+
+def min_move_within_budget(purchase_price, target_profit, max_investment,
+                           stamp_duty_rate, fee):
+
+    best = None
+    N = 1
+
+    while True:
+        buy_cost = N * purchase_price * (1 + stamp_duty_rate) + fee
+
+        if buy_cost > max_investment:
+            break
+
+        required_sell_value = buy_cost + target_profit + fee
+        required_sell_price = required_sell_value / N
+        price_move = required_sell_price - purchase_price
+
+        if price_move > 0:
+            pct_move = (price_move / purchase_price) * 100
+
+            if best is None or price_move < best["price_move"]:
+                best = {
+                    "shares": N,
+                    "investment_required": buy_cost,
+                    "required_sell_price": required_sell_price,
+                    "price_move": price_move,
+                    "percentage_move": pct_move,
+                    "stamp_duty_rate": stamp_duty_rate,
+                    "transaction_fee": fee
+                }
+
+        N += 1
+
+    return best
+
+
+# ---------------------------------------------------------
+# Profit Curve (Cost Basis Adjusted)
+# ---------------------------------------------------------
+
+def generate_graphical_calculator_profit_curve(purchase_price, shares, target_profit,
+                          investment, five_day_low, five_day_high,
+                          stamp_duty_rate, fee):
+
+    # Total buy cost including stamp duty + fee
+    buy_cost = shares * purchase_price * (1 + stamp_duty_rate) + fee
+
+    # Cost basis per share
+    breakeven = buy_cost / shares
+
+    # Required sell price per share
+    required_sell_value = buy_cost + target_profit + fee
+    required_sell_price = required_sell_value / shares
+
+    # Correct price movement (from cost basis)
+    required_price_move = required_sell_price - breakeven
+
+    # Dynamic x-axis scaling
+    max_move = max(required_price_move * 1.5, breakeven * 0.10)
+
+    # Include negative movement so loss region is visible
+    price_moves = np.linspace(-max_move * 0.6, max_move, 300)
+
+    # Sell prices based on cost basis
+    sell_prices = breakeven + price_moves
+
+    # Profit calculation
+    profits = (shares * sell_prices - fee) - buy_cost
+
+    # Intersection point
+    idx = (np.abs(profits - target_profit)).argmin()
+    intersection_x = price_moves[idx]
+    intersection_y = profits[idx]
+
+    # Build figure
+    fig = go.Figure()
+    
+    fig.add_trace(go.Scatter(
+        x=[0],
+        y=[0],
+        mode="markers",
+        marker=dict(size=12, color="dark blue"),
+        name="Breakeven",
+        showlegend=False
+    ))
+
+    fig.add_vline(
+        x=0,
+        line=dict(color="dark blue", dash="dot", width=0.5),
+        name="Breakeven"
+    )
+
+    fig.add_annotation(
+        x=0,
+        y=profits.min(),
+        text="Breakeven",
+        showarrow=False,
+        yshift=-25,
+        font=dict(size=11, color="darkblue")
+    )
+
+
+
+
+    # Profit curve
+    fig.add_trace(go.Scatter(
+        x=price_moves,
+        y=profits,
+        mode='lines',
+        name='Profit',
+        line=dict(color="green", width=3)
+    ))
+
+    # Shaded profit region
+    fig.add_hrect(
+        y0=0, y1=profits.max(),
+        fillcolor="green", opacity=0.08, line_width=0
+    )
+
+    # Shaded loss region
+    fig.add_hrect(
+        y0=profits.min(), y1=0,
+        fillcolor="red", opacity=0.08, line_width=0
+    )
+
+    # Target profit line
+    fig.add_hline(
+        y=target_profit,
+        line=dict(color='grey', dash='dash', width=0.5),
+        name='Target Profit'
+    )
+
+    # Required price move line
+    fig.add_vline(
+        x=intersection_x,
+        line=dict(color='grey', dash='dash', width=0.5),
+        name='Required Price Move'
+    )
+
+    # Intersection marker + annotation
+    pct_move = (intersection_x / breakeven) * 100
+
+    fig.add_trace(go.Scatter(
+        x=[intersection_x],
+        y=[intersection_y],
+        mode='markers+text',
+        text=[(
+            f"Breakeven: {breakeven:.4f}<br>"
+            f"Required Sell Price: {required_sell_price:.4f}<br>"
+            f"Price Move: {intersection_x:.4f} [{pct_move:.2f}%]"
+        )],
+        textposition="top left",
+        textfont=dict(size=12),
+        marker=dict(size=12, color='black'),
+        showlegend=False
+    ))
+
+    # ---------------------------------------------------------
+    # Add centered 5-day price band (vertical band)
+    # ---------------------------------------------------------
+    if five_day_low is not None and five_day_high is not None:
+
+        x0 = five_day_low - breakeven
+        x1 = five_day_high - breakeven
+
+        fig.add_shape(
+            type="rect",
+            x0=x0,
+            x1=x1,
+            y0=profits.min(),
+            y1=profits.max(),
+            fillcolor="orange",
+            opacity=0.25,
+            line_width=0,
+            layer="below"
+        )
+
+        fig.add_annotation(
+            x=(x0 + x1) / 2,
+            y=profits.max(),
+            text="5-Day Price Movement",
+            showarrow=False,
+            yshift=20,
+            font=dict(size=12, color="orange")
+        )
+        
+        #5 day low text
+        fig.add_annotation(
+            x=x0,
+            y=profits.min(),
+            text=f"Low: {five_day_low:.4f}",
+            showarrow=False,
+            yshift=-10,
+            font=dict(size=11, color="orange")
+        )
+
+        #5day High text
+        fig.add_annotation(
+            x=x1,
+            y=profits.min(),
+            text=f"High: {five_day_high:.4f}",
+            showarrow=False,
+            yshift=-10,
+            font=dict(size=11, color="orange")
+        )
+
+
+    # Axis scaling
+    fig.update_xaxes(range=[
+        price_moves.min() * 1.1,
+        price_moves.max() * 1.1
+    ])
+
+    y_range = profits.max() - profits.min()
+    fig.update_yaxes(range=[
+        profits.min() - y_range * 0.25,
+        profits.max() + y_range * 0.25
+    ])
+
+    fig.update_layout(
+        title="Profit vs Price Movement (Cost Basis Adjusted)",
+        xaxis_title="Price Movement ()",
+        yaxis_title="Profit",
+        template="plotly_white",
+        height=465
+    )
+
+    return fig
+
+
+# ---------------------------------------------------------
+# Graphical Calculator
+# ---------------------------------------------------------
+
+def update_graphical_calculator(stock_symbol, purchase_price, desired_profit, max_investment, taxes, trading_fees):
+    
+    target_profit = float(desired_profit)
+
+    # Fetch last 5 days of stock data
+    try:
+        data = yf.Ticker(stock_symbol).history(period="5d")
+        if data.empty:
+            five_day_low = None
+            five_day_high = None
+            last_close_price = None
+        else:
+            five_day_low = data["Low"].min()
+            five_day_high = data["High"].max()
+            last_close_price = data['Close'].iloc[-1]
+            # DO NOT override purchase_price
+    except Exception:
+        five_day_low = None
+        five_day_high = None
+        last_close_price = None
+
+
+    result = min_move_within_budget(purchase_price, target_profit, max_investment, taxes, trading_fees)
+
+    if result is None:
+        fig = go.Figure()
+        fig.add_annotation(
+            text="No valid share count fits within the investment budget.",
+            x=0.5, y=0.5, showarrow=False
+        )
+        return fig, ""
+
+    # Compute breakeven for summary
+    breakeven = (result["investment_required"] / result["shares"])
+    profit_loss = ((last_close_price - breakeven) *  result["shares"]) - result["transaction_fee"]
+
+
+    x0 = five_day_low - breakeven if five_day_low else None
+    x1 = five_day_high - breakeven if five_day_high else None
+
+
+
+    fig = generate_graphical_calculator_profit_curve(
+        purchase_price,
+        result["shares"],
+        target_profit,
+        result["investment_required"],
+        five_day_low,
+        five_day_high,
+        taxes, 
+        trading_fees
+    )
+
+    return fig
+
+
+
+
 
 
 if __name__ == "__main__":
