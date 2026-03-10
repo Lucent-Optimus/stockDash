@@ -1,0 +1,29 @@
+.ranking-container {
+    display: flex;
+    flex-wrap: nowrap;      /* force single line */
+    justify-content: flex-start;
+    gap: 8px;
+    overflow-x: auto;       /* allow horizontal scroll */
+    padding-bottom: 6px;
+    scrollbar-width: thin;
+}
+
+.ranking-container::-webkit-scrollbar {
+    height: 6px;
+}
+
+.ranking-container::-webkit-scrollbar-thumb {
+    background: #cccccc;
+    border-radius: 3px;
+}
+
+.ranking-item {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    white-space: normal;
+    word-break: normal;
+    overflow-wrap: break-word;
+}
+
+.ranking-item:hover {
+    transform: scale(1.05);
+}
